@@ -8,4 +8,4 @@ gen12: mean 0.5450 med 0.5600 n=32 sd 0.107 crashed 1
 gen0 : mean 0.4659 med 0.4823 n=29 sd 0.088 crashed 0
 diff: +0.0792 (SE 0.025, t≈3.17) | paired by task +0.0779 (4/4 tasks won)
 
-Reference: OpenHands+q9b heldout=0.299-0.308(yesterday); yesterday's gen0 heldout two batches 0.435/0.327
+Reference: OpenHands+Qwen3.5-9B heldout=0.299-0.308(yesterday); yesterday's gen0 heldout two batches 0.435/0.327

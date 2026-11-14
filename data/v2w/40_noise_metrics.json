@@ -5,7 +5,7 @@
   "sigma_K2": 0.037,
   "sigma_K4": 0.026,
   "same_harness_regen_sigma": 0.06,
-  "source": "analysis/round1_analysis.md / PHASE2_CONTINUATION.md"
+  "source": "archived campaign analysis notes"
  },
  "composite_repeat_K1": {
   "n": 8,

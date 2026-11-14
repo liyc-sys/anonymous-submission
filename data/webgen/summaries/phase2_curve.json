@@ -1,5 +1,5 @@
 {
-  "note": "Phase II curve raw material: x=number of official UI task executions (launched slots Σ n_ui×eval_reps; screening=official executions on the diagnostic subset, listed separately), y=champion timeline (dual protocol: selection-set + E1 unbiased anchor). Mac-era batches (P1 r1/r2b, P2 r1) counted from runs/ on the volume repo, K=1. UNMAPPED arms listed as-is, no forced bucketing.",
+  "note": "Phase II curve raw material: x=number of official UI task executions (launched slots Σ n_ui×eval_reps; screening=official executions on the diagnostic subset, listed separately), y=champion timeline (dual protocol: selection-set + E1 unbiased anchor). Early batches (P1 r1/r2b, P2 r1) counted from the archived runs/ ledger, K=1. UNMAPPED arms listed as-is, no forced bucketing.",
   "per_arm": {
     "c3gen3b": {
       "slots": 12,
@@ -2247,7 +2247,7 @@
   },
   "champion_timeline": [
     {
-      "event": "P1 final review gen3b transfer (§16, 12 heldout × m4 × K2)",
+      "event": "P1 final review gen3b transfer (12 heldout × m4 × K2)",
       "champion": "gen3b",
       "selection_set_scores": {
         "gen0": 0.541,
@@ -2414,7 +2414,7 @@
       }
     },
     {
-      "event": "P2 daemon p7_emitatomicit full three-gate transfer (§17 cont. 6)",
+      "event": "P2 daemon p7_emitatomicit full three-gate transfer (continuation 6)",
       "champion": "p7_emitatomicit",
       "delta": "+0.0584 t=1.67 W8/L4",
       "raw_content": {
@@ -2483,7 +2483,7 @@
       }
     },
     {
-      "event": "E1 unbiased re-test anchor (83 untouched cases, §18) — second y protocol of the curve",
+      "event": "E1 unbiased re-test anchor (83 untouched cases) — second y protocol of the curve",
       "arms": {
         "g0": {
           "n_cases": 83,

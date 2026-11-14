@@ -75,7 +75,7 @@
   "mac_era_calibration_constants": {
     "sigma_judge": 0.141,
     "sigma_gen": 0.194,
-    "protocol": "8 sites × 3 repeated evaluations + 6 cases × 4 independent generations (progress doc §11, 0716)",
+    "protocol": "8 sites × 3 repeated evaluations + 6 cases × 4 independent generations (calibration ledger, 0716)",
     "share": "generation variance 65% vs judge noise 35%"
   }
 }

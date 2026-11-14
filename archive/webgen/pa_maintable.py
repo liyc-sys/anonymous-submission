@@ -2,7 +2,7 @@
 """S1 main-table WebGen column numbers package (zero compute, reads only existing results).
 
 Contents: (1) E1 unbiased three arms (directly includes the verified lab/e1_verdict.json)
-     (2) §21 cross-model v/m six arms recomputed from dataflow slot JSONs (reproducible artifact)
+     (2) cross-model v/m six arms recomputed from dataflow slot JSONs (reproducible artifact)
 Conventions: same as ab_verdict.py — earliest successful score (attempt0 launched preferred, else attempt1);
      pairing = per-case difference of seed-mean acc; W/L threshold ±0.01; CI95 uses 1.96*SE (consistent with e1_verdict).
 Output: paper_assets/webgen/maintable.json
@@ -133,7 +133,7 @@ def main():
             "Minimal": "gen0 (~160-line minimal scaffold)",
             "Actor-only Evolution": "gen3b (Phase1 pure actor rolling-generation champion)",
             "Full (judge-assisted)": "p7_emitatomicit (Phase2 judge-screened wide-search transferred champion)",
-            "Heavy": "bolt.diy reference ledger (run by a colleague 2026-06 on Windows, q9b + official bolt.diy full-set acc≈0.008, "
+            "Heavy": "bolt.diy reference ledger (run by a colleague 2026-06 on Windows, Qwen3.5-9B + official bolt.diy full-set acc≈0.008, "
                      "620/647 NO, main death cause=sites fail to come up; different evaluator, reference only, not same protocol)",
         },
         "nine_b_unbiased_e1": json.loads((LAB / "e1_verdict.json").read_text()),

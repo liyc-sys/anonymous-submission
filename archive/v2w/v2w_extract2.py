@@ -5,7 +5,7 @@ per-arm official K1 summaries via selection_report group order.
 Also sanity-check GAN recompute vs headline. Read-only on sources."""
 import json, os, glob, itertools, statistics
 
-REPO = "<frozen_corpus>-phase2-work"
+REPO = "<archive>"
 OUT = os.path.join(REPO, "analysis", "paper_extract_0728")
 
 def jload(p):

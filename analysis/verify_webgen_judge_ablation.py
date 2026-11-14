@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify WebGen judge ablation (paper Table 2, WebGen rows; P1 text).
+"""Verify WebGen judge ablation (the paper's judge-evolution section, WebGen lineage; P1 text).
 
 Recomputes the unified-set judge-variant metrics from the shipped frozen
 per-site task labels (data/webgen/runs_sitelabels.json): the E1 batch
@@ -13,7 +13,7 @@ Judge variants (diagnostic-subset scorers over official per-task labels):
 Pair accuracy: same-case cross-arm cross-seed pairs, official ties dropped,
 judge ties count 0.5. HJ/LB: judge>=0.8 & full<=0.4. zero-kill: judge<=0.1 & full>=0.4.
 
-Paper values checked (Table 2; P1 text false-zero 27.2% -> 5.8%):
+Paper values checked (judge-evolution section; P1 text false-zero 27.2% -> 5.8%):
   naive 0.793/Sp.0.737/HJLB 4 of 145; calibrated 0.850/0.849/0 of 72;
   rescue 0.867/0.862/0 of 72; challenge 0.917/0.917/0 of 51.
 """

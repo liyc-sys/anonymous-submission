@@ -61,5 +61,5 @@
  "dropped_groups_missing_arm_score": [
   "eventbrite|seed_1"
  ],
- "note": "gen19bmm3 K1 archived summary has 7/8 valid (eventbrite|seed_1 invalid; the resume mentioned in n0726 brief never landed in the archived summary). Replay uses the 7 complete groups."
+ "note": "gen19bmm3 K1 archived summary has 7/8 valid (eventbrite|seed_1 invalid; the resume mentioned in the archived brief never landed in the summary). Replay uses the 7 complete groups."
 }

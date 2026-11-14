@@ -146,7 +146,7 @@ for every frozen measurement are in [`docs/decoding.md`](docs/decoding.md).
 | Table 2, V2W column (49.5 → 56.4, +7.0, t = 3.1) and micro-regressions | `verify_v2w_evolution.py` |
 | V2W hand-off control (+1.8 [−1.5,+5.0]) | `verify_v2w_evolution.py` |
 | Judge lineages: WebGen 0.793 → 0.850 → 0.867 → 0.917 (1112 pairs; false-zero 27.2% → 5.8%; HJ/LB 4/145 = 2.8%) | `verify_webgen_judge_ablation.py` |
-| Judge lineages: V2W 0.758 / 0.775 / 0.842; GAN-round gap curve (R² 0.733) | `verify_v2w_gan_rounds.py` |
+| Judge lineages: V2W 0.758 / 0.775 / 0.842; GAN-round gap trajectory (+0.077 / +0.200 / −0.067 / 0.000) | `verify_v2w_gan_rounds.py` |
 | Judge lineages: I2C 0.759, +1.0 average, HJ/LB 5.5% → 3.1% | `docs/judge-grid.md` + frozen case records in `data/i2c/cases/` |
 | Setup noise (rep |Δ| 0.082 / 0.071, σ_judge 0.087 est. / 0.141 documented, σ_gen 0.194, flip 0.333 / 234) | `verify_webgen_noise.py` |
 | BoN / routing offline (WebGen +8.4 @ N=4; ladder, oracle, capture; V2W replay margins) | `verify_webgen_bon.py`, `verify_v2w_routing.py` |
@@ -168,9 +168,8 @@ for every frozen measurement are in [`docs/decoding.md`](docs/decoding.md).
   *means* can sit ~0.5 pt from the archive; the scripts report both and
   check deltas tightly.
 - **Documented constants.** σ_judge = 0.141 / σ_gen = 0.194 are calibration
-  constants measured by an 8-site × 3-rep + 6-case × 4-gen protocol whose raw
-  batches are not in this package; the scripts cross-check them against the
-  shipped summaries.
+  constants measured by an 8-site × 3-rep + 6-case × 4-gen calibration
+  protocol; the scripts cross-check them against the shipped summaries.
 - **WebGen judge variants** are diagnostic-subset scorers over official
   per-task labels; their exact definitions are the code in
   `verify_webgen_judge_ablation.py`.
@@ -179,7 +178,8 @@ for every frozen measurement are in [`docs/decoding.md`](docs/decoding.md).
   `data/i2c/cases/ccef_exploit_68_2/ccef_replay_source.py`.
 - **Heavy baselines.** OpenHands on V2W (0.337) is recorded in
   `data/v2w/sources/reports/`; the Bolt.diy row on WebGen-Bench comes from a
-  collaborator's same-protocol run, archived with the campaign records.
+  collaborator's run under a different evaluator, included as a reference
+  only and archived with the campaign records.
 - Everything here runs against placeholder endpoints; keys, dataset paths
   and corpus paths are placeholders or redacted, and nothing in this package
   points to external material.

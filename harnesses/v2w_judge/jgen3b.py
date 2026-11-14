@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""JudgeHarness jgen4 — desktop dual-order debiasing (position-consistent = trustworthy) + tablet/mobile stacked responsive check + defect-aware mechanical fallback.
+"""JudgeHarness jgen3b — desktop dual-order debiasing (position-consistent = trustworthy) + tablet/mobile stacked responsive check + defect-aware mechanical fallback.
 
 Task: given an unlabeled pair (task name + two candidate render directories
 A/B), decide which candidate is visually closer to the prototype screenshots.

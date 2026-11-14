@@ -5,7 +5,7 @@ Source: all slots with eval_reps>=2 (the same generated site independently judge
 Metrics: (1) site-level re-evaluation noise: |acc_rep0 − acc_rep1| mean/median, re-eval delta sd, all-zero agreement rate;
      (2) pairwise flip rate: fraction of case-seed level winner flips between the rep0 and rep1 verdicts for known A/B batches;
      (3) include the task-level dual-judge flip ledger from plateau_analysis.json (flip 0.218 / YES flip 0.127 / site-level |Δ| 0.076)
-       and the §11 calibration constants (σ_judge=0.141, σ_gen=0.194, 8 sites × 3 eval reps + 6 cases × 4 generations, Mac era doc conventions).
+       and the calibration constants (σ_judge=0.141, σ_gen=0.194, 8 sites × 3 eval reps + 6 cases × 4 generations, documented conventions).
 Output: paper_assets/webgen/official_judge_noise.json
 """
 import json
@@ -101,7 +101,7 @@ def main():
         "generation_variance": plateau.get("gen_var"),
         "mac_era_calibration_constants": {
             "sigma_judge": 0.141, "sigma_gen": 0.194,
-            "protocol": "8 sites × 3 evaluation reps + 6 cases × 4 independent generations (progress doc §11, 0716)",
+            "protocol": "8 sites × 3 evaluation reps + 6 cases × 4 independent generations (calibration ledger, 0716)",
             "share": "generation variance 65% vs judge noise 35%",
         },
     }

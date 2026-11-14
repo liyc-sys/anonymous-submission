@@ -4,10 +4,10 @@
 Produces three blocks:
  A. Per-arm official task execution ledger: scan all dataflow slot JSONs (including retry attempts); launched slots count
     Σ n_ui × eval_reps; auto-classify screening (diagnostic subset, n_ui<=3 and mostly appearance-free) vs official (full task set).
-    Mac-era batches compute Σ len(ui) from result.json in the volume-repo runs/ (K=1).
+    Early batches compute Σ len(ui) from result.json in the archived runs/ ledger (K=1).
  B. Event ledger: map arms to events in campaign chronology (P1 official-only rolling generations / P2 judge-screened wide search /
     post-champion mechanism hunt / measurement batches), with official task counts and cumulative values per event — the x-axis raw material for the "cumulative official calls vs current champion score" curve.
- C. Champion timeline y-axis: selection-set scores of gen0→gen3b(§16)→p7(r7full) + the E1 83-case unbiased anchor (dual conventions).
+ C. Champion timeline y-axis: selection-set scores of gen0→gen3b→p7(r7full) + the E1 83-case unbiased anchor (dual conventions).
     Per-round N candidates / K shortlist / evaluation saving rate are included from ws_p*_result.json + evo_state.json.
 Output: paper_assets/webgen/phase2_curve.json (+ .csv summary)
 """
@@ -81,7 +81,7 @@ def main():
         a["era"] = era_of(name)
         del a["n_ui_vals"]
 
-    # Mac-era volume runs (K=1)
+    # early archived runs (K=1)
     mac = {}
     for top in sorted(VRUNS.glob("*")):
         if not top.is_dir():
@@ -128,7 +128,7 @@ def main():
     champion_timeline = []
     fin = json.loads((EV / "final_m4k2_retry_compare.json").read_text()) if (EV / "final_m4k2_retry_compare.json").exists() else None
     champion_timeline.append({
-        "event": "P1 final verdict gen3b transfer (§16, 12 heldout × m4 × K2)",
+        "event": "P1 final verdict gen3b transfer (12 heldout × m4 × K2)",
         "champion": "gen3b", "selection_set_scores": {"gen0": 0.5410, "gen3b": 0.5921},
         "delta": "+0.0511 t=1.485 W7/L5", "raw": "evolve/evidence/final_m4k2_retry_compare.json"})
     p2f = LAB / "p2final_verdict.json"
@@ -140,19 +140,19 @@ def main():
     r7f = LAB / "r7_full_verdict.json"
     if r7f.exists():
         champion_timeline.append({
-            "event": "P2 daemon p7_emitatomicit full-set three-gate transfer (§17 cont. 6)",
+            "event": "P2 daemon p7_emitatomicit full-set three-gate transfer (continuation 6)",
             "champion": "p7_emitatomicit", "delta": "+0.0584 t=1.67 W8/L4",
             "raw_content": json.loads(r7f.read_text())})
     e1 = json.loads((LAB / "e1_verdict.json").read_text())
     champion_timeline.append({
-        "event": "E1 unbiased re-evaluation anchor (83 untouched cases, §18) — second y convention of the curve",
+        "event": "E1 unbiased re-evaluation anchor (83 untouched cases) — second y convention of the curve",
         "arms": e1["arms"],
         "pairs": {k: {kk: v[kk] for kk in ("mean_delta", "W/L/T")} for k, v in e1["pairs"].items()}})
 
     out = {
         "note": "Phase II curve raw material: x=official UI task executions (launched slots Σ n_ui×eval_reps; "
                 "screening=official executions of the diagnostic subset, listed separately), y=champion timeline (selection-set convention + E1 unbiased anchor, dual conventions). "
-                "Mac-era batches (P1 r1/r2b, P2 r1) computed from volume-repo runs/, K=1. "
+                "Early batches (P1 r1/r2b, P2 r1) computed from the archived runs/ ledger, K=1. "
                 "UNMAPPED arms are listed as-is without forced bucketing.",
         "per_arm": {k: arms[k] for k in sorted(arms)},
         "mac_era_volume_runs": mac,

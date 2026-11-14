@@ -11,7 +11,7 @@ Inputs:
   --out     verdicts.jsonl path
   --workdir scratch dir (exam.json + judge_work)
 
-Rendering mirrors phase2_bon_pipeline/render_cache_pages.py (local http.server per page,
+Rendering mirrors the campaign page cache (local http.server per page,
 external requests aborted, full-page screenshots) and additionally dumps
 document.body.innerText (desktop viewport) to <renders>/<id>/dom.txt.
 Resumable: candidates with all 3 pngs + dom.txt are skipped; judges skip ids already

@@ -2,7 +2,7 @@
 """V2W extraction patch 3: mm3 BoN replay with incomplete-group drop; GAN sanity check."""
 import json, os, glob, itertools
 
-REPO = "<frozen_corpus>-phase2-work"
+REPO = "<archive>"
 OUT = os.path.join(REPO, "analysis", "paper_extract_0728")
 
 def jload(p):
@@ -108,7 +108,7 @@ mm3 = jload(os.path.join(OUT, "32_bon_mm3_replay.json"))
 mm3["jgen4_on_mm3_calibration"] = calib_stats(rows)
 mm3["bon_replay"] = replay(rows, "jgen4_mm3")
 mm3["dropped_groups_missing_arm_score"] = dropped
-mm3["note"] = "gen19bmm3 K1 archived summary has 7/8 valid (eventbrite|seed_1 invalid; the resume mentioned in n0726 brief never landed in the archived summary). Replay uses the 7 complete groups."
+mm3["note"] = "gen19bmm3 K1 archived summary has 7/8 valid (eventbrite|seed_1 invalid; the resume mentioned in the archived brief never landed in the summary). Replay uses the 7 complete groups."
 with open(os.path.join(OUT, "33_recon_calib_jgen4_mm3.json"), "w") as f:
     json.dump(rows, f, indent=1)
 with open(os.path.join(OUT, "32_bon_mm3_replay.json"), "w") as f:

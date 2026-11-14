@@ -450,7 +450,7 @@ def main():
     ap.add_argument("--base-url", default="https://api.example.com/v1")
     ap.add_argument("--api-key-file", required=True)
     ap.add_argument("--max-steps", type=int, default=14)
-    ap.add_argument("--temperature", type=float, default=0.8)
+    ap.add_argument("--temperature", type=float, default=0.4)
     args = ap.parse_args()
 
     t0 = time.time()

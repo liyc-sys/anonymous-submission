@@ -8,7 +8,7 @@ NO model calls, NO generation, NO official evaluation. Read-only on sources.
 import json, os, re, shutil, statistics, itertools, glob, sys
 
 EVO = "<frozen_corpus>"
-REPO = "<frozen_corpus>-phase2-work"
+REPO = "<archive>"
 OUT = os.path.join(REPO, "analysis", "paper_extract_0728")
 os.makedirs(OUT, exist_ok=True)
 
@@ -364,7 +364,7 @@ jdump(mm3_out, "32_bon_mm3_replay.json")
 noise = {"documented": {
     "sigma_rep_viewport": 0.0906, "sigma_K1": 0.052, "sigma_K2": 0.037,
     "sigma_K4": 0.026, "same_harness_regen_sigma": 0.06,
-    "source": "analysis/round1_analysis.md / PHASE2_CONTINUATION.md"}}
+    "source": "archived campaign analysis notes"}}
 # same-composite repeat K1 (union vs jgen5b1 had identical picks)
 u = summ.get("n0725", {})
 def find_pi(sub):

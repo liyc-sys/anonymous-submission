@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify WebGen-Bench columns of paper Table 1 (and the P2 hand-off pair).
+"""Verify WebGen-Bench columns of paper Table 2 (and the P2 hand-off pair).
 
 Recomputes per-case scores from the shipped frozen slot records
 (data/webgen/dataflow_slots.json) using the documented verdict rule:
@@ -77,7 +77,7 @@ print("  Appendix C), so recomputed arm MEANS can sit ~0.5pt from the archive;")
 print("  paired DELTAS, which the paper's claims rest on, replicate tightly.")
 
 cm = {a: case_means(a) for a in ("g0", "g3b", "p7")}
-print("== arm means (Table 1 WebGen column) ==")
+print("== arm means (Table 2 WebGen column) ==")
 for a, paper in (("g0", 0.534), ("g3b", 0.592), ("p7", 0.553)):
     rec = round(statistics.mean(cm[a][c] for c in e1_cases if c in cm[a]), 4)
     arc = e1["arms"][a]["mean_acc"]
@@ -85,7 +85,7 @@ for a, paper in (("g0", 0.534), ("g3b", 0.592), ("p7", 0.553)):
     check(f"{a} archived verdict == paper", arc, paper, 0.004)
     check(f"{a} recomputed within drift of archive", rec, arc, 0.01)
 
-print("== paired deltas (Table 1 + P2 + Table 3) ==")
+print("== paired deltas (Table 2 + P2 + routing table) ==")
 p = paired("g3b", "g0", e1_cases)
 check("g3b-g0 delta", round(p["mean"], 4), 0.058, 0.004)
 check("g3b-g0 CI lo", round(p["lo"], 3), 0.014, 0.01)

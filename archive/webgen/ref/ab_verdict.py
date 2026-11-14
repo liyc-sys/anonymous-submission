@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """A/B paired verdict tool (works for train/heldout, idempotent read-only): compares per-case means of two arms and produces a gate verdict.
 
-Usage (on pod or locally with a results directory):
+Usage (locally, with a results directory):
   python3 advjudge/ab_verdict.py <armA> <armB> <cases-csv> [--results DIR] [--seeds 0,1,2,3]
 Example: python3 advjudge/ab_verdict.py p12v2par p12v2X 000004,000015,000032,000036
 Conventions: per case, pair the seed-mean acc of the two arms; diff=B-A; gate is meanΔ>=+0.04 and wins>losses.

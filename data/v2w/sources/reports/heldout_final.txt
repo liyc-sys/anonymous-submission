@@ -5,8 +5,8 @@ dermstore          0.464,0.438,0.454      0.108,0.114,0.165
 eventbrite         0.000,0.522,0.576      0.293,0.257,0.352
 
 mini-scaffold(gen0): mean 0.4350 n=12 sd 0.156
-OpenHands+q9b   : mean 0.2989 n=12 sd 0.116
+OpenHands+Qwen3.5-9B   : mean 0.2989 n=12 sd 0.116
 diff (mini−OH)    : +0.1361
 paired diff by task     : mean +0.1361 (4/4 tasks mini wins)
 
-Reference: training pool OpenHands+q9b=0.337(n=20,K=4) vs mini gen0=0.401(n=16,K=2)
+Reference: training pool OpenHands+Qwen3.5-9B=0.337(n=20,K=4) vs mini gen0=0.401(n=16,K=2)

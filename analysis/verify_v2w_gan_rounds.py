@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Verify the V2W adversarial (GAN) rounds and the judge lineage accuracy
-(paper P1 exploit paragraph + Appendix D + Table 2 V2W rows).
+(paper P1 exploit paragraph + Appendix D + the judge-lineage text).
 
 Sources:
   data/v2w/case_gen13b/  - per-round exams, answer keys, judge verdicts,
@@ -75,7 +75,7 @@ check("gap R2 (+0.200)", round(gaps[1], 3), 0.200, 0.02)
 check("gap R2 after repair (-0.067)", round(gap_re, 3), -0.067, 0.02)
 check("gap R3 (0.000)", round(gaps[2], 3), 0.000, 0.02)
 
-print("== judge lineage (Table 2 V2W rows) ==")
+print("== judge lineage (V2W) ==")
 lin = json.load(open(DATA / "20_judge_lineage_acc.json"))
 for j, w_h, w_t in (("jgen0", 0.758, 0.744), ("jgen1", 0.775, 0.772), ("jgen2", 0.842, 0.794)):
     check(f"{j} heldout acc", round(lin[j]["heldout"]["acc"], 3), w_h, 0.004)

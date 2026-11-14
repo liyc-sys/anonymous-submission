@@ -113,7 +113,7 @@ def main():
     ap.add_argument("--base-url", default="http://127.0.0.1:8399/v1")
     ap.add_argument("--api-key-file", default="./.api_key")
     ap.add_argument("--max-steps", type=int, default=12)
-    ap.add_argument("--temperature", type=float, default=0.8)
+    ap.add_argument("--temperature", type=float, default=0.4)
     args = ap.parse_args()
     task_dir, workdir = Path(args.task_dir), Path(args.workdir)
     workdir.mkdir(parents=True, exist_ok=True)

@@ -46,7 +46,7 @@ check("sqrt(2 ln 48)", round(math.sqrt(2 * math.log(48)), 2), 2.78, 0.01)
 pred = 0.035 * c48; check("predicted optimism 0.035*c_48", round(pred, 3), 0.078, 0.002)
 check("observed/predicted", round(0.098 / pred, 2), 1.25, 0.03)
 
-print("== HJ/LB rates from counts (Table 6) ==")
+print("== HJ/LB rates from counts ==")
 for name, num, den, want in (("naive subset", 4, 145, 2.8), ("calibrated agg.", 0, 72, 0.0), ("challenge", 0, 51, 0.0)):
     check(f"HJ/LB {name} (%)", round(100 * num / den, 1), want, 0.05)
 for name, frac, want in (("I2C raw", 0.094, 9.4), ("I2C evolution", 0.055, 5.5), ("I2C cex", 0.031, 3.1)):

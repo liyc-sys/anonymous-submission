@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Verify the V2W main-table evolution result and the policy hand-off control
-(paper Table 1 V2W column; Table 3 V2W row; P2 text).
+(paper Table 2 V2W column; routing-table V2W row; P2 text).
 
 Source: data/v2w/evidence_ladder/lad*.json (per-run official scores of the
 ladder confirmation batch, all arms scored in one batch) and
@@ -36,7 +36,7 @@ for n in ("lad0", "lad8b", "lad9", "lad10", "lad11b", "lad12"):
               if r.get("score") is not None}
     fit[n] = d["fitness"]
 
-print("== Table 1 V2W column (ladder confirmation batch) ==")
+print("== Table 2 V2W column (ladder confirmation batch) ==")
 print("  arm levels are the archived per-arm fitness (valid runs of one batch);")
 print("  the paired t is recomputed on the two arms' common valid runs.")
 check("Minimal (lad0) fitness", fit["lad0"], 0.495, 0.004)
