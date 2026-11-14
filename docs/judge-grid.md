@@ -4,8 +4,8 @@ Supports Secs. 3.3 and 3.5 of the paper ("full results in the supplement").
 Artifact-level judge accuracy against stable official aggregates, for every
 variant of the three judge lineages. Recomputed from the shipped per-instance
 data by `analysis/verify_webgen_judge_ablation.py` (WebGen),
-`analysis/verify_v2w_gan_rounds.py` (Vision2Web) and the frozen audit
-`data/i2c/EXPERIMENT_ANSWER_AUDIT.md` (Interaction2Code).
+`analysis/verify_v2w_gan_rounds.py` (Vision2Web) and the frozen case
+records in `data/i2c/cases/` (Interaction2Code).
 
 ## Main grid
 
@@ -75,5 +75,5 @@ same-case cross-arm cross-seed pairs, official ties dropped, judge ties
 counted $0.5$, yielding 1112 pairs binned by $\lvert\Delta\,\text{full-acc}
 \rvert$; judge variants are the diagnostic-subset scorers of the main grid
 above. V2W: the archived 120-pair held-out exam of the judge lab. I2C: the
-frozen audit pack (`data/i2c/`), G1/G2/G3 judge generations over 512
+frozen evidence pack (`data/i2c/`), G1/G2/G3 judge generations over 512
 candidates.

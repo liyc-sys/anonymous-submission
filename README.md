@@ -95,10 +95,10 @@ data/                frozen per-instance measurements, by benchmark
                      rounds, BoN replays, noise, cost accounting, the
                      ladder evidence batch, sealed-routing artifacts, the
                      120-pair exam, campaign reports (sources/)
-  i2c/               the Interaction2Code frozen evidence pack: audit
-                     (EXPERIMENT_ANSWER_AUDIT.md) and the end-to-end
-                     exploit case 68_2__A2 (screenshots, HTML, raw judge
-                     responses, official record, CCEF record, replay source)
+  i2c/               the Interaction2Code frozen evidence pack: the
+                     end-to-end exploit case 68_2__A2 (screenshots, HTML,
+                     raw judge responses, official record, CCEF record,
+                     replay source) and the case index
 analysis/            verification scripts (below); run_all.sh runs all
 archive/             the original as-run analysis scripts, kept for
                      provenance. They read the lab's frozen corpus (paths
@@ -147,7 +147,7 @@ for every frozen measurement are in [`docs/decoding.md`](docs/decoding.md).
 | V2W hand-off control (+1.8 [−1.5,+5.0]) | `verify_v2w_evolution.py` |
 | Judge lineages: WebGen 0.793 → 0.850 → 0.867 → 0.917 (1112 pairs; false-zero 27.2% → 5.8%; HJ/LB 4/145 = 2.8%) | `verify_webgen_judge_ablation.py` |
 | Judge lineages: V2W 0.758 / 0.775 / 0.842; GAN-round gap curve (R² 0.733) | `verify_v2w_gan_rounds.py` |
-| Judge lineages: I2C 0.759, +1.0 average, HJ/LB 5.5% → 3.1% | `data/i2c/EXPERIMENT_ANSWER_AUDIT.md` |
+| Judge lineages: I2C 0.759, +1.0 average, HJ/LB 5.5% → 3.1% | `docs/judge-grid.md` + frozen case records in `data/i2c/cases/` |
 | Setup noise (rep |Δ| 0.082 / 0.071, σ_judge 0.087 est. / 0.141 documented, σ_gen 0.194, flip 0.333 / 234) | `verify_webgen_noise.py` |
 | BoN / routing offline (WebGen +8.4 @ N=4; ladder, oracle, capture; V2W replay margins) | `verify_webgen_bon.py`, `verify_v2w_routing.py` |
 | Sealed 8×2 pilot (Table 3 restated row: +6.7; seed-level t = 3.26, task-clustered t = 5.51, 8/8, sign-flip p = 0.008) | `verify_v2w_routing.py`, `verify_revision_checks.py` |
@@ -174,8 +174,8 @@ for every frozen measurement are in [`docs/decoding.md`](docs/decoding.md).
 - **WebGen judge variants** are diagnostic-subset scorers over official
   per-task labels; their exact definitions are the code in
   `verify_webgen_judge_ablation.py`.
-- **Interaction2Code.** The frozen evidence pack (audit + exploit case) is in
-  `data/i2c/`; the I2C harness code itself is archived on a host that has
+- **Interaction2Code.** The frozen evidence pack (exploit case + case
+  index) is in `data/i2c/`; the I2C harness code itself is archived on a host that has
   been unreachable since the experimental freeze and could not be included.
   `data/i2c/cases/ccef_exploit_68_2/ccef_replay_source.py` is the CCEF
   repair replay used for the case.

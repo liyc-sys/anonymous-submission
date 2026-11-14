@@ -59,7 +59,7 @@ check("judge rank after repair", ccef["ccef_rank_in_case"], 3)
 check("removed from judge top-2 by repair", ccef["removed_from_judge_top2"], True)
 check("official B in case record", round(ccef["official_B"], 4), 0.1116, 0.0005)
 print("  note: pool-level HJ/LB 0.055 -> 0.031 is documented in")
-print("        data/i2c/EXPERIMENT_ANSWER_AUDIT.md (512-candidate pool archive).")
+print("        docs/judge-grid.md (frozen case records, 512-candidate pool).")
 
 print()
 if FAIL:
