@@ -1,5 +1,5 @@
 {
-  "note": "Unified set = E1 batch per-task labels (83 untouched cases, g0/g3b/p7 × 2 seeds); site inclusion condition: tasks idx0-3 all present (each variant uses the same site set, horizontally comparable). The Raw VLM row (jgen0) has no existing E1 predictions; under the zero-compute constraint its 61-pair stock-heldout exam scores are ingested, a different protocol that must be stated separately; a same-set Raw VLM row would require spending ~500 VLM calls on offline replay (not a re-run of experiments, pending decision).",
+  "note": "Unified set = E1 batch per-task labels (83 untouched cases, g0/g3b/p7 × 2 seeds); site inclusion condition: tasks idx0-3 all present (each variant uses the same site set, horizontally comparable). The Raw VLM row (jgen0) has no existing E1 predictions; under the zero-compute constraint its 61-pair stock-heldout exam scores are ingested, a different protocol that must be stated separately; a same-set Raw VLM row would require spending ~500 VLM calls on offline replay.",
   "unified_e1_set": {
     "naive01": {
       "n_sites": 519,

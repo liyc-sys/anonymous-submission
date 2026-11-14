@@ -161,7 +161,7 @@ def main():
         "note": "Unified set = per-task labels of the E1 batch (83 untouched cases, g0/g3b/p7 × 2 seeds); "
                 "site inclusion condition: tasks idx0-3 all present (same site set for all variants, horizontally comparable). "
                 "The Raw VLM row (jgen0) has no stored E1 predictions; under the zero-compute constraint its 61-pair stock-heldout exam scores are included, a different convention that must be stated separately; "
-                "a same-set Raw VLM row would require ~500 offline replay VLM calls (not a re-run of experiments, pending decision).",
+                "a same-set Raw VLM row would require ~500 offline replay VLM calls.",
         "unified_e1_set": uni,
         "raw_vlm_row_stock_heldout": json.loads((LAB / "metrics_jgen0_heldout.json").read_text()),
         "judge_evolution_history_and_recall": json.loads((LAB / "budget_results.json").read_text()),
