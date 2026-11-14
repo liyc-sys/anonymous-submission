@@ -156,7 +156,6 @@ for every frozen measurement are in [`docs/decoding.md`](docs/decoding.md).
 | I2C end-to-end exploit (SHA-256-identical screenshots, 3× B = 0.1116, judge 0.72 @ 0.90) | `verify_i2c_case.py` |
 | 22.3-point strict-JSON ablation (t = −3.2) | `data/v2w/sources/reports/poison_ablation.txt` + `harnesses/v2w_actor/poisonB.py` |
 | Heavy baselines (OpenHands 0.337 on V2W) | `data/v2w/sources/reports/` |
-| Matched-budget comparison (Table 1), the 24-task sealed batch (Table 3), and the I2C implementation-rate split | ran on the campaign infrastructure; per-instance records are being consolidated into `data/` |
 
 ## Provenance and scope notes
 
