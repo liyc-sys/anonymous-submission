@@ -50,9 +50,9 @@ confirmation sets (paper Table 2):
 
 | Base model | WebGen-Bench | Vision2Web | Interaction2Code |
 |---|---:|---:|---:|
-| 9B (primary actor) | 53.4 → 59.2 (**+5.8**) | 49.5 → 56.4 (**+7.0**) | 48.2 → 56.8 (**+8.7**) |
-| cross-model A | 50.9 → 59.6 (+8.7) | 52.4 → 59.8 (+7.4) | 50.7 → 57.6 (+6.9) |
-| cross-model B | 53.3 → 60.2 (+6.9) | 56.1 → 62.0 (+5.9) | 54.4 → 59.8 (+5.4) |
+| Qwen3.5-9B (primary actor) | 53.4 → 59.2 (**+5.8**) | 49.5 → 56.4 (**+7.0**) | 48.2 → 56.8 (**+8.7**) |
+| Gemma-4-26B | 50.9 → 59.6 (+8.7) | 52.4 → 59.8 (+7.4) | 50.7 → 57.6 (+6.9) |
+| Qwen3-VL-8B | 53.3 → 60.2 (+6.9) | 56.1 → 62.0 (+5.9) | 54.4 → 59.8 (+5.4) |
 
 All nine arms improve, by +5.4 to +8.7 points. At matched
 official-evaluation budget, gated evolution beats five alternative searches
@@ -61,7 +61,7 @@ among four webpages adds +3.8 points within one harness and +5.3 points
 across a four-harness portfolio, where a self-repair control at the same
 actor-call budget adds nothing significant (paper Table 3). Handing the
 champion promotion decision to the judge instead turns a reported +5.8 into a
-confirmed −4.0 — the winner's-curse reversal at the heart of the analysis.
+confirmed −4.0 (the paper's policy hand-off control).
 
 ## Supplement documents
 
@@ -116,8 +116,8 @@ bash run_all.sh        # Python 3, standard library only, offline
 ```
 
 Each script recomputes a slice of the paper's numbers **from the shipped
-per-instance data** and prints PASS/FAIL against the paper's values — 162
-checks, all passing offline on any machine with Python 3.
+per-instance data** and prints PASS/FAIL against the paper's values — 151
+checks across 10 scripts, all passing offline on any machine with Python 3.
 
 To run a harness against your own endpoint:
 
@@ -147,7 +147,7 @@ for every frozen measurement are in [`docs/decoding.md`](docs/decoding.md).
 | V2W hand-off control (+1.8 [−1.5,+5.0]) | `verify_v2w_evolution.py` |
 | Judge lineages: WebGen 0.793 → 0.850 → 0.867 → 0.917 (1112 pairs; false-zero 27.2% → 5.8%; HJ/LB 4/145 = 2.8%) | `verify_webgen_judge_ablation.py` |
 | Judge lineages: V2W 0.758 / 0.775 / 0.842; GAN-round gap curve (R² 0.733) | `verify_v2w_gan_rounds.py` |
-| Judge lineages: I2C 0.759, +1.0 average, HJ/LB 5.5% → 3.1%; Table 2 I2C implementation rate | `data/i2c/EXPERIMENT_ANSWER_AUDIT.md` |
+| Judge lineages: I2C 0.759, +1.0 average, HJ/LB 5.5% → 3.1% | `data/i2c/EXPERIMENT_ANSWER_AUDIT.md` |
 | Setup noise (rep |Δ| 0.082 / 0.071, σ_judge 0.087 est. / 0.141 documented, σ_gen 0.194, flip 0.333 / 234) | `verify_webgen_noise.py` |
 | BoN / routing offline (WebGen +8.4 @ N=4; ladder, oracle, capture; V2W replay margins) | `verify_webgen_bon.py`, `verify_v2w_routing.py` |
 | Sealed 8×2 pilot (Table 3 restated row: +6.7; seed-level t = 3.26, task-clustered t = 5.51, 8/8, sign-flip p = 0.008) | `verify_v2w_routing.py`, `verify_revision_checks.py` |
@@ -156,7 +156,7 @@ for every frozen measurement are in [`docs/decoding.md`](docs/decoding.md).
 | I2C end-to-end exploit (SHA-256-identical screenshots, 3× B = 0.1116, judge 0.72 @ 0.90) | `verify_i2c_case.py` |
 | 22.3-point strict-JSON ablation (t = −3.2) | `data/v2w/sources/reports/poison_ablation.txt` + `harnesses/v2w_actor/poisonB.py` |
 | Heavy baselines (OpenHands 0.337 on V2W) | `data/v2w/sources/reports/` |
-| Matched-budget comparison (Table 1) and the 24-task sealed batch (Table 3) | ran on the campaign infrastructure; per-instance records are being consolidated into `data/` |
+| Matched-budget comparison (Table 1), the 24-task sealed batch (Table 3), and the I2C implementation-rate split | ran on the campaign infrastructure; per-instance records are being consolidated into `data/` |
 
 ## Provenance and scope notes
 

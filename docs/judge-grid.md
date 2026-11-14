@@ -59,9 +59,12 @@ WebGen bins return $\sigma_J = 0.209$ (naive), $0.144$ (calibrated) and
 $0.088$ (challenge) — $\Delta_{75}$ of $0.20$, $0.14$ and $0.08$,
 respectively. The calibrated judge's $0.144$ independently matches the
 $\sigma_{\mathrm{judge}} = 0.141$ of the paper's Setup variance decomposition
-(a within-instrument proxy of that evaluator should). Fits minimize
-$n$-weighted squared error over $\sigma_J$; exam pairs are not a random
-sample of deployment pairs, which is the caveat the paper carries.
+(a within-instrument proxy of that evaluator should). The same-arm
+cross-seed refit (604 pairs — the regime Corollary A actually assumes, free
+of the harness-indexed bias cross-arm pairs carry) returns
+$\sigma_J = 0.081$. Fits minimize $n$-weighted squared error over $\sigma_J$;
+exam pairs are not a random sample of deployment pairs, which is the caveat
+the paper carries.
 
 ## Computation protocol
 

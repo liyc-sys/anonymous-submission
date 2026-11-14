@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""V2W Table-4 judge ablation add-on computation: Spearman rank correlation + HJ/LB.
+"""V2W judge-ablation add-on computation: Spearman rank correlation + HJ/LB.
 
 Zero-compute, purely offline calculation. Inputs:
   - Shipped data directory data/v2w/ (parent directory of this script)
