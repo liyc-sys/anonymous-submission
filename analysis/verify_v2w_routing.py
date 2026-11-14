@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Verify V2W instance-level routing (paper Table 4 + Appendix G + sealed headline).
+"""Verify V2W instance-level routing (paper routing section + appendix + sealed headline).
 
 Three independent checks:
-1. Ladder-pool replay (Table 4 top + Appendix G): 16 complete groups x 4 seeds,
+1. Ladder-pool replay (routing table + appendix): 16 complete groups x 4 seeds,
    from data/v2w/30_bon_night3_replay.json.
-2. Dev-pool upgraded judge (Appendix G): jgen4 dev replay N=4, N=6
+2. Dev-pool upgraded judge (dev-pool replay): jgen4 dev replay N=4, N=6
    (data/v2w/31_bon_phase2_dev_replay.json, data/v2w/34_recon_calib_stats.json).
-3. Sealed 8x2 validation (Table 4 bottom + P3): jgen4+vote-tie-break routing vs
+3. Sealed 8x2 validation (routing table bottom + sealed headline): jgen4+vote-tie-break routing vs
    fresh-champion baseline, from data/v2w/11_phase2_official_summaries.json
    (round2 sealed_jgen4_k2/k4 per-instance) and
    data/v2w/sealed_routing/bon_final.json (same-batch gen10 baseline and the
@@ -34,7 +34,7 @@ def check(name, got, want, tol):
         FAIL.append(name)
 
 
-print("== ladder-pool replay (Table 4) ==")
+print("== ladder-pool replay ==")
 t = json.load(open(DATA / "30_bon_night3_replay.json"))["table"]
 for judge, wants in (("jgen2", {2: 0.557, 3: 0.566, 4: 0.573}),
                      ("oracle", {2: 0.568, 3: 0.580, 4: 0.588})):
@@ -49,7 +49,7 @@ for n, w in ((2, 0.060), (3, 0.055), (4, 0.053)):
 capture = (t["jgen2"]["N=4"] - t["random"]["N=4"]) / (t["oracle"]["N=4"] - t["random"]["N=4"])
 check("capture ratio at N=4", round(capture, 2), 0.72, 0.02)
 
-print("== dev-pool upgraded judge (Appendix G) ==")
+print("== dev-pool upgraded judge ==")
 t31 = json.load(open(DATA / "31_bon_phase2_dev_replay.json"))["jgen4_dev48"]["table"]
 check("dev jgen4 N=4", round(t31["jgen4_dev48"]["N=4"], 3), 0.594, 0.004)
 st34 = json.load(open(DATA / "34_recon_calib_stats.json"))

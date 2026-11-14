@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the WebGen best-of-N offline simulation (paper P3 + Appendix G).
+"""Verify the WebGen best-of-N offline simulation (paper P3 + Appendix I).
 
 Recomputes test-time best-of-N from the shipped per-site task labels
 (data/webgen/runs_sitelabels.json). Candidates = independent generations
@@ -8,7 +8,7 @@ partial score (ties averaged); oracle = full acc; scoring on the nondiag
 complement (zero overlap with the selection signal). Enumeration over all
 C(k,N) subsets, averaged per case then across cases.
 
-Paper values checked (P3 text; Table 4 bottom; Appendix G WebGen rows):
+Paper values checked (routing text; routing-table bottom; appendix WebGen rows):
   champion arm pb3 (12 heldout): N=1 0.725 -> N=4 0.809 (+8.4), oracle 0.860;
   g3b (83 cases): N=2 +3.7 (0.731 -> 0.764);
   Gemma m0: N=4 0.629 -> 0.761 (+13), oracle 0.822;
@@ -106,7 +106,7 @@ check("m0 N=1 nondiag", round(s1["random_nd"], 3), 0.629, 0.004)
 check("m0 N=4 judge nondiag (+13)", round(s4["judge_nd"], 3), 0.761, 0.004)
 check("m0 N=4 oracle nondiag", round(s4["oracle_nd"], 3), 0.822, 0.004)
 implied = (s4["oracle_nd"] - s1["random_nd"]) / 1.029
-check("implied sigma_gen (Table 4 bottom)", round(implied, 3), 0.187, 0.004)
+check("implied sigma_gen (routing-table cross-check)", round(implied, 3), 0.187, 0.004)
 check("implied vs calib 0.194 within 5%", round(implied, 3), 0.194, 0.01)
 
 print()

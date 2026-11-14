@@ -5,7 +5,7 @@ Source: slots whose official evaluator produced >= 2 independent repeated
 scores (rep_accs) in data/webgen/dataflow_slots.json, earliest successful
 attempt per (arm, case, seed).
 
-Paper values checked (Setup; Appendix C; Table 4 caption):
+Paper values checked (Setup; evaluator-noise appendix; noise table caption):
   site-level re-eval: n = 696 sites, mean |rep0-rep1| = 0.082 (median 0.071),
   sigma_judge estimate from re-evals = 0.087 (Appendix C);
   pairwise flip rate pooled = 0.333 over 234 pairs;

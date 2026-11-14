@@ -7,7 +7,7 @@ earliest successful attempt (launched, acc present) per (arm, case, seed),
 per-case mean over seeds, paired per-case deltas, CI95 = 1.96*SE,
 W/L/T threshold +/-0.01.
 
-Paper values checked (experiments.tex Table 1; P2 text; Appendix F):
+Paper values checked (paper Table 2; P2 text; cross-model probe):
   Minimal g0 0.534; Actor-only g3b 0.592 (+5.8 [+1.4,+10.2]);
   hand-off p7 vs g3b = -4.0 [-8.3,+0.4]; p7 vs g0 = +1.9 n.s.;
   cross-model: Qwen3-VL +0.070, Gemma +0.087 (Actor-only - Minimal);
@@ -99,7 +99,7 @@ check("p7-g3b CI hi", round(p["hi"], 3), 0.004, 0.01)
 p = paired("p7", "g0", e1_cases)
 check("p7-g0 delta (n.s.)", round(p["mean"], 4), 0.019, 0.004)
 
-print("== cross-model arms (Table 1 lower panel + Appendix F) ==")
+print("== cross-model arms (Table 2 lower panel + cross-model probe) ==")
 pools = json.load(open(DATA / "pools.json"))
 heldout = pools["heldout"]  # the 12-case selection pool used by the cross-model arms
 for tag, (a0, a3b, ap7), want_ao, want_full in [
