@@ -1,0 +1,1252 @@
+{
+ "gen": "lad8b",
+ "fitness": 0.5165,
+ "n": 14,
+ "runs": [
+  {
+   "task": "aspose",
+   "seed": "seed_0",
+   "score": 0.622,
+   "viewports": {
+    "desktop": 0.564,
+    "tablet": 0.497,
+    "mobile": 0.805
+   },
+   "agent": {
+    "calls": 2,
+    "done": true,
+    "seconds": 650.2,
+    "index_exists": true,
+    "parse_misses": 1,
+    "llm_errors": 0
+   },
+   "files": [
+    "index.html",
+    "start.sh"
+   ],
+   "index_chars": 21917,
+   "worst_sections": [
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Significant differences: social icons differ (missing LinkedIn, Stack Overflow, Quora; replaced with Instagram), and the navigation links layout is completely different (vertical t"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "Heading and description text match, and the blue background is present. However, the decorative illustration (house, cloud, laptop, map pin composition) shown in the prototype is r"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "Three cards with correct titles and descriptions are present. However, the card icons are simplified versions of the prototype icons, and the 'View All Low Code APIs' button is ren"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "Heading, subtitle, and 'View Case Studies' green button match. However, the quote container is shaped differently (circular design with large quote marks in prototype vs. rounded r"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "Dark background, navigation links (Home, Products, New Releases, Pricing, etc.), and copyright text match well. However, the social media icons differ significantly: prototype show"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.75,
+     "reason": "Blue gradient background, 'Image Processing Solution for any Platform' heading, and description text match well. Laptop icon is positioned similarly though appears slightly larger/"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "The testimonial text is completely different (Doug Downer | CEO | Dyncoron vs. Avinash Moharil | Director | Techior Solutions). Section title and overall structure match, but the c"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Social media icons differ (actual shows Facebook, X, Instagram, GitHub; prototype shows Facebook, X, LinkedIn, Stack Overflow, Quora, Reddit). Footer link layout is arranged in a s"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "Logo position matches, but the actual page shows a fully expanded navigation menu (Products, Purchase, Support, Websites, About) in the header, while the prototype only shows a ham"
+    }
+   ]
+  },
+  {
+   "task": "aspose",
+   "seed": "seed_1",
+   "score": null,
+   "agent": {
+    "calls": 2,
+    "done": true,
+    "seconds": 332.8,
+    "index_exists": false,
+    "parse_misses": 1,
+    "llm_errors": 0
+   },
+   "files": [
+    "start.sh"
+   ],
+   "worst_sections": [
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "The actual page has no navigation bar, no Aspose logo, and no menu items. Instead, it shows a plain 'Directory listing for /' heading with no header at all."
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "There is no hero section in the actual page. The blue banner with 'Image Processing Solution for any Platform' heading, descriptive text, and illustration is completely missing."
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "The 'Aspose.Imaging Low Code APIs Include' section with three product cards (Cloud for cURL, Cloud SDK for .NET, Cloud SDK for Java) and the 'View All Low Code APIs' button is comp"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0,
+     "reason": "The prototype shows an Aspose-branded header with logo, menu, and search icons. The actual page has no navigation bar whatsoever—only a plain 'Directory listing for /' heading."
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0,
+     "reason": "The prototype features a blue hero banner with 'Image Processing Solution for any Platform' heading and descriptive text. The actual page contains no hero section, only a directory"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0,
+     "reason": "The prototype displays three Low Code API cards (Cloud for cURL, Cloud SDK for .NET, Cloud SDK for Java) with icons, descriptions, and a 'View All Low Code APIs' button. None of th"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "No navigation bar or header with Aspose logo, menu, or user/search icons is present. The actual page shows only a simple directory listing with no branding or navigation."
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "The blue hero section with 'Image Processing Solution for any Platform' title and description is completely missing. No hero banner exists in the actual page."
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "The 'Aspose.Imaging Low Code APIs Include' section with Cloud for cURL, Cloud SDK for .NET, and Cloud SDK for Java cards is entirely absent from the actual page."
+    }
+   ]
+  },
+  {
+   "task": "aspose",
+   "seed": "seed_2",
+   "score": 0.453,
+   "viewports": {
+    "desktop": 0.499,
+    "tablet": 0.467,
+    "mobile": 0.393
+   },
+   "agent": {
+    "calls": 2,
+    "done": true,
+    "seconds": 63.7,
+    "index_exists": true,
+    "parse_misses": 1,
+    "llm_errors": 0
+   },
+   "files": [
+    "index.html",
+    "start.sh"
+   ],
+   "index_chars": 22459,
+   "worst_sections": [
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Headline 'Image Processing Solution for any Platform' and description text match, but the illustration on the right is missing/broken in the actual page, showing only a placeholder"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Section heading and text descriptions match, but the actual app images (Conversion, Watermark, Reverse) appear broken in the actual page, displaying only alt text ('Conversion App'"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "Section heading, card structure, and text descriptions match, but icons are significantly simplified (plain colored squares instead of the colorful CURL/NET/Java badges in the prot"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "The actual page does not display a visible header/navigation bar at the top. The page starts directly with the hero section, whereas the prototype shows a clear blue header with ha"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "The icons for Conversion, Watermark, and Reverse appear as broken images showing alt text ('Conversion App', 'Watermark App', 'Reverse App') instead of the styled blue icons from t"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "Title and subtitle text match the prototype, but the CTA button area in the actual page appears as a blank/placeholder rectangle with what looks like foreign (Arabic) text on the r"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "The detailed icons with badges (cURL, .NET, Java) are replaced with simple colored circles. The 'Aspose.Imaging' subtitle labels above each card title are missing. Descriptions and"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "The colorful square icons with images for .NET, Java, and SharePoint are replaced with simple colored circles. The 'Aspose.Imaging for' subtitle labels are missing. Card titles and"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "The actual header includes additional navigation links (Products, Purchase, Support, Websites, About) in the center that are not in the prototype. The prototype has a simpler heade"
+    }
+   ]
+  },
+  {
+   "task": "aspose",
+   "seed": "seed_3",
+   "score": 0.493,
+   "viewports": {
+    "desktop": 0.465,
+    "tablet": 0.507,
+    "mobile": 0.507
+   },
+   "agent": {
+    "calls": 3,
+    "done": true,
+    "seconds": 110.1,
+    "index_exists": true,
+    "parse_misses": 1,
+    "llm_errors": 0
+   },
+   "files": [
+    "index.html",
+    "start.sh",
+    "style.css"
+   ],
+   "index_chars": 16489,
+   "worst_sections": [
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Navigation layout is significantly different. The actual page shows duplicated navigation items (Products, Purchase, Support, Websites, About appears twice) and the user/search ico"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Title and description text match, but the illustration on the right is completely different. The prototype has a detailed house/cloud/laptop illustration, while the actual page sho"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Footer layout is completely different. The actual page has links arranged in a grid (4 columns) instead of a single horizontal row. Social media icons are positioned differently. T"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Actual page shows an expanded mobile menu with extra items (Products, Purchase, About, Websites, Free Support) overflowing the header area, while prototype shows a clean header wit"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "Blue background and main heading 'Image Processing Solution for any Platform' match, but there is a stray '7' number/element appearing in the middle of the hero that is not in the "
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "Heading and card titles (.NET, Java, SharePoint) match in content and order. However, card icons are significantly different - prototype uses colored background badges (green/red/b"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Header structure is significantly different. Prototype has a clean header with menu icon, Aspose logo, user and search icons. Actual page has text-based navigation links (Products,"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Section structure matches but testimonial content is different. Prototype shows testimonial from 'Avinash Moharil | Director | Techior Solutions', while actual page shows testimoni"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "Heading and description text match well, and blue gradient background is consistent. However, the decorative cloud/device illustration on the right side is broken/missing in the ac"
+    }
+   ]
+  },
+  {
+   "task": "bayleys",
+   "seed": "seed_0",
+   "score": 0.4793,
+   "viewports": {
+    "desktop": 0.464,
+    "tablet": 0.471,
+    "mobile": 0.503
+   },
+   "agent": {
+    "calls": 6,
+    "done": true,
+    "seconds": 509.9,
+    "index_exists": true,
+    "parse_misses": 1,
+    "llm_errors": 0
+   },
+   "files": [
+    "index.html",
+    "start.sh",
+    "style.css"
+   ],
+   "index_chars": 6505,
+   "worst_sections": [
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Bayleys logo appears as broken image, 'Our Network' and 'My Bayleys' show as broken image placeholders, dropdown arrows on navigation items are missing, and search icon is absent. "
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "All three property images (exterior warehouse, interior, and interior with doors) are broken/placeholder, showing only alt text. The '+3' counter is present, and the 'LEASED' red b"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Significant layout issues: 'For Lease NZ$18,500 + GST (if any)' box is overlapping/colliding with the agent's photo area. Agent photo appears as broken circular outline instead of "
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "Prototype shows an actual interactive map with a red pin and street labels. Actual page shows a completely broken image with alt text 'Location Map' only."
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Prototype has a '< Back' button next to '#559842', but actual page replaces this with a breadcrumb 'COMMERCIAL | CANTERBURY | CHRISTCHURCH'. Back button is completely missing."
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Prototype shows an actual photo of the warehouse building. Actual page shows broken/missing images with alt text ('Property Exterior', 'Interior', 'Interior with doors') and only t"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "All property images (exterior, interior, interior with doors) are missing in the actual page, showing only broken image placeholders with alt text. The '+3' badge is preserved but "
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "The floor plan icon/image is missing in the actual page, showing only a broken image placeholder next to the '129 sqm' text."
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "Logo styling differs (prototype has boxed 'BAYLEYS' text vs actual 'Bayleys' plain text), and the right side icon is a home icon instead of the prototype's hamburger menu. Backgrou"
+    }
+   ]
+  },
+  {
+   "task": "bayleys",
+   "seed": "seed_1",
+   "score": 0.4683,
+   "viewports": {
+    "desktop": 0.507,
+    "tablet": 0.488,
+    "mobile": 0.41
+   },
+   "agent": {
+    "calls": 2,
+    "done": true,
+    "seconds": 207.3,
+    "index_exists": true,
+    "parse_misses": 1,
+    "llm_errors": 0
+   },
+   "files": [
+    "index.html",
+    "start.sh"
+   ],
+   "index_chars": 18571,
+   "worst_sections": [
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Actual images are not rendered - showing alt text placeholders ('Property Main Street View', 'Interior'). The red 'LEASED' badge is missing, the '+3' indicator for additional image"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Actual map is just a gray placeholder box with 'Map view of property at 72 Durham Street, Sydenham' text. The detailed OpenStreetMap with street names, location pin, transit icons,"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "Logo is a placeholder text 'Bayleys Logo' instead of the actual Bayleys logo with 'Altogether Better' tagline. Navigation menu items are present but lack dropdown arrows (Residenti"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "Property images are completely missing - replaced with broken image placeholders showing alt text ('Property Main Street View', 'Floor Area Icon 129 sqm'). The 'LEASED' badge and 1"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "Map is completely missing in the actual page - replaced with a gray placeholder box containing text 'Map view of property at 72 Durham Street, Sydenham'. The actual OpenStreetMap w"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Prototype has a 'Back' button with listing number; actual page replaces this with 'COMMERCIAL | CANTERBURY | CHRISTCHURCH' tags plus listing number. Different content."
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "The two additional interior images with the '+3' indicator from the prototype are completely missing in the actual page."
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "The main property image is not loaded (showing alt text 'Property Main Street View'), and the prominent 'LEASED' badge in the corner is completely missing from the actual page."
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Map section heading is present but actual map data is missing, replaced with placeholder text 'Map view of property at 72 Durham Street, Sydenham'."
+    }
+   ]
+  },
+  {
+   "task": "bayleys",
+   "seed": "seed_2",
+   "score": 0.4193,
+   "viewports": {
+    "desktop": 0.439,
+    "tablet": 0.389,
+    "mobile": 0.43
+   },
+   "agent": {
+    "calls": 2,
+    "done": true,
+    "seconds": 259.5,
+    "index_exists": true,
+    "parse_misses": 1,
+    "llm_errors": 0
+   },
+   "files": [
+    "index.html",
+    "start.sh"
+   ],
+   "index_chars": 18959,
+   "worst_sections": [
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "All property images are broken/missing (showing placeholder alt text), the gallery layout is collapsed with images stacked vertically instead of the large main + thumbnails arrange"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "Map is not rendered - only shows placeholder text '[Map Visualization]' with MapTiler and OpenStreetMap attribution, instead of the actual street map with red pin marker from the p"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Logo and several icons (My Bayleys, Share, My Network) are broken/missing, 'ALTOGETHER BETTER' text is oddly spaced, navigation items are present but overall layout is degraded."
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Background color is white instead of dark navy. Bayleys logo is broken (showing alt text). 'ALTOGETHER BETTER' text and hamburger menu are present but overall appearance deviates s"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "All images are broken/placeholders instead of the warehouse photo. 'LEASED' badge is present. Navigation arrows and image counter missing. 'Exterior' text appears unexpectedly."
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Position is significantly wrong - moved before the description section instead of after it. Agent name has typo 'Benjl Andrews' instead of 'Benji Andrews'. Profile photo is missing"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "All property images are completely broken/missing. Only the 'LEASED' badge and empty placeholder boxes with alt text ('Backyard Exterior') are visible. The large hero image and int"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "Map is not rendered at all. Shows only placeholder text '[Map Visualization]' with MapTiler and OpenStreetMap attribution, but no actual map, streets, or location pin is visible."
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Prototype has a clean dark navy bar with just the Bayleys logo, 'ALTOGETHER BETTER' tagline, and a hamburger menu. Actual page has a much more complex navigation with multiple drop"
+    }
+   ]
+  },
+  {
+   "task": "bayleys",
+   "seed": "seed_3",
+   "score": 0.499,
+   "viewports": {
+    "desktop": 0.484,
+    "tablet": 0.533,
+    "mobile": 0.48
+   },
+   "agent": {
+    "calls": 7,
+    "done": true,
+    "seconds": 357.9,
+    "index_exists": true,
+    "parse_misses": 1,
+    "llm_errors": 0
+   },
+   "files": [
+    "index.html",
+    "start.sh",
+    "style.css"
+   ],
+   "index_chars": 10593,
+   "worst_sections": [
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Layout is significantly different from the prototype. Prototype shows a large main image with 'LEASED' badge plus two smaller interior images stacked vertically on the right. Actua"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "Navigation menu items and overall layout are present, but the Bayleys logo is not rendering (showing alt text 'Bayleys Logo' instead of the actual image). The 'ALTOGETHER BETTER' t"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "Text content matches the prototype (description, approx details, available status, rent). Heading 'Corner profile - Sydenham' is present. However, the agent photo is missing (broke"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "The red 'LEASED' badge is completely missing from the actual page, which is a significant functional difference."
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "The social media icons (Facebook, Instagram, LinkedIn, YouTube) shown prominently in the prototype footer are completely missing from the actual page."
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "The '< Back' button is completely missing in the actual page. The '#559842' reference number is present but positioned differently (below the address instead of in a horizontal row"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "Property images are completely broken in the actual page (showing as broken image icons with 'Property Front' alt text). The large hero image with 'LEASED' badge overlay is missing"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "The thumbnail gallery with two images and '+3' overlay is missing in the actual page. No equivalent component visible."
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Prototype has a simple dark navy header with BAYLEYS logo and hamburger menu, but actual page shows a full top navigation bar with multiple menu items (Residential, Commercial, Rur"
+    }
+   ]
+  },
+  {
+   "task": "dermstore",
+   "seed": "seed_0",
+   "score": 0.5683,
+   "viewports": {
+    "desktop": 0.533,
+    "tablet": 0.601,
+    "mobile": 0.571
+   },
+   "agent": {
+    "calls": 1,
+    "done": true,
+    "seconds": 158.6,
+    "index_exists": true,
+    "parse_misses": 0,
+    "llm_errors": 0
+   },
+   "files": [
+    "index.html",
+    "start.sh"
+   ],
+   "index_chars": 29212,
+   "worst_sections": [
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Significant differences: The DERMSTORE logo uses a mountain icon instead of the 'D' symbol. The header layout is different - the actual has a hamburger menu, search icon on the lef"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "The large hero image of the woman is completely missing/replaced with a small broken image placeholder ('act face' text in oval). The 'SkinStore is Now Dermstore' title, descriptio"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "The six category labels (Skin Care, Tools & Devices, Hair Care, Vitamin C, Sunscreen, Makeup) are present, but the actual product images that should appear above each label are bro"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "The actual page is missing the entire hero section content. The 'SkinStore is Now Dermstore' title, the description paragraph about curated skincare, the SHOP NOW button, and the w"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "The actual page shows different categories (Tools & Devices, Hair Care, Vitamin C, Sunscreen) instead of the prototype's 'Skin Care' and 'Tools & Devices' tabs. The visual layout a"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "The actual page shows multiple gift listings (SkinCeuticals Gift, La Roche-Posay Gift) without product images, while the prototype shows only a single SkinCeuticals Gift with a cle"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "The hero section is severely degraded. The model image is completely missing and replaced with just an empty white circle outline on a black background. The text 'SkinStore is Now "
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "The category labels (Skin Care, Tools & Devices, Hair Care, Vitamin C, Sunscreen) are present, but all product images within the circular icons are missing. A 'Makeup' category is "
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "The product images for both the Sunday Riley Microbiome Cooling Scalp Serum and SkinMedica TNS Advanced+ Serum are missing. Only alt text placeholders are shown. The product detail"
+    }
+   ]
+  },
+  {
+   "task": "dermstore",
+   "seed": "seed_1",
+   "score": 0.394,
+   "viewports": {
+    "desktop": 0.374,
+    "tablet": 0.484,
+    "mobile": 0.324
+   },
+   "agent": {
+    "calls": 3,
+    "done": true,
+    "seconds": 568.5,
+    "index_exists": true,
+    "parse_misses": 1,
+    "llm_errors": 0
+   },
+   "files": [
+    "index.html",
+    "start.sh"
+   ],
+   "index_chars": 18464,
+   "worst_sections": [
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "Severely broken. Instead of the woman's portrait with the circular crop on the right, the actual page shows overlapping gray placeholder boxes with 'Portrait' text. The text conten"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "The Value Sets / New Arrivals tab section with the product carousel (Eminence, Sunday Riley, Paula's Choice products) is completely missing from the actual page."
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "The footer is essentially missing. All the footer columns (CUSTOMER SERVICE, MY ACCOUNT, COMPANY, LEGAL) and their associated links are completely absent. Only a copyright line '20"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "This product does not appear in the prototype. It's an extra/additional element in the actual page not found in the original design."
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "Prototype shows small, styled social media icons (Facebook, X, Instagram, YouTube, TikTok, Pinterest). Actual shows oversized black blocks for Twitter, Facebook, and Instagram only"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "Prototype footer has Dermstore logo, multiple link columns (CUSTOMER SERVICE, MY ACCOUNT, COMPANY, LEGAL). Actual footer only shows the copyright text '2026 The Hut.com Ltd/116 Der"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Hero image is completely broken/missing - shows only 'Portrait' placeholder text. The 'SkinStore is Now Dermstore' heading is partially visible but the layout is broken. Descriptio"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Categories shown are completely different (Medik8, LUMA, CeraVe, Vit C, Sun, Makeup, Devices) instead of the prototype's category images (CARE, TOOLS & DEVICES, HAIR CARE, VITAMIN "
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Product images are completely missing/empty placeholders. Only text labels (SkinMedica TNS Advanced+, Obagi) and product details are visible. The carousel navigation dots are visib"
+    }
+   ]
+  },
+  {
+   "task": "dermstore",
+   "seed": "seed_2",
+   "score": 0.5543,
+   "viewports": {
+    "desktop": 0.602,
+    "tablet": 0.52,
+    "mobile": 0.541
+   },
+   "agent": {
+    "calls": 2,
+    "done": true,
+    "seconds": 692.8,
+    "index_exists": true,
+    "parse_misses": 1,
+    "llm_errors": 0
+   },
+   "files": [
+    "index.html",
+    "start.sh"
+   ],
+   "index_chars": 24176,
+   "worst_sections": [
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "The hero model image is completely missing in the actual page (only shows alt text placeholder). The right-side text content ('SkinStore is Now Dermstore', description, and SHOP NO"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "All six category images (SKIN CARE, TOOLS & DEVICES, HAIR CARE, VITAMIN C, SUNSCREEN, MAKEUP) are missing in the actual page, showing only alt text placeholders. Category labels re"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "The large feature product image is missing. The two products on the right are stacked vertically rather than displayed side-by-side as in the prototype. Product images for SkinMedi"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Prototype displays a large image of a woman with 'SkinStore is Now Dermstore' headline and descriptive text. Actual page has a broken/missing hero image, showing only the 'SHOP NOW"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Prototype has two large promotional cards (SKIN CARE, TOOLS & DEVICES) with images. Actual page shows a grid of 6 small icon-based category buttons (Skin Care, Tools, Hair Care, Vi"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "Prototype shows a clear two-message announcement bar with 'Select Flex at checkout...' and 'Free 2-Day Shipping...'. Actual page has truncated/scrolling text showing only partial f"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "The main category navigation bar (BRANDS, BESTSELLERS, SKINCARE, BEAUTY, etc.) is completely missing in the actual page. The actual page jumps from header directly to the sub-navig"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "The actual page has a different header layout with a prominent search bar in the center, whereas the prototype shows a hamburger menu and search icon on the left with logo in cente"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "The image is not loading (showing empty circular placeholder vs. woman's photo in prototype), the text content is preserved correctly, and the SHOP NOW button is present. Layout st"
+    }
+   ]
+  },
+  {
+   "task": "dermstore",
+   "seed": "seed_3",
+   "score": 0.6293,
+   "viewports": {
+    "desktop": 0.624,
+    "tablet": 0.609,
+    "mobile": 0.655
+   },
+   "agent": {
+    "calls": 3,
+    "done": true,
+    "seconds": 331.7,
+    "index_exists": true,
+    "parse_misses": 1,
+    "llm_errors": 0
+   },
+   "files": [
+    "index.html",
+    "start.sh"
+   ],
+   "index_chars": 27880,
+   "worst_sections": [
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Layout differs significantly: prototype has search box on left with logo in center, while actual page has logo on left and search in the center-right. The position of key elements "
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Major discrepancy: the model image (woman's face) is completely missing in the actual page. The right side shows a blank gradient. The text content and CTA button are present but p"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Significant differences: prototype has a large featured image on the left and 2 products (SkinMedica, Obagi), but actual shows 4 products in a row (Sunday Riley, SkinMedica, Obagi,"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Prototype features a large image of a woman with overlaid text 'SkinStore is Now Dermstore' and descriptive text. Actual page shows only a black background with the same text - the"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Prototype has a simple footer with Dermstore logo and 'Customer Service, My Account, Company, Legal' columns. Actual has a much more detailed footer with expanded link lists under "
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "Both have menu, logo, search, account, and cart icons, but the actual page has an additional row of service icons (FREE US Shipping, Auto-Replenishment, etc.) not present in the pr"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Major visual difference - prototype features a model image with circular crop and text aligned to the right with 'SkinStore is Now Dermstore' headline prominently displayed. Actual"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Prototype shows actual product images for each category (Skin Care, Tools & Devices, Hair Care, Vitamin C, Sunscreen). Actual page shows broken image placeholders with only text la"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "Layout differs significantly - prototype has centered logo with hamburger menu, search icon, and account/cart icons on sides. Actual page has left-aligned logo, search bar in middl"
+    }
+   ]
+  },
+  {
+   "task": "eventbrite",
+   "seed": "seed_0",
+   "score": null,
+   "files": [
+    "start.sh"
+   ],
+   "worst_sections": [
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0,
+     "reason": "The actual page shows no Eventbrite navigation bar. There is no logo, search bar, location selector, or navigation links (Contact Sales, Create Events, Help Center, Find my tickets"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0,
+     "reason": "The actual page shows no event details, no 'EVENT ENDED' badge, no event title, no 'View details' link, and no 'Follow this organizer' section with Loveland Public Library. Complet"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0,
+     "reason": "The actual page shows no event grid. There are no event cards, images, dates, prices, or organizer information. The entire recommended events section is absent."
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "The prototype shows a navigation bar with logo, search bar, and buttons (Log In, Sign Up, menu). The actual page has no navigation bar at all — only a directory listing title 'Dire"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "The prototype displays a featured event card for 'Android Smartphones for Beginners (TI-19)'. The actual page contains no event card or any related content — only a list of file/fo"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "The prototype has a 'Follow this organizer' section with Loveland Public Library info and a Follow button. The actual page has no such section."
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "The prototype features a full Eventbrite navigation bar with logo, search bar, location selector, and user actions. The actual page has no navigation bar at all, only a simple text"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "The prototype shows a detailed event listing for 'Android Smartphones for Beginners (T1-19)' with an 'Event Ended' badge, title, and 'View details' link. The actual page contains n"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "The prototype includes a 'Follow this organizer' section with the Loveland Public Library profile and a Follow button. The actual page has no organizer information."
+    }
+   ]
+  },
+  {
+   "task": "eventbrite",
+   "seed": "seed_1",
+   "score": 0.6673,
+   "viewports": {
+    "desktop": 0.717,
+    "tablet": 0.718,
+    "mobile": 0.567
+   },
+   "agent": {
+    "calls": 1,
+    "done": true,
+    "seconds": 279.4,
+    "index_exists": true,
+    "parse_misses": 0,
+    "llm_errors": 0
+   },
+   "files": [
+    "index.html",
+    "start.sh"
+   ],
+   "index_chars": 26588,
+   "worst_sections": [
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Significant differences: the event grid has 10 cards in actual (3+3+3+1) versus 9 cards (3x3) in prototype. Event ordering is rearranged starting from row 2, image-to-event pairing"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "Missing 'Contact Sales', 'Create Events', and 'Help Center' navigation items in the actual page. Search button shape differs (rectangular vs. round), and search icon is positioned "
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.75,
+     "reason": "EVENT ENDED badge, event title, and View details link all match. Minor difference in the badge style (slightly more rectangular in actual compared to the more pill-shaped badge in "
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "The first event card in the actual page is a 'Steady January' sewing event with a '50% off' badge instead of the 'Healing Circle' event in the prototype. The order of events is als"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "The prototype has a minimal footer with just 'Manage Cookie Preferences', 'Do Not Sell or Share My Personal Information', and the eventbrite/ticketfly branding. The actual page has"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "The actual header has an 'eventbrite' logo with 'Singapore' location and a heart icon that are not in the prototype. The 'Sign Up' button appears to be missing or replaced. The ove"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "Layout is similar but the logo differs (custom orange shape in prototype vs 'eventbrite' text logo in actual), the hamburger menu icon is missing in the actual, and the search butt"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "The event ordering differs significantly: the prototype has a 'healing' Promoted item in row 2 (which is missing in actual), and rows 2-4 of events are in a different order. The 'I"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.75,
+     "reason": "Title 'Android Smartphones for Beginners (T1-19)' and 'View details' link match well, but the 'EVENT ENDED' badge styling differs (white with border in prototype vs yellow/orange f"
+    }
+   ]
+  },
+  {
+   "task": "eventbrite",
+   "seed": "seed_2",
+   "score": 0.6,
+   "viewports": {
+    "desktop": 0.616,
+    "tablet": 0.629,
+    "mobile": 0.555
+   },
+   "agent": {
+    "calls": 1,
+    "done": true,
+    "seconds": 116.4,
+    "index_exists": true,
+    "parse_misses": 0,
+    "llm_errors": 0
+   },
+   "files": [
+    "index.html",
+    "start.sh"
+   ],
+   "index_chars": 23492,
+   "worst_sections": [
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "While the text content of the event cards is largely preserved, the actual page shows gray placeholder boxes where event images should be displayed - all event card images are miss"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "The actual header is missing several navigation items present in the prototype: 'Contact Sales', 'Create Events', and 'Help Center' (with dropdown indicator). The location selector"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.75,
+     "reason": "The organizer card layout, text 'By Loveland Public Library', and '283 followers' match well. However, the Follow button color differs - it's red/orange in the prototype but appear"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "The search bar with 'Search events' input and orange search button shown in the prototype is completely missing from the actual page."
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "The section heading and organizer name match, but the organizer logo appears as a broken image (showing 'Logo' alt text) and the 'Follow' button is missing entirely."
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "All event card images are missing/broken (showing only alt text like 'Steady January', 'Yogas for Beginners', 'Dot Painting', etc.). The first event title text differs ('Healing Ci"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.0,
+     "reason": "The 'Learn to Sew - Machine Sewing for Beginners (Drivers Ed)' card present in the prototype (in two instances) is completely missing from the actual page. This card should appear "
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "Eventbrite logo, search bar, 'Find my tickets', 'Log In', and 'Sign Up' are all present. However, the 'Singapore' location text in the search field overlaps with the search button,"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.5,
+     "reason": "All three cards are present with correct titles, dates, times, locations, and prices. However, the event images are not loaded (showing as gray placeholders with alt text). The 'St"
+    }
+   ]
+  },
+  {
+   "task": "eventbrite",
+   "seed": "seed_3",
+   "score": 0.384,
+   "viewports": {
+    "desktop": 0.358,
+    "tablet": 0.333,
+    "mobile": 0.461
+   },
+   "agent": {
+    "calls": 2,
+    "done": true,
+    "seconds": 374.2,
+    "index_exists": true,
+    "parse_misses": 1,
+    "llm_errors": 0
+   },
+   "files": [
+    "index.html",
+    "start.sh"
+   ],
+   "index_chars": 19236,
+   "worst_sections": [
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "The Eventbrite logo is displayed at massive native size instead of being properly sized in a navigation bar. Search and location inputs are unstyled. Nav links appear as plain text"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "The 'Other events you may like' heading is present but the 3-column grid layout is completely broken. Events are listed vertically in a single column instead of being arranged in a"
+    },
+    {
+     "vp": "desktop",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Event card content (titles, dates, locations, prices) is present but cards lack all visual styling. Images are broken/missing, dates and metadata have no colored highlighting (oran"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Prototype has a compact header with a small Eventbrite logo, 'Find my tickets' location, search bar, and 'Log In'/'Sign Up' buttons in a single row. Actual page has a much larger E"
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Prototype shows events as card-based layout with prominent image banners at top and details below. Actual page displays events as an inline list with small images and text flowing "
+    },
+    {
+     "vp": "mobile",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Prototype has a minimal footer with Eventbrite logo, cookie preferences, privacy notice, and 'eventbrite | ticketfly' branding. Actual page has an extensive footer with multiple se"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Eventbrite logo is massively oversized, taking up huge vertical space instead of being a small nav logo. The search bar, location, and login links are present but vertically stacke"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "Content is present (Loveland Public Library, 283 followers, Follow button) but the layout is broken. The 'Follow this organizer' text, logo image, and Follow button are not properl"
+    },
+    {
+     "vp": "tablet",
+     "sec": "?",
+     "score": 0.25,
+     "reason": "The 'Other events you may like' heading and event items are present, but the grid layout is completely missing. Events are displayed as a vertical list with broken/missing images r"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+task                gen12(evolved)       gen0(baseline)        diff
+aspose            0.5459(8)     0.4852(7)  +0.0608
+bayleys           0.5640(8)     0.4314(8)  +0.1326
+dermstore         0.4793(8)     0.4522(7)  +0.0271
+eventbrite        0.5910(8)     0.4997(7)  +0.0914
+
+gen12: mean 0.5450 med 0.5600 n=32 sd 0.107 crashed 1
+gen0 : mean 0.4659 med 0.4823 n=29 sd 0.088 crashed 0
+diff: +0.0792 (SE 0.025, t≈3.17) | paired by task +0.0779 (4/4 tasks won)
+
+Reference: OpenHands+q9b heldout=0.299-0.308(yesterday); yesterday's gen0 heldout two batches 0.435/0.327

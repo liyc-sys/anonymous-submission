@@ -1,0 +1,11 @@
+task                       gen5a(new champion)               gen0(baseline re-run)            OpenHands(morning batch)
+aspose              0.548,0.464,0.008        0.496,0.538,0.490        0.340,0.382,0.378
+bayleys             0.557,0.517,0.427        0.000,0.000,0.451        0.480,0.369,0.349
+dermstore           0.299,0.434,0.494        0.000,0.389,0.000        0.108,0.114,0.165
+eventbrite          0.525,0.522,0.550        0.515,0.521,0.521        0.293,0.257,0.352
+
+gen5a : mean 0.4454 n=12 sd 0.156
+gen0  : mean 0.3267 n=12 sd 0.244  (morning batch g0final reference 0.435)
+OH    : mean 0.2989 n=12  (cross-batch reference)
+gen5a−gen0(same batch): +0.1188 | gen5a−OH: +0.1465
+paired by task: +0.1188 (3/4 tasks gen5a wins)

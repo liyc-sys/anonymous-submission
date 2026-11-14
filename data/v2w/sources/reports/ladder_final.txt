@@ -1,0 +1,14 @@
+node                            mean     med   n   crashed     vs baseline      t     vs previous gen
+gen0 minimal baseline           0.4946  0.5050  15    0  +0.0000   0.00         —
+gen8b +HD slices                0.5165  0.4960  14    0  +0.0219   0.77    +0.022
+gen9 +mechanical fixes (merged)     0.5459  0.5633  15    0  +0.0513   2.49    +0.029
+gen10 +resource thumbnails       0.5642  0.5718  14    0  +0.0696   3.08    +0.018
+gen11b +defect polish            0.5490  0.5440  15    0  +0.0544   2.66    -0.015
+gen12 +CSS defenses              0.5443  0.5657  15    0  +0.0497   1.96    -0.005
+
+task × node means:
+task                g0      g8b       g9      g10     g11b      g12
+aspose           0.515    0.523    0.516    0.548    0.536    0.529
+bayleys          0.499    0.466    0.559    0.589    0.515    0.531
+dermstore        0.443    0.536    0.535    0.534    0.542    0.504
+eventbrite       0.522    0.550    0.582    0.588    0.600    0.603

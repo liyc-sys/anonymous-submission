@@ -1,0 +1,926 @@
+{
+  "note": "Unified set = E1 batch per-task labels (83 untouched cases, g0/g3b/p7 × 2 seeds); site inclusion condition: tasks idx0-3 all present (each variant uses the same site set, horizontally comparable). The Raw VLM row (jgen0) has no existing E1 predictions; under the zero-compute constraint its 61-pair stock-heldout exam scores are ingested, a different protocol that must be stated separately; a same-set Raw VLM row would require spending ~500 VLM calls on offline replay (not a re-run of experiments, pending decision).",
+  "unified_e1_set": {
+    "naive01": {
+      "n_sites": 519,
+      "spearman": 0.737,
+      "mae": 0.2024,
+      "bias": -0.0299,
+      "mae_affine_insample": 0.2044,
+      "pair_agree_detie": 0.7932,
+      "n_pairs_detie": 1112,
+      "high_judge_low_bench": {
+        "n_high_judge(>=0.8)": 145,
+        "n_HJLB(full<=0.4)": 4,
+        "ratio": 0.0276
+      },
+      "zero_kill": {
+        "n_judge_zero(<=0.1)": 136,
+        "n_good_site(full>=0.4)": 37,
+        "ratio": 0.2721
+      }
+    },
+    "diag123": {
+      "n_sites": 519,
+      "spearman": 0.8494,
+      "mae": 0.1724,
+      "bias": -0.1217,
+      "mae_affine_insample": 0.1428,
+      "pair_agree_detie": 0.8498,
+      "n_pairs_detie": 1112,
+      "high_judge_low_bench": {
+        "n_high_judge(>=0.8)": 72,
+        "n_HJLB(full<=0.4)": 0,
+        "ratio": 0.0
+      },
+      "zero_kill": {
+        "n_judge_zero(<=0.1)": 141,
+        "n_good_site(full>=0.4)": 36,
+        "ratio": 0.2553
+      }
+    },
+    "k3_012": {
+      "n_sites": 519,
+      "spearman": 0.8325,
+      "mae": 0.1556,
+      "bias": -0.0694,
+      "mae_affine_insample": 0.1482,
+      "pair_agree_detie": 0.8629,
+      "n_pairs_detie": 1112,
+      "high_judge_low_bench": {
+        "n_high_judge(>=0.8)": 94,
+        "n_HJLB(full<=0.4)": 0,
+        "ratio": 0.0
+      },
+      "zero_kill": {
+        "n_judge_zero(<=0.1)": 110,
+        "n_good_site(full>=0.4)": 21,
+        "ratio": 0.1909
+      }
+    },
+    "rot_ensemble": {
+      "n_sites": 519,
+      "spearman": 0.9173,
+      "mae": 0.1177,
+      "bias": -0.0877,
+      "mae_affine_insample": 0.0982,
+      "pair_agree_detie": 0.9168,
+      "n_pairs_detie": 1112,
+      "high_judge_low_bench": {
+        "n_high_judge(>=0.8)": 51,
+        "n_HJLB(full<=0.4)": 0,
+        "ratio": 0.0
+      },
+      "zero_kill": {
+        "n_judge_zero(<=0.1)": 86,
+        "n_good_site(full>=0.4)": 5,
+        "ratio": 0.0581
+      }
+    },
+    "diag123_rescue": {
+      "n_sites": 519,
+      "spearman": 0.8624,
+      "mae": 0.1478,
+      "bias": -0.0964,
+      "mae_affine_insample": 0.1244,
+      "pair_agree_detie": 0.8665,
+      "n_pairs_detie": 1112,
+      "high_judge_low_bench": {
+        "n_high_judge(>=0.8)": 72,
+        "n_HJLB(full<=0.4)": 0,
+        "ratio": 0.0
+      },
+      "zero_kill": {
+        "n_judge_zero(<=0.1)": 86,
+        "n_good_site(full>=0.4)": 5,
+        "ratio": 0.0581
+      }
+    }
+  },
+  "raw_vlm_row_stock_heldout": {
+    "split": "heldout",
+    "n": 61,
+    "strict_acc": 0.5246,
+    "detie_acc": 0.5424,
+    "fool_rate": 0.377,
+    "tie_rate": 0.0328
+  },
+  "judge_evolution_history_and_recall": {
+    "summary": "webgen adversarial judge positive result: budget-UI judge (run K UI tasks to predict full acc) — screenshot VLM capped 0.54, budget K=2 diagnostic detie 0.959 surpasses the reference campaign's 84.2%",
+    "why_screenshot_capped": "webgen acc=functionality (not visible); screenshot VLM 3 models (qwen3-vl/minimax-m3/claude-opus-4-8) all capped 0.54-0.57. The reference 84% is visual prototype matching (a VLM strength).",
+    "judge_evolution_heldout": {
+      "jgen0_screenshot_VLM": {
+        "detie": 0.542,
+        "fool": 0.377,
+        "cost": "1 call (cheap but inaccurate)"
+      },
+      "jgen1_budget_K2_naive_[0,1]": {
+        "detie": 0.796,
+        "fool": 0.098,
+        "cost": "33% of full"
+      },
+      "jgen2_budget_K2_diagnostic_[2,1]": {
+        "detie": 0.959,
+        "fool": 0.033,
+        "cost": "33% of full",
+        "note": "tasks selected on train, validated on heldout, no leakage"
+      },
+      "jgen3_budget_K3_[0,1,2]": {
+        "detie": 0.927,
+        "fool": 0.049,
+        "cost": "50% of full"
+      }
+    },
+    "adversarial_hardening": "jgen1->jgen2: the naive first-2-tasks judge was fooled by an actor that 'passes easy tasks, fails hard tasks' (fool 0.098); selecting the most diagnostic tasks (task2 r=0.72, task1 r=0.66, selected on train) -> fool 0.033",
+    "phase2_wide_search_screening": {
+      "random": {
+        "top1_recall": 0.167,
+        "top2_recall": 0.333,
+        "regret": 0.205,
+        "saving": 0.907
+      },
+      "budget_K2_naive": {
+        "top1_recall": 0.5,
+        "top2_recall": 0.833,
+        "regret": 0.117,
+        "saving": 0.907
+      },
+      "budget_K2_diagnostic": {
+        "top1_recall": 0.5,
+        "top2_recall": 0.833,
+        "regret": 0.117,
+        "saving": 0.907
+      },
+      "budget_K3": {
+        "top1_recall": 0.667,
+        "top2_recall": 0.833,
+        "regret": 0.047,
+        "saving": 0.907
+      },
+      "oracle": {
+        "top1_recall": 1.0,
+        "top2_recall": 1.0,
+        "regret": 0.0,
+        "saving": 0.907
+      }
+    },
+    "phase2_claim": "budget judge screens candidates: top-2 recall 0.833 (vs random 0.333), regret 0.047, saves 91% of official evaluations (only top-2 evaluated)",
+    "comparison_to_reference": "reference campaign: screenshot VLM judge heldout 75.8->84.2% (visual prototype matching). webgen: screenshot capped 0.54 (functionality not visible), budget-UI judge 0.796->0.959 (run 2 tasks). Different mechanism (webgen must run tasks because functionality is not visible), aligned results (cheap judge predicts official, ~85-96% accurate, adversarial hardening lowers fool, saves evaluation)."
+  },
+  "calibration_648pairs": {
+    "current_[2,1]": {
+      "spearman": 0.869,
+      "pair_agree": 0.647,
+      "mae": 0.171,
+      "loo": [
+        0.868,
+        0.789
+      ]
+    },
+    "top_subsets": [
+      {
+        "subset": [
+          0,
+          2,
+          3
+        ],
+        "spearman": 0.905,
+        "pair_agree": 0.836,
+        "mae": 0.108,
+        "loo": [
+          0.893,
+          0.974
+        ]
+      },
+      {
+        "subset": [
+          1,
+          2,
+          3
+        ],
+        "spearman": 0.915,
+        "pair_agree": 0.809,
+        "mae": 0.115,
+        "loo": [
+          0.898,
+          0.987
+        ]
+      },
+      {
+        "subset": [
+          0,
+          1,
+          3
+        ],
+        "spearman": 0.903,
+        "pair_agree": 0.782,
+        "mae": 0.115,
+        "loo": [
+          0.895,
+          1.0
+        ]
+      },
+      {
+        "subset": [
+          0,
+          2,
+          5
+        ],
+        "spearman": 0.924,
+        "pair_agree": 0.759,
+        "mae": 0.115,
+        "loo": null
+      },
+      {
+        "subset": [
+          1,
+          2,
+          4
+        ],
+        "spearman": 0.919,
+        "pair_agree": 0.738,
+        "mae": 0.101,
+        "loo": null
+      }
+    ],
+    "stratified": {
+      "subsets": {
+        "000004": [
+          0,
+          2,
+          4,
+          5,
+          6
+        ],
+        "000015": [
+          0,
+          2,
+          4
+        ],
+        "000032": [
+          0,
+          1,
+          2,
+          5
+        ],
+        "000036": [
+          0,
+          3,
+          4,
+          5
+        ]
+      },
+      "spearman": 0.886,
+      "pair_agree": 0.793,
+      "mae": 0.088
+    },
+    "n_arms": 19,
+    "n_cases": 4,
+    "case_tasks": {
+      "000004": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "000015": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "000032": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "000036": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  },
+  "prospective_budget": {
+    "diag_tasks": [
+      1,
+      2
+    ],
+    "n_runs": 26,
+    "screening_sim": {
+      "rows": {
+        "form": {
+          "mean_partial": 0.167,
+          "mean_full": 0.508,
+          "n_case": 3
+        },
+        "search": {
+          "mean_partial": 0.25,
+          "mean_full": 0.444,
+          "n_case": 3
+        },
+        "color": {
+          "mean_partial": 0.25,
+          "mean_full": 0.575,
+          "n_case": 3
+        },
+        "nav": {
+          "mean_partial": 0.5,
+          "mean_full": 0.759,
+          "n_case": 3
+        }
+      },
+      "rank_by_partial": [
+        "nav",
+        "search",
+        "color",
+        "form"
+      ],
+      "rank_by_full": [
+        "nav",
+        "color",
+        "form",
+        "search"
+      ],
+      "top1_match": true,
+      "top2_overlap": 1
+    },
+    "nav_vs_ctrl": {
+      "n_pairs": 8,
+      "n_decisive": 4,
+      "agree": 4,
+      "agree_rate": 1.0,
+      "fool_gt0.10": 0,
+      "verdicts": [
+        {
+          "case": "000005",
+          "seed": "seed_0",
+          "budget": "tie",
+          "official": "nav",
+          "nav_partial": 0.0,
+          "ctrl_partial": 0.0,
+          "nav_full": 0.7143,
+          "ctrl_full": 0.2857
+        },
+        {
+          "case": "000005",
+          "seed": "seed_1",
+          "budget": "nav",
+          "official": "nav",
+          "nav_partial": 0.5,
+          "ctrl_partial": 0.25,
+          "nav_full": 0.7143,
+          "ctrl_full": 0.6429
+        },
+        {
+          "case": "000005",
+          "seed": "seed_2",
+          "budget": "nav",
+          "official": "tie",
+          "nav_partial": 0.75,
+          "ctrl_partial": 0.5,
+          "nav_full": 0.8571,
+          "ctrl_full": 0.8571
+        },
+        {
+          "case": "000028",
+          "seed": "seed_0",
+          "budget": "nav",
+          "official": "nav",
+          "nav_partial": 1.0,
+          "ctrl_partial": 0.5,
+          "nav_full": 1.0,
+          "ctrl_full": 0.8333
+        },
+        {
+          "case": "000028",
+          "seed": "seed_1",
+          "budget": "tie",
+          "official": "tie",
+          "nav_partial": 0.5,
+          "ctrl_partial": 0.5,
+          "nav_full": 0.75,
+          "ctrl_full": 0.75
+        },
+        {
+          "case": "000028",
+          "seed": "seed_2",
+          "budget": "nav",
+          "official": "nav",
+          "nav_partial": 0.5,
+          "ctrl_partial": 0.0,
+          "nav_full": 0.8333,
+          "ctrl_full": 0.6667
+        },
+        {
+          "case": "000087",
+          "seed": "seed_0",
+          "budget": "nav",
+          "official": "nav",
+          "nav_partial": 0.5,
+          "ctrl_partial": 0.0,
+          "nav_full": 0.5625,
+          "ctrl_full": 0.125
+        },
+        {
+          "case": "000087",
+          "seed": "seed_1",
+          "budget": "tie",
+          "official": "nav",
+          "nav_partial": 0.25,
+          "ctrl_partial": 0.25,
+          "nav_full": 0.5,
+          "ctrl_full": 0.375
+        }
+      ]
+    },
+    "appearance": {
+      "ctrl": {
+        "mean": 4.375,
+        "n": 8
+      },
+      "nav": {
+        "mean": 4.667,
+        "n": 9
+      }
+    }
+  },
+  "judge_fix_sim": {
+    "affine_bias": -0.1217,
+    "mae_raw": 0.1724,
+    "mae_calibrated": 0.1428,
+    "zero_sites": 141,
+    "zero_good_sites": 36,
+    "rescued_out": 55,
+    "pair_agree_raw": 0.8498,
+    "pair_agree_hybrid": 0.8665,
+    "spearman_raw": 0.8494,
+    "spearman_hybrid": 0.8624,
+    "top1_errors_raw": 20,
+    "top1_fixed": 0,
+    "top1_new_errors": 0
+  },
+  "e5_reference": {
+    "n_sites": 500,
+    "n_cases": 83,
+    "spearman": 0.851,
+    "mae": 0.1726,
+    "pair_agree_detie": 0.8526,
+    "n_pairs_detie": 1058,
+    "pair_agree_eps05": 0.8526,
+    "n_pairs_eps05": 1058,
+    "calibration_reference": {
+      "spearman": 0.915,
+      "pair_agree": 0.809,
+      "mae": 0.115,
+      "note": "19 arms x 4 train cases"
+    }
+  },
+  "judge_anatomy_keys": [
+    "n_sites",
+    "diag123",
+    "per_idx",
+    "subset_board_top8",
+    "diag123_rank_by_pair_agree",
+    "rotations",
+    "rotation_cross_diff_mean",
+    "case_bias_top",
+    "case_bias_bottom",
+    "overestimated_examples",
+    "underestimated_examples"
+  ],
+  "judge_anatomy": {
+    "n_sites": 519,
+    "diag123": {
+      "spearman": 0.8494,
+      "pair_agree_eps05": 0.8498,
+      "n_pairs": 1112,
+      "mae": 0.1724,
+      "bias_mean": -0.1217,
+      "bias_median": -0.1333
+    },
+    "per_idx": {
+      "0": {
+        "n": 519,
+        "mean_score": 0.5732,
+        "spearman_with_full": 0.5671
+      },
+      "1": {
+        "n": 519,
+        "mean_score": 0.448,
+        "spearman_with_full": 0.5798
+      },
+      "2": {
+        "n": 519,
+        "mean_score": 0.3921,
+        "spearman_with_full": 0.5791
+      },
+      "3": {
+        "n": 519,
+        "mean_score": 0.4162,
+        "spearman_with_full": 0.597
+      },
+      "4": {
+        "n": 500,
+        "mean_score": 0.633,
+        "spearman_with_full": 0.5802
+      },
+      "5": {
+        "n": 404,
+        "mean_score": 0.6498,
+        "spearman_with_full": 0.5044
+      },
+      "6": {
+        "n": 221,
+        "mean_score": 0.681,
+        "spearman_with_full": 0.4594
+      },
+      "7": {
+        "n": 97,
+        "mean_score": 0.6598,
+        "spearman_with_full": 0.2602
+      },
+      "8": {
+        "n": 42,
+        "mean_score": 0.7857,
+        "spearman_with_full": 0.0897
+      }
+    },
+    "subset_board_top8": [
+      {
+        "subset": [
+          0,
+          1,
+          2
+        ],
+        "n": 519,
+        "spearman": 0.8325,
+        "pair_agree": 0.8629,
+        "mae": 0.1556
+      },
+      {
+        "subset": [
+          0,
+          1,
+          3
+        ],
+        "n": 519,
+        "spearman": 0.8609,
+        "pair_agree": 0.8552,
+        "mae": 0.1397
+      },
+      {
+        "subset": [
+          0,
+          2,
+          3
+        ],
+        "n": 519,
+        "spearman": 0.8671,
+        "pair_agree": 0.8503,
+        "mae": 0.1423
+      },
+      {
+        "subset": [
+          1,
+          2,
+          3
+        ],
+        "n": 519,
+        "spearman": 0.8494,
+        "pair_agree": 0.8498,
+        "mae": 0.1724
+      },
+      {
+        "subset": [
+          0,
+          1,
+          4
+        ],
+        "n": 500,
+        "spearman": 0.8335,
+        "pair_agree": 0.8471,
+        "mae": 0.1404
+      },
+      {
+        "subset": [
+          1,
+          2,
+          4
+        ],
+        "n": 500,
+        "spearman": 0.8525,
+        "pair_agree": 0.8471,
+        "mae": 0.1402
+      },
+      {
+        "subset": [
+          0,
+          2,
+          4
+        ],
+        "n": 500,
+        "spearman": 0.8312,
+        "pair_agree": 0.8364,
+        "mae": 0.1424
+      },
+      {
+        "subset": [
+          1,
+          3,
+          4
+        ],
+        "n": 500,
+        "spearman": 0.8398,
+        "pair_agree": 0.8327,
+        "mae": 0.1455
+      }
+    ],
+    "diag123_rank_by_pair_agree": 4,
+    "rotations": {
+      "(0, 2, 3)": {
+        "n": 519,
+        "spearman": 0.8671,
+        "pair_agree": 0.8503,
+        "mae": 0.1423,
+        "bias": -0.08
+      },
+      "(1, 2, 3)": {
+        "n": 519,
+        "spearman": 0.8494,
+        "pair_agree": 0.8498,
+        "mae": 0.1724,
+        "bias": -0.1217
+      },
+      "(0, 1, 3)": {
+        "n": 519,
+        "spearman": 0.8609,
+        "pair_agree": 0.8552,
+        "mae": 0.1397,
+        "bias": -0.0613
+      }
+    },
+    "rotation_cross_diff_mean": 0.1362,
+    "case_bias_top": [
+      [
+        "000046",
+        0.149
+      ],
+      [
+        "000061",
+        0.097
+      ],
+      [
+        "000099",
+        0.076
+      ],
+      [
+        "000072",
+        0.06
+      ],
+      [
+        "000093",
+        0.056
+      ],
+      [
+        "000010",
+        0.049
+      ]
+    ],
+    "case_bias_bottom": [
+      [
+        "000002",
+        -0.378
+      ],
+      [
+        "000066",
+        -0.375
+      ],
+      [
+        "000083",
+        -0.365
+      ],
+      [
+        "000098",
+        -0.344
+      ],
+      [
+        "000051",
+        -0.333
+      ],
+      [
+        "000068",
+        -0.333
+      ]
+    ],
+    "overestimated_examples": [
+      {
+        "arm": "p7",
+        "case": "000101",
+        "seed": "s1",
+        "full": 0.42857142857142855,
+        "diag": 1.0,
+        "per_idx": {
+          "0": 0.0,
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0,
+          "4": 0.0,
+          "5": 0.0,
+          "6": 0.0
+        }
+      },
+      {
+        "arm": "g3b",
+        "case": "000099",
+        "seed": "s0",
+        "full": 0.5625,
+        "diag": 1.0,
+        "per_idx": {
+          "0": 0.0,
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0,
+          "4": 0.0,
+          "5": 0.5,
+          "6": 0.0,
+          "7": 1.0
+        }
+      },
+      {
+        "arm": "p7",
+        "case": "000085",
+        "seed": "s0",
+        "full": 0.5714285714285714,
+        "diag": 1.0,
+        "per_idx": {
+          "0": 0.0,
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0,
+          "4": 0.0,
+          "5": 0.0,
+          "6": 1.0
+        }
+      },
+      {
+        "arm": "p7",
+        "case": "000094",
+        "seed": "s0",
+        "full": 0.6666666666666666,
+        "diag": 1.0,
+        "per_idx": {
+          "0": 0.0,
+          "1": 1.0,
+          "2": 1.0,
+          "3": 1.0,
+          "4": 0.0,
+          "5": 1.0
+        }
+      },
+      {
+        "arm": "g0",
+        "case": "000061",
+        "seed": "s0",
+        "full": 0.3333333333333333,
+        "diag": 0.6666666666666666,
+        "per_idx": {
+          "0": 0.0,
+          "1": 1.0,
+          "2": 1.0,
+          "3": 0.0,
+          "4": 0.0,
+          "5": 0.0
+        }
+      },
+      {
+        "arm": "p7",
+        "case": "000046",
+        "seed": "s1",
+        "full": 0.36363636363636365,
+        "diag": 0.6666666666666666,
+        "per_idx": {
+          "0": 0.0,
+          "1": 0.0,
+          "2": 1.0,
+          "3": 1.0,
+          "4": 0.0,
+          "5": 0.0,
+          "6": 0.0,
+          "7": 1.0,
+          "8": 0.0,
+          "9": 0.0,
+          "10": 1.0
+        }
+      }
+    ],
+    "underestimated_examples": [
+      {
+        "arm": "g3b",
+        "case": "000083",
+        "seed": "s1",
+        "full": 0.5714285714285714,
+        "diag": 0.0,
+        "per_idx": {
+          "0": 1.0,
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 1.0
+        }
+      },
+      {
+        "arm": "p7",
+        "case": "000083",
+        "seed": "s1",
+        "full": 0.5714285714285714,
+        "diag": 0.0,
+        "per_idx": {
+          "0": 1.0,
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 1.0
+        }
+      },
+      {
+        "arm": "g0",
+        "case": "000051",
+        "seed": "s0",
+        "full": 0.5555555555555556,
+        "diag": 0.0,
+        "per_idx": {
+          "0": 1.0,
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 1.0,
+          "5": 1.0,
+          "6": 1.0,
+          "7": 0.0,
+          "8": 1.0
+        }
+      },
+      {
+        "arm": "g0",
+        "case": "000007",
+        "seed": "s0",
+        "full": 0.5,
+        "diag": 0.0,
+        "per_idx": {
+          "0": 1.0,
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 1.0,
+          "5": 1.0
+        }
+      },
+      {
+        "arm": "g0",
+        "case": "000047",
+        "seed": "s1",
+        "full": 0.5,
+        "diag": 0.0,
+        "per_idx": {
+          "0": 1.0,
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 1.0,
+          "5": 0.5,
+          "6": 1.0
+        }
+      },
+      {
+        "arm": "g0",
+        "case": "000066",
+        "seed": "s1",
+        "full": 0.5,
+        "diag": 0.0,
+        "per_idx": {
+          "0": 1.0,
+          "1": 0.0,
+          "2": 0.0,
+          "3": 0.0,
+          "4": 1.0,
+          "5": 1.0
+        }
+      }
+    ]
+  }
+}

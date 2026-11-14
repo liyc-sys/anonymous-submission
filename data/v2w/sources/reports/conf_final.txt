@@ -1,0 +1,13 @@
+task               gen5a mean(n)        gen0 mean(n)        OH mean(n)
+aspose               0.388(6)         0.462(6)       0.368(5)
+bayleys              0.349(6)         0.373(6)       0.399(3)
+dermstore            0.426(6)         0.388(6)       0.129(3)
+eventbrite           0.549(6)         0.524(6)       0.299(4)
+
+gen5a: mean 0.4280 n=24 sd 0.177 crashed pages(<0.05) 3
+gen0 : mean 0.4367 n=24 sd 0.143 crashed pages 2
+OH   : mean 0.3079 n=15 sd 0.106 crashed pages 0
+
+gen5a−gen0: -0.0087 (SE 0.046, t≈-0.19)
+gen5a−OH  : +0.1201 (SE 0.045, t≈2.65)
+paired by task: vs gen0 -0.0087 (2/4 wins) | vs OH +0.1293 (3/4 wins)

@@ -1,0 +1,15 @@
+era,official_full_tasks,screening_diag_tasks,slots,n_arms
+M_crossmodel_fit,1300,0,216,6
+M_e1_unbiased_audit,3270,0,520,3
+M_smoke,16,0,3,1
+P1_official_only_rolling,7679,0,331,20
+P2_daemon_evidence,401,0,76,7
+P2_daemon_p4_p10,869,304,336,63
+P2_daemon_slices,988,0,180,15
+P2_p2final_full_audit,2432,0,115,2
+P2_p7_full_transfer,2276,0,109,2
+P2_r2_K3_confirm,222,0,36,3
+P2_r2_wide_search,181,0,27,5
+P2_train_evidence,66,0,12,1
+P2_ws_p3,144,38,48,9
+P3_postchampion_mechanism_hunt,6961,40,625,48

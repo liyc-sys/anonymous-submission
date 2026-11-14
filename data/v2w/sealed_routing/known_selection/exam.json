@@ -1,0 +1,290 @@
+[
+  {
+    "id": "bon_p2bon_known_jgen2_000_01",
+    "task": "hugedomains",
+    "A": "p2bon_known_jgen2__g000__a0",
+    "B": "p2bon_known_jgen2__g000__a1"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_000_02",
+    "task": "hugedomains",
+    "A": "p2bon_known_jgen2__g000__a0",
+    "B": "p2bon_known_jgen2__g000__a2"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_000_03",
+    "task": "hugedomains",
+    "A": "p2bon_known_jgen2__g000__a0",
+    "B": "p2bon_known_jgen2__g000__a3"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_000_12",
+    "task": "hugedomains",
+    "A": "p2bon_known_jgen2__g000__a1",
+    "B": "p2bon_known_jgen2__g000__a2"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_000_13",
+    "task": "hugedomains",
+    "A": "p2bon_known_jgen2__g000__a1",
+    "B": "p2bon_known_jgen2__g000__a3"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_000_23",
+    "task": "hugedomains",
+    "A": "p2bon_known_jgen2__g000__a2",
+    "B": "p2bon_known_jgen2__g000__a3"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_001_01",
+    "task": "hugedomains",
+    "A": "p2bon_known_jgen2__g001__a0",
+    "B": "p2bon_known_jgen2__g001__a1"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_001_02",
+    "task": "hugedomains",
+    "A": "p2bon_known_jgen2__g001__a0",
+    "B": "p2bon_known_jgen2__g001__a2"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_001_03",
+    "task": "hugedomains",
+    "A": "p2bon_known_jgen2__g001__a0",
+    "B": "p2bon_known_jgen2__g001__a3"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_001_12",
+    "task": "hugedomains",
+    "A": "p2bon_known_jgen2__g001__a1",
+    "B": "p2bon_known_jgen2__g001__a2"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_001_13",
+    "task": "hugedomains",
+    "A": "p2bon_known_jgen2__g001__a1",
+    "B": "p2bon_known_jgen2__g001__a3"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_001_23",
+    "task": "hugedomains",
+    "A": "p2bon_known_jgen2__g001__a2",
+    "B": "p2bon_known_jgen2__g001__a3"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_002_01",
+    "task": "jotform",
+    "A": "p2bon_known_jgen2__g002__a0",
+    "B": "p2bon_known_jgen2__g002__a1"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_002_02",
+    "task": "jotform",
+    "A": "p2bon_known_jgen2__g002__a0",
+    "B": "p2bon_known_jgen2__g002__a2"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_002_03",
+    "task": "jotform",
+    "A": "p2bon_known_jgen2__g002__a0",
+    "B": "p2bon_known_jgen2__g002__a3"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_002_12",
+    "task": "jotform",
+    "A": "p2bon_known_jgen2__g002__a1",
+    "B": "p2bon_known_jgen2__g002__a2"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_002_13",
+    "task": "jotform",
+    "A": "p2bon_known_jgen2__g002__a1",
+    "B": "p2bon_known_jgen2__g002__a3"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_002_23",
+    "task": "jotform",
+    "A": "p2bon_known_jgen2__g002__a2",
+    "B": "p2bon_known_jgen2__g002__a3"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_003_01",
+    "task": "jotform",
+    "A": "p2bon_known_jgen2__g003__a0",
+    "B": "p2bon_known_jgen2__g003__a1"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_003_02",
+    "task": "jotform",
+    "A": "p2bon_known_jgen2__g003__a0",
+    "B": "p2bon_known_jgen2__g003__a2"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_003_03",
+    "task": "jotform",
+    "A": "p2bon_known_jgen2__g003__a0",
+    "B": "p2bon_known_jgen2__g003__a3"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_003_12",
+    "task": "jotform",
+    "A": "p2bon_known_jgen2__g003__a1",
+    "B": "p2bon_known_jgen2__g003__a2"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_003_13",
+    "task": "jotform",
+    "A": "p2bon_known_jgen2__g003__a1",
+    "B": "p2bon_known_jgen2__g003__a3"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_003_23",
+    "task": "jotform",
+    "A": "p2bon_known_jgen2__g003__a2",
+    "B": "p2bon_known_jgen2__g003__a3"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_004_01",
+    "task": "legistify",
+    "A": "p2bon_known_jgen2__g004__a0",
+    "B": "p2bon_known_jgen2__g004__a1"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_004_02",
+    "task": "legistify",
+    "A": "p2bon_known_jgen2__g004__a0",
+    "B": "p2bon_known_jgen2__g004__a2"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_004_03",
+    "task": "legistify",
+    "A": "p2bon_known_jgen2__g004__a0",
+    "B": "p2bon_known_jgen2__g004__a3"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_004_12",
+    "task": "legistify",
+    "A": "p2bon_known_jgen2__g004__a1",
+    "B": "p2bon_known_jgen2__g004__a2"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_004_13",
+    "task": "legistify",
+    "A": "p2bon_known_jgen2__g004__a1",
+    "B": "p2bon_known_jgen2__g004__a3"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_004_23",
+    "task": "legistify",
+    "A": "p2bon_known_jgen2__g004__a2",
+    "B": "p2bon_known_jgen2__g004__a3"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_005_01",
+    "task": "legistify",
+    "A": "p2bon_known_jgen2__g005__a0",
+    "B": "p2bon_known_jgen2__g005__a1"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_005_02",
+    "task": "legistify",
+    "A": "p2bon_known_jgen2__g005__a0",
+    "B": "p2bon_known_jgen2__g005__a2"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_005_03",
+    "task": "legistify",
+    "A": "p2bon_known_jgen2__g005__a0",
+    "B": "p2bon_known_jgen2__g005__a3"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_005_12",
+    "task": "legistify",
+    "A": "p2bon_known_jgen2__g005__a1",
+    "B": "p2bon_known_jgen2__g005__a2"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_005_13",
+    "task": "legistify",
+    "A": "p2bon_known_jgen2__g005__a1",
+    "B": "p2bon_known_jgen2__g005__a3"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_005_23",
+    "task": "legistify",
+    "A": "p2bon_known_jgen2__g005__a2",
+    "B": "p2bon_known_jgen2__g005__a3"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_006_01",
+    "task": "recipecloud",
+    "A": "p2bon_known_jgen2__g006__a0",
+    "B": "p2bon_known_jgen2__g006__a1"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_006_02",
+    "task": "recipecloud",
+    "A": "p2bon_known_jgen2__g006__a0",
+    "B": "p2bon_known_jgen2__g006__a2"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_006_03",
+    "task": "recipecloud",
+    "A": "p2bon_known_jgen2__g006__a0",
+    "B": "p2bon_known_jgen2__g006__a3"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_006_12",
+    "task": "recipecloud",
+    "A": "p2bon_known_jgen2__g006__a1",
+    "B": "p2bon_known_jgen2__g006__a2"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_006_13",
+    "task": "recipecloud",
+    "A": "p2bon_known_jgen2__g006__a1",
+    "B": "p2bon_known_jgen2__g006__a3"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_006_23",
+    "task": "recipecloud",
+    "A": "p2bon_known_jgen2__g006__a2",
+    "B": "p2bon_known_jgen2__g006__a3"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_007_01",
+    "task": "recipecloud",
+    "A": "p2bon_known_jgen2__g007__a0",
+    "B": "p2bon_known_jgen2__g007__a1"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_007_02",
+    "task": "recipecloud",
+    "A": "p2bon_known_jgen2__g007__a0",
+    "B": "p2bon_known_jgen2__g007__a2"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_007_03",
+    "task": "recipecloud",
+    "A": "p2bon_known_jgen2__g007__a0",
+    "B": "p2bon_known_jgen2__g007__a3"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_007_12",
+    "task": "recipecloud",
+    "A": "p2bon_known_jgen2__g007__a1",
+    "B": "p2bon_known_jgen2__g007__a2"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_007_13",
+    "task": "recipecloud",
+    "A": "p2bon_known_jgen2__g007__a1",
+    "B": "p2bon_known_jgen2__g007__a3"
+  },
+  {
+    "id": "bon_p2bon_known_jgen2_007_23",
+    "task": "recipecloud",
+    "A": "p2bon_known_jgen2__g007__a2",
+    "B": "p2bon_known_jgen2__g007__a3"
+  }
+]

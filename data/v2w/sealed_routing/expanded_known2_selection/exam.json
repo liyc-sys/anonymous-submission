@@ -1,0 +1,50 @@
+[
+  {
+    "id": "bon_p2bon_known2_jgen2_000_01",
+    "task": "hugedomains",
+    "A": "p2bon_known2_jgen2__g000__a0",
+    "B": "p2bon_known2_jgen2__g000__a1"
+  },
+  {
+    "id": "bon_p2bon_known2_jgen2_001_01",
+    "task": "hugedomains",
+    "A": "p2bon_known2_jgen2__g001__a0",
+    "B": "p2bon_known2_jgen2__g001__a1"
+  },
+  {
+    "id": "bon_p2bon_known2_jgen2_002_01",
+    "task": "jotform",
+    "A": "p2bon_known2_jgen2__g002__a0",
+    "B": "p2bon_known2_jgen2__g002__a1"
+  },
+  {
+    "id": "bon_p2bon_known2_jgen2_003_01",
+    "task": "jotform",
+    "A": "p2bon_known2_jgen2__g003__a0",
+    "B": "p2bon_known2_jgen2__g003__a1"
+  },
+  {
+    "id": "bon_p2bon_known2_jgen2_004_01",
+    "task": "legistify",
+    "A": "p2bon_known2_jgen2__g004__a0",
+    "B": "p2bon_known2_jgen2__g004__a1"
+  },
+  {
+    "id": "bon_p2bon_known2_jgen2_005_01",
+    "task": "legistify",
+    "A": "p2bon_known2_jgen2__g005__a0",
+    "B": "p2bon_known2_jgen2__g005__a1"
+  },
+  {
+    "id": "bon_p2bon_known2_jgen2_006_01",
+    "task": "recipecloud",
+    "A": "p2bon_known2_jgen2__g006__a0",
+    "B": "p2bon_known2_jgen2__g006__a1"
+  },
+  {
+    "id": "bon_p2bon_known2_jgen2_007_01",
+    "task": "recipecloud",
+    "A": "p2bon_known2_jgen2__g007__a0",
+    "B": "p2bon_known2_jgen2__g007__a1"
+  }
+]

@@ -1,0 +1,257 @@
+{
+  "completed_at": "2026-07-18T18:38:44Z",
+  "next_gate": "next-search",
+  "dev_k1": {
+    "candidate": "p2bon_dev_jgen2",
+    "n": 8,
+    "baseline_mean": 0.603104,
+    "candidate_mean": 0.598273,
+    "mean_delta": -0.00483,
+    "ci95": [
+      -0.070641,
+      0.060981
+    ],
+    "official_winrate": 0.5,
+    "task_deltas": {
+      "aspose": 0.003026,
+      "bayleys": -0.015723,
+      "dermstore": 0.030093,
+      "eventbrite": -0.036717
+    },
+    "pairs": [
+      {
+        "task": "aspose",
+        "seed": "seed_0",
+        "baseline": 0.578869,
+        "candidate": 0.625662,
+        "delta": 0.046792
+      },
+      {
+        "task": "aspose",
+        "seed": "seed_1",
+        "baseline": 0.661111,
+        "candidate": 0.62037,
+        "delta": -0.040741
+      },
+      {
+        "task": "bayleys",
+        "seed": "seed_0",
+        "baseline": 0.615741,
+        "candidate": 0.535053,
+        "delta": -0.080688
+      },
+      {
+        "task": "bayleys",
+        "seed": "seed_1",
+        "baseline": 0.582913,
+        "candidate": 0.632155,
+        "delta": 0.049242
+      },
+      {
+        "task": "dermstore",
+        "seed": "seed_0",
+        "baseline": 0.501852,
+        "candidate": 0.631818,
+        "delta": 0.129966
+      },
+      {
+        "task": "dermstore",
+        "seed": "seed_1",
+        "baseline": 0.687121,
+        "candidate": 0.61734,
+        "delta": -0.069781
+      },
+      {
+        "task": "eventbrite",
+        "seed": "seed_0",
+        "baseline": 0.541667,
+        "candidate": 0.561111,
+        "delta": 0.019444
+      },
+      {
+        "task": "eventbrite",
+        "seed": "seed_1",
+        "baseline": 0.655556,
+        "candidate": 0.562677,
+        "delta": -0.092879
+      }
+    ],
+    "task_clustered": {
+      "n_tasks": 4,
+      "mean_delta": -0.004831,
+      "ci95": [
+        -0.044226,
+        0.034565
+      ]
+    }
+  },
+  "dev_k4": {
+    "candidate": "p2bon_dev_jgen2",
+    "n": 8,
+    "baseline_mean": 0.573926,
+    "candidate_mean": 0.597632,
+    "mean_delta": 0.023706,
+    "ci95": [
+      -0.01447,
+      0.061883
+    ],
+    "official_winrate": 0.625,
+    "task_deltas": {
+      "aspose": -0.013004,
+      "bayleys": 0.075777,
+      "dermstore": 0.032714,
+      "eventbrite": -0.000662
+    },
+    "pairs": [
+      {
+        "task": "aspose",
+        "seed": "seed_0",
+        "baseline": 0.556771,
+        "candidate": 0.552993,
+        "delta": -0.003778
+      },
+      {
+        "task": "aspose",
+        "seed": "seed_1",
+        "baseline": 0.594329,
+        "candidate": 0.572098,
+        "delta": -0.02223
+      },
+      {
+        "task": "bayleys",
+        "seed": "seed_0",
+        "baseline": 0.55399,
+        "candidate": 0.615462,
+        "delta": 0.061472
+      },
+      {
+        "task": "bayleys",
+        "seed": "seed_1",
+        "baseline": 0.535938,
+        "candidate": 0.62602,
+        "delta": 0.090082
+      },
+      {
+        "task": "dermstore",
+        "seed": "seed_0",
+        "baseline": 0.547653,
+        "candidate": 0.590244,
+        "delta": 0.042591
+      },
+      {
+        "task": "dermstore",
+        "seed": "seed_1",
+        "baseline": 0.576862,
+        "candidate": 0.5997,
+        "delta": 0.022838
+      },
+      {
+        "task": "eventbrite",
+        "seed": "seed_0",
+        "baseline": 0.581944,
+        "candidate": 0.627916,
+        "delta": 0.045972
+      },
+      {
+        "task": "eventbrite",
+        "seed": "seed_1",
+        "baseline": 0.643924,
+        "candidate": 0.596627,
+        "delta": -0.047297
+      }
+    ],
+    "task_clustered": {
+      "n_tasks": 4,
+      "mean_delta": 0.023706,
+      "ci95": [
+        -0.031431,
+        0.078843
+      ]
+    }
+  },
+  "known_k2": {
+    "candidate": "p2bon_known_jgen2",
+    "n": 8,
+    "baseline_mean": 0.523813,
+    "candidate_mean": 0.514602,
+    "mean_delta": -0.009211,
+    "ci95": [
+      -0.037698,
+      0.019275
+    ],
+    "official_winrate": 0.625,
+    "task_deltas": {
+      "hugedomains": -0.036723,
+      "jotform": 0.018739,
+      "legistify": -0.000716,
+      "recipecloud": -0.018145
+    },
+    "pairs": [
+      {
+        "task": "hugedomains",
+        "seed": "seed_0",
+        "baseline": 0.515625,
+        "candidate": 0.435764,
+        "delta": -0.079861
+      },
+      {
+        "task": "hugedomains",
+        "seed": "seed_1",
+        "baseline": 0.501571,
+        "candidate": 0.507986,
+        "delta": 0.006415
+      },
+      {
+        "task": "jotform",
+        "seed": "seed_0",
+        "baseline": 0.547024,
+        "candidate": 0.56471,
+        "delta": 0.017686
+      },
+      {
+        "task": "jotform",
+        "seed": "seed_1",
+        "baseline": 0.56875,
+        "candidate": 0.588542,
+        "delta": 0.019792
+      },
+      {
+        "task": "legistify",
+        "seed": "seed_0",
+        "baseline": 0.469444,
+        "candidate": 0.47878,
+        "delta": 0.009335
+      },
+      {
+        "task": "legistify",
+        "seed": "seed_1",
+        "baseline": 0.517216,
+        "candidate": 0.506449,
+        "delta": -0.010767
+      },
+      {
+        "task": "recipecloud",
+        "seed": "seed_0",
+        "baseline": 0.595873,
+        "candidate": 0.5575,
+        "delta": -0.038373
+      },
+      {
+        "task": "recipecloud",
+        "seed": "seed_1",
+        "baseline": 0.475,
+        "candidate": 0.477083,
+        "delta": 0.002083
+      }
+    ],
+    "task_clustered": {
+      "n_tasks": 4,
+      "mean_delta": -0.009211,
+      "ci95": [
+        -0.042156,
+        0.023733
+      ]
+    }
+  },
+  "phase2_gain": false
+}

@@ -1,0 +1,380 @@
+{
+  "config": {
+    "arms": [
+      "p2d_gen10",
+      "p2d_gen19b",
+      "p2d_gen19c",
+      "p2d_gen19d"
+    ],
+    "tasks": [
+      "aspose",
+      "bayleys",
+      "dermstore",
+      "eventbrite"
+    ],
+    "seeds": [
+      "0",
+      "1"
+    ],
+    "output_tag": "p2bon_dev_jgen2",
+    "judge": "judge_genomes/jgen2.py",
+    "selection_policy": "round-robin Copeland points; first arm wins exact point ties",
+    "score_access_policy": "selector reads rendered pages and prototypes only"
+  },
+  "groups": [
+    {
+      "task": "aspose",
+      "seed": "0",
+      "arms": [
+        "p2d_gen10",
+        "p2d_gen19b",
+        "p2d_gen19c",
+        "p2d_gen19d"
+      ],
+      "candidates": [
+        "p2bon_dev_jgen2__g000__a0",
+        "p2bon_dev_jgen2__g000__a1",
+        "p2bon_dev_jgen2__g000__a2",
+        "p2bon_dev_jgen2__g000__a3"
+      ],
+      "arm_index": 1,
+      "points": [
+        0.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "tied_arm_indices": [
+        1,
+        2,
+        3
+      ],
+      "selected_arm": "p2d_gen19b"
+    },
+    {
+      "task": "aspose",
+      "seed": "1",
+      "arms": [
+        "p2d_gen10",
+        "p2d_gen19b",
+        "p2d_gen19c",
+        "p2d_gen19d"
+      ],
+      "candidates": [
+        "p2bon_dev_jgen2__g001__a0",
+        "p2bon_dev_jgen2__g001__a1",
+        "p2bon_dev_jgen2__g001__a2",
+        "p2bon_dev_jgen2__g001__a3"
+      ],
+      "arm_index": 0,
+      "points": [
+        3.0,
+        2.0,
+        0.0,
+        1.0
+      ],
+      "tied_arm_indices": [
+        0
+      ],
+      "selected_arm": "p2d_gen10"
+    },
+    {
+      "task": "bayleys",
+      "seed": "0",
+      "arms": [
+        "p2d_gen10",
+        "p2d_gen19b",
+        "p2d_gen19c",
+        "p2d_gen19d"
+      ],
+      "candidates": [
+        "p2bon_dev_jgen2__g002__a0",
+        "p2bon_dev_jgen2__g002__a1",
+        "p2bon_dev_jgen2__g002__a2",
+        "p2bon_dev_jgen2__g002__a3"
+      ],
+      "arm_index": 1,
+      "points": [
+        1.0,
+        3.0,
+        2.0,
+        0.0
+      ],
+      "tied_arm_indices": [
+        1
+      ],
+      "selected_arm": "p2d_gen19b"
+    },
+    {
+      "task": "bayleys",
+      "seed": "1",
+      "arms": [
+        "p2d_gen10",
+        "p2d_gen19b",
+        "p2d_gen19c",
+        "p2d_gen19d"
+      ],
+      "candidates": [
+        "p2bon_dev_jgen2__g003__a0",
+        "p2bon_dev_jgen2__g003__a1",
+        "p2bon_dev_jgen2__g003__a2",
+        "p2bon_dev_jgen2__g003__a3"
+      ],
+      "arm_index": 2,
+      "points": [
+        2.0,
+        0.0,
+        3.0,
+        1.0
+      ],
+      "tied_arm_indices": [
+        2
+      ],
+      "selected_arm": "p2d_gen19c"
+    },
+    {
+      "task": "dermstore",
+      "seed": "0",
+      "arms": [
+        "p2d_gen10",
+        "p2d_gen19b",
+        "p2d_gen19c",
+        "p2d_gen19d"
+      ],
+      "candidates": [
+        "p2bon_dev_jgen2__g004__a0",
+        "p2bon_dev_jgen2__g004__a1",
+        "p2bon_dev_jgen2__g004__a2",
+        "p2bon_dev_jgen2__g004__a3"
+      ],
+      "arm_index": 3,
+      "points": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "tied_arm_indices": [
+        3
+      ],
+      "selected_arm": "p2d_gen19d"
+    },
+    {
+      "task": "dermstore",
+      "seed": "1",
+      "arms": [
+        "p2d_gen10",
+        "p2d_gen19b",
+        "p2d_gen19c",
+        "p2d_gen19d"
+      ],
+      "candidates": [
+        "p2bon_dev_jgen2__g005__a0",
+        "p2bon_dev_jgen2__g005__a1",
+        "p2bon_dev_jgen2__g005__a2",
+        "p2bon_dev_jgen2__g005__a3"
+      ],
+      "arm_index": 3,
+      "points": [
+        2.0,
+        0.0,
+        1.0,
+        3.0
+      ],
+      "tied_arm_indices": [
+        3
+      ],
+      "selected_arm": "p2d_gen19d"
+    },
+    {
+      "task": "eventbrite",
+      "seed": "0",
+      "arms": [
+        "p2d_gen10",
+        "p2d_gen19b",
+        "p2d_gen19c",
+        "p2d_gen19d"
+      ],
+      "candidates": [
+        "p2bon_dev_jgen2__g006__a0",
+        "p2bon_dev_jgen2__g006__a1",
+        "p2bon_dev_jgen2__g006__a2",
+        "p2bon_dev_jgen2__g006__a3"
+      ],
+      "arm_index": 1,
+      "points": [
+        2.0,
+        3.0,
+        0.0,
+        1.0
+      ],
+      "tied_arm_indices": [
+        1
+      ],
+      "selected_arm": "p2d_gen19b"
+    },
+    {
+      "task": "eventbrite",
+      "seed": "1",
+      "arms": [
+        "p2d_gen10",
+        "p2d_gen19b",
+        "p2d_gen19c",
+        "p2d_gen19d"
+      ],
+      "candidates": [
+        "p2bon_dev_jgen2__g007__a0",
+        "p2bon_dev_jgen2__g007__a1",
+        "p2bon_dev_jgen2__g007__a2",
+        "p2bon_dev_jgen2__g007__a3"
+      ],
+      "arm_index": 1,
+      "points": [
+        1.0,
+        3.0,
+        1.0,
+        1.0
+      ],
+      "tied_arm_indices": [
+        1
+      ],
+      "selected_arm": "p2d_gen19b"
+    }
+  ],
+  "selection_counts": {
+    "p2d_gen10": 1,
+    "p2d_gen19b": 4,
+    "p2d_gen19c": 1,
+    "p2d_gen19d": 2
+  },
+  "summary": {
+    "tag": "p2bon_dev_jgen2",
+    "jobs": 8,
+    "complete": 8,
+    "selector": "jgen2 three-viewport majority plus deterministic defect-aware fallback",
+    "results": [
+      {
+        "task": "aspose",
+        "seed": "seed_0",
+        "selected_arm": "p2d_gen19b",
+        "arm_index": 1,
+        "points": [
+          0.0,
+          2.0,
+          2.0,
+          2.0
+        ],
+        "tied_arm_indices": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "task": "aspose",
+        "seed": "seed_1",
+        "selected_arm": "p2d_gen10",
+        "arm_index": 0,
+        "points": [
+          3.0,
+          2.0,
+          0.0,
+          1.0
+        ],
+        "tied_arm_indices": [
+          0
+        ]
+      },
+      {
+        "task": "bayleys",
+        "seed": "seed_0",
+        "selected_arm": "p2d_gen19b",
+        "arm_index": 1,
+        "points": [
+          1.0,
+          3.0,
+          2.0,
+          0.0
+        ],
+        "tied_arm_indices": [
+          1
+        ]
+      },
+      {
+        "task": "bayleys",
+        "seed": "seed_1",
+        "selected_arm": "p2d_gen19c",
+        "arm_index": 2,
+        "points": [
+          2.0,
+          0.0,
+          3.0,
+          1.0
+        ],
+        "tied_arm_indices": [
+          2
+        ]
+      },
+      {
+        "task": "dermstore",
+        "seed": "seed_0",
+        "selected_arm": "p2d_gen19d",
+        "arm_index": 3,
+        "points": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "tied_arm_indices": [
+          3
+        ]
+      },
+      {
+        "task": "dermstore",
+        "seed": "seed_1",
+        "selected_arm": "p2d_gen19d",
+        "arm_index": 3,
+        "points": [
+          2.0,
+          0.0,
+          1.0,
+          3.0
+        ],
+        "tied_arm_indices": [
+          3
+        ]
+      },
+      {
+        "task": "eventbrite",
+        "seed": "seed_0",
+        "selected_arm": "p2d_gen19b",
+        "arm_index": 1,
+        "points": [
+          2.0,
+          3.0,
+          0.0,
+          1.0
+        ],
+        "tied_arm_indices": [
+          1
+        ]
+      },
+      {
+        "task": "eventbrite",
+        "seed": "seed_1",
+        "selected_arm": "p2d_gen19b",
+        "arm_index": 1,
+        "points": [
+          1.0,
+          3.0,
+          1.0,
+          1.0
+        ],
+        "tied_arm_indices": [
+          1
+        ]
+      }
+    ]
+  }
+}

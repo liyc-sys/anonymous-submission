@@ -1,0 +1,2517 @@
+{
+  "note": "Phase II curve raw material: x=number of official UI task executions (launched slots Σ n_ui×eval_reps; screening=official executions on the diagnostic subset, listed separately), y=champion timeline (dual protocol: selection-set + E1 unbiased anchor). Mac-era batches (P1 r1/r2b, P2 r1) counted from runs/ on the volume repo, K=1. UNMAPPED arms listed as-is, no forced bucketing.",
+  "per_arm": {
+    "c3gen3b": {
+      "slots": 12,
+      "launched_slots": 12,
+      "official_task_execs": 74,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_r2_K3_confirm"
+    },
+    "c3nav": {
+      "slots": 12,
+      "launched_slots": 12,
+      "official_task_execs": 74,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_r2_K3_confirm"
+    },
+    "c3sub": {
+      "slots": 12,
+      "launched_slots": 12,
+      "official_task_execs": 74,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_r2_K3_confirm"
+    },
+    "color": {
+      "slots": 3,
+      "launched_slots": 3,
+      "official_task_execs": 21,
+      "no_appearance": 0,
+      "median_n_ui": 7,
+      "kind": "official_full",
+      "era": "P2_r2_wide_search"
+    },
+    "ctrl": {
+      "slots": 9,
+      "launched_slots": 8,
+      "official_task_execs": 55,
+      "no_appearance": 0,
+      "median_n_ui": 7.0,
+      "kind": "official_full",
+      "era": "P2_r2_wide_search"
+    },
+    "ctrlF": {
+      "slots": 58,
+      "launched_slots": 52,
+      "official_task_execs": 1296,
+      "no_appearance": 0,
+      "median_n_ui": 12.0,
+      "kind": "official_full",
+      "era": "P2_p2final_full_audit"
+    },
+    "dp": {
+      "slots": 8,
+      "launched_slots": 7,
+      "official_task_execs": 42,
+      "no_appearance": 0,
+      "median_n_ui": 6,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "fa": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "fc": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "final_gen0": {
+      "slots": 50,
+      "launched_slots": 48,
+      "official_task_execs": 1168,
+      "no_appearance": 0,
+      "median_n_ui": 12.0,
+      "kind": "official_full",
+      "era": "P1_official_only_rolling"
+    },
+    "final_gen3b": {
+      "slots": 48,
+      "launched_slots": 48,
+      "official_task_execs": 1168,
+      "no_appearance": 0,
+      "median_n_ui": 12.0,
+      "kind": "official_full",
+      "era": "P1_official_only_rolling"
+    },
+    "form": {
+      "slots": 3,
+      "launched_slots": 3,
+      "official_task_execs": 21,
+      "no_appearance": 0,
+      "median_n_ui": 7,
+      "kind": "official_full",
+      "era": "P2_r2_wide_search"
+    },
+    "g0": {
+      "slots": 169,
+      "launched_slots": 166,
+      "official_task_execs": 1076,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "M_e1_unbiased_audit"
+    },
+    "g3b": {
+      "slots": 183,
+      "launched_slots": 173,
+      "official_task_execs": 1118,
+      "no_appearance": 0,
+      "median_n_ui": 6,
+      "kind": "official_full",
+      "era": "M_e1_unbiased_audit"
+    },
+    "m0": {
+      "slots": 48,
+      "launched_slots": 47,
+      "official_task_execs": 284,
+      "no_appearance": 0,
+      "median_n_ui": 6,
+      "kind": "official_full",
+      "era": "M_crossmodel_fit"
+    },
+    "m3b": {
+      "slots": 48,
+      "launched_slots": 48,
+      "official_task_execs": 292,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "M_crossmodel_fit"
+    },
+    "mp7": {
+      "slots": 48,
+      "launched_slots": 47,
+      "official_task_execs": 286,
+      "no_appearance": 0,
+      "median_n_ui": 6,
+      "kind": "official_full",
+      "era": "M_crossmodel_fit"
+    },
+    "nav": {
+      "slots": 9,
+      "launched_slots": 9,
+      "official_task_execs": 63,
+      "no_appearance": 0,
+      "median_n_ui": 7,
+      "kind": "official_full",
+      "era": "P2_r2_wide_search"
+    },
+    "navF": {
+      "slots": 57,
+      "launched_slots": 47,
+      "official_task_execs": 1136,
+      "no_appearance": 0,
+      "median_n_ui": 12,
+      "kind": "official_full",
+      "era": "P2_p2final_full_audit"
+    },
+    "navT": {
+      "slots": 12,
+      "launched_slots": 11,
+      "official_task_execs": 66,
+      "no_appearance": 0,
+      "median_n_ui": 6,
+      "kind": "official_full",
+      "era": "P2_train_evidence"
+    },
+    "ns": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "ns2": {
+      "slots": 16,
+      "launched_slots": 16,
+      "official_task_execs": 94,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "ns3": {
+      "slots": 48,
+      "launched_slots": 46,
+      "official_task_execs": 1112,
+      "no_appearance": 0,
+      "median_n_ui": 12.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p10_colorinlinem": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p10_formechoreve": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p10_namedfeatanc": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p10_navanchorres": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p10_searchidfloo": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p10_searchidflooo": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p10_vizartifactf": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p10_vizartifactfo": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p10par": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p11_behselfchk": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 16,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p11_behselfchko": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p11_bestof2": {
+      "slots": 8,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p11_bestof2o": {
+      "slots": 8,
+      "launched_slots": 2,
+      "official_task_execs": 11,
+      "no_appearance": 0,
+      "median_n_ui": 5.5,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p11_interruntime": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 16,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p11par": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p12X": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p12par": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 1,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p12v2X": {
+      "slots": 8,
+      "launched_slots": 7,
+      "official_task_execs": 42,
+      "no_appearance": 0,
+      "median_n_ui": 6,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p12v2par": {
+      "slots": 8,
+      "launched_slots": 7,
+      "official_task_execs": 42,
+      "no_appearance": 0,
+      "median_n_ui": 6,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p13X": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p13par": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p14X": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p14par": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 1,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p15X": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 1,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p15par": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p16X": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p16par": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p17X": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p17par": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p18X": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 1,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p18par": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p19X": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p19par": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 1,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p20X": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 1,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p20par": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p21": {
+      "slots": 16,
+      "launched_slots": 16,
+      "official_task_execs": 96,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p21b": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "p3_chartwidgetr": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_ws_p3"
+    },
+    "p3_multistatere": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_ws_p3"
+    },
+    "p3_multistatereo": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_ws_p3"
+    },
+    "p3_namedsection": {
+      "slots": 4,
+      "launched_slots": 3,
+      "official_task_execs": 6,
+      "no_appearance": 0,
+      "median_n_ui": 2,
+      "kind": "screening_diag",
+      "era": "P2_ws_p3"
+    },
+    "p3_sitesurvival": {
+      "slots": 4,
+      "launched_slots": 3,
+      "official_task_execs": 6,
+      "no_appearance": 0,
+      "median_n_ui": 2,
+      "kind": "screening_diag",
+      "era": "P2_ws_p3"
+    },
+    "p3_statefuledit": {
+      "slots": 4,
+      "launched_slots": 2,
+      "official_task_execs": 4,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_ws_p3"
+    },
+    "p3_submitacksta": {
+      "slots": 4,
+      "launched_slots": 3,
+      "official_task_execs": 6,
+      "no_appearance": 0,
+      "median_n_ui": 2,
+      "kind": "screening_diag",
+      "era": "P2_ws_p3"
+    },
+    "p3_submitackstao": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_ws_p3"
+    },
+    "p3par": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 1,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_ws_p3"
+    },
+    "p4_chartartifac": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p4_detailviewde": {
+      "slots": 4,
+      "launched_slots": 3,
+      "official_task_execs": 6,
+      "no_appearance": 0,
+      "median_n_ui": 2,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p4_formstaterou": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p4_formstaterouo": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p4_multivaluese": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p4_navmenuexhau": {
+      "slots": 4,
+      "launched_slots": 3,
+      "official_task_execs": 6,
+      "no_appearance": 0,
+      "median_n_ui": 2,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p4_routewireman": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p4_routewiremano": {
+      "slots": 8,
+      "launched_slots": 6,
+      "official_task_execs": 35,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p4par": {
+      "slots": 8,
+      "launched_slots": 7,
+      "official_task_execs": 42,
+      "no_appearance": 0,
+      "median_n_ui": 6,
+      "kind": "official_full",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p5_catfilter": {
+      "slots": 4,
+      "launched_slots": 3,
+      "official_task_execs": 6,
+      "no_appearance": 0,
+      "median_n_ui": 2,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p5_collectact": {
+      "slots": 4,
+      "launched_slots": 3,
+      "official_task_execs": 6,
+      "no_appearance": 0,
+      "median_n_ui": 2,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p5_detailpane": {
+      "slots": 4,
+      "launched_slots": 3,
+      "official_task_execs": 6,
+      "no_appearance": 0,
+      "median_n_ui": 2,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p5_formrecord": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p5_navreach": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p5_navreacho": {
+      "slots": 8,
+      "launched_slots": 7,
+      "official_task_execs": 41,
+      "no_appearance": 0,
+      "median_n_ui": 6,
+      "kind": "official_full",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p5_searchidx": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p5_searchidxo": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p5par": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p6_detailalways": {
+      "slots": 4,
+      "launched_slots": 3,
+      "official_task_execs": 6,
+      "no_appearance": 0,
+      "median_n_ui": 2,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p6_featurestubp": {
+      "slots": 4,
+      "launched_slots": 3,
+      "official_task_execs": 6,
+      "no_appearance": 0,
+      "median_n_ui": 2,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p6_navdumbancho": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p6_navdumbanchoo": {
+      "slots": 8,
+      "launched_slots": 6,
+      "official_task_execs": 36,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p6_searchprefil": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p6_searchprefilo": {
+      "slots": 8,
+      "launched_slots": 4,
+      "official_task_execs": 24,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p6_sitemissinga": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p6_viztablefall": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p6par": {
+      "slots": 8,
+      "launched_slots": 6,
+      "official_task_execs": 36,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p7": {
+      "slots": 168,
+      "launched_slots": 166,
+      "official_task_execs": 1076,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "M_e1_unbiased_audit"
+    },
+    "p7_colorspeccom": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p7_dataartifact": {
+      "slots": 4,
+      "launched_slots": 3,
+      "official_task_execs": 6,
+      "no_appearance": 0,
+      "median_n_ui": 2,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p7_emitatomicit": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p7_emitatomicito": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p7_formacksurfa": {
+      "slots": 4,
+      "launched_slots": 3,
+      "official_task_execs": 6,
+      "no_appearance": 0,
+      "median_n_ui": 2,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p7_namedfeature": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p7_namedfeatureo": {
+      "slots": 8,
+      "launched_slots": 3,
+      "official_task_execs": 19,
+      "no_appearance": 0,
+      "median_n_ui": 6,
+      "kind": "official_full",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p7_searchindexl": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p7par": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p8_colorinlines": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p8_detailinline": {
+      "slots": 4,
+      "launched_slots": 3,
+      "official_task_execs": 6,
+      "no_appearance": 0,
+      "median_n_ui": 2,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p8_emitguardret": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p8_formackinlin": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p8_formackinlino": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p8_navlabelpres": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p8_navlabelpreso": {
+      "slots": 8,
+      "launched_slots": 7,
+      "official_task_execs": 42,
+      "no_appearance": 0,
+      "median_n_ui": 6,
+      "kind": "official_full",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p8_searchprefil": {
+      "slots": 4,
+      "launched_slots": 3,
+      "official_task_execs": 6,
+      "no_appearance": 0,
+      "median_n_ui": 2,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p8par": {
+      "slots": 8,
+      "launched_slots": 6,
+      "official_task_execs": 37,
+      "no_appearance": 1,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p9_emitatomicit": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p9_emitatomicito": {
+      "slots": 8,
+      "launched_slots": 7,
+      "official_task_execs": 43,
+      "no_appearance": 0,
+      "median_n_ui": 6,
+      "kind": "official_full",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p9_formackinlin": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 8,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p9_formackinlino": {
+      "slots": 8,
+      "launched_slots": 7,
+      "official_task_execs": 41,
+      "no_appearance": 0,
+      "median_n_ui": 6,
+      "kind": "official_full",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p9_namedfeature": {
+      "slots": 4,
+      "launched_slots": 2,
+      "official_task_execs": 4,
+      "no_appearance": 0,
+      "median_n_ui": 2.0,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p9_navanchorlan": {
+      "slots": 4,
+      "launched_slots": 3,
+      "official_task_execs": 6,
+      "no_appearance": 0,
+      "median_n_ui": 2,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p9_searchprepop": {
+      "slots": 4,
+      "launched_slots": 3,
+      "official_task_execs": 6,
+      "no_appearance": 0,
+      "median_n_ui": 2,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p9_vizconcretea": {
+      "slots": 4,
+      "launched_slots": 3,
+      "official_task_execs": 6,
+      "no_appearance": 0,
+      "median_n_ui": 2,
+      "kind": "screening_diag",
+      "era": "P2_daemon_p4_p10"
+    },
+    "p9par": {
+      "slots": 8,
+      "launched_slots": 7,
+      "official_task_execs": 41,
+      "no_appearance": 0,
+      "median_n_ui": 6,
+      "kind": "official_full",
+      "era": "P2_daemon_p4_p10"
+    },
+    "par": {
+      "slots": 16,
+      "launched_slots": 16,
+      "official_task_execs": 96,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "parB": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "pb": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "pb2": {
+      "slots": 16,
+      "launched_slots": 16,
+      "official_task_execs": 94,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "pb3": {
+      "slots": 48,
+      "launched_slots": 47,
+      "official_task_execs": 1136,
+      "no_appearance": 0,
+      "median_n_ui": 12,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "podsmoke": {
+      "slots": 3,
+      "launched_slots": 3,
+      "official_task_execs": 16,
+      "no_appearance": 0,
+      "median_n_ui": 5,
+      "kind": "official_full",
+      "era": "M_smoke"
+    },
+    "r10ev": {
+      "slots": 12,
+      "launched_slots": 12,
+      "official_task_execs": 72,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_evidence"
+    },
+    "r10sC": {
+      "slots": 12,
+      "launched_slots": 12,
+      "official_task_execs": 74,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_slices"
+    },
+    "r10sX": {
+      "slots": 12,
+      "launched_slots": 12,
+      "official_task_execs": 74,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_slices"
+    },
+    "r12ev": {
+      "slots": 4,
+      "launched_slots": 4,
+      "official_task_execs": 24,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_evidence"
+    },
+    "r13sC": {
+      "slots": 16,
+      "launched_slots": 16,
+      "official_task_execs": 94,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "r13sX": {
+      "slots": 16,
+      "launched_slots": 16,
+      "official_task_execs": 94,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "r17sC": {
+      "slots": 16,
+      "launched_slots": 16,
+      "official_task_execs": 94,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "r17sX": {
+      "slots": 16,
+      "launched_slots": 16,
+      "official_task_execs": 94,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "r18fC": {
+      "slots": 49,
+      "launched_slots": 48,
+      "official_task_execs": 1168,
+      "no_appearance": 0,
+      "median_n_ui": 12.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "r18fX": {
+      "slots": 48,
+      "launched_slots": 48,
+      "official_task_execs": 1168,
+      "no_appearance": 0,
+      "median_n_ui": 12.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "r18sC": {
+      "slots": 16,
+      "launched_slots": 16,
+      "official_task_execs": 94,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "r18sX": {
+      "slots": 16,
+      "launched_slots": 16,
+      "official_task_execs": 94,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    },
+    "r3_ctrl": {
+      "slots": 24,
+      "launched_slots": 24,
+      "official_task_execs": 576,
+      "no_appearance": 0,
+      "median_n_ui": 12.0,
+      "kind": "official_full",
+      "era": "P1_official_only_rolling"
+    },
+    "r3_gen3a": {
+      "slots": 24,
+      "launched_slots": 24,
+      "official_task_execs": 576,
+      "no_appearance": 0,
+      "median_n_ui": 12.0,
+      "kind": "official_full",
+      "era": "P1_official_only_rolling"
+    },
+    "r3_gen3b": {
+      "slots": 25,
+      "launched_slots": 24,
+      "official_task_execs": 576,
+      "no_appearance": 0,
+      "median_n_ui": 12.0,
+      "kind": "official_full",
+      "era": "P1_official_only_rolling"
+    },
+    "r3s_ctrl": {
+      "slots": 1,
+      "launched_slots": 1,
+      "official_task_execs": 28,
+      "no_appearance": 0,
+      "median_n_ui": 14,
+      "kind": "official_full",
+      "era": "P1_official_only_rolling"
+    },
+    "r3s_gen3a": {
+      "slots": 1,
+      "launched_slots": 1,
+      "official_task_execs": 28,
+      "no_appearance": 0,
+      "median_n_ui": 14,
+      "kind": "official_full",
+      "era": "P1_official_only_rolling"
+    },
+    "r3s_gen3b": {
+      "slots": 1,
+      "launched_slots": 1,
+      "official_task_execs": 28,
+      "no_appearance": 0,
+      "median_n_ui": 14,
+      "kind": "official_full",
+      "era": "P1_official_only_rolling"
+    },
+    "r4_ctrl": {
+      "slots": 24,
+      "launched_slots": 24,
+      "official_task_execs": 576,
+      "no_appearance": 1,
+      "median_n_ui": 12.0,
+      "kind": "official_full",
+      "era": "P1_official_only_rolling"
+    },
+    "r4_gen4a": {
+      "slots": 27,
+      "launched_slots": 24,
+      "official_task_execs": 576,
+      "no_appearance": 0,
+      "median_n_ui": 12.0,
+      "kind": "official_full",
+      "era": "P1_official_only_rolling"
+    },
+    "r4_gen4b": {
+      "slots": 24,
+      "launched_slots": 24,
+      "official_task_execs": 576,
+      "no_appearance": 0,
+      "median_n_ui": 12.0,
+      "kind": "official_full",
+      "era": "P1_official_only_rolling"
+    },
+    "r4sC": {
+      "slots": 12,
+      "launched_slots": 12,
+      "official_task_execs": 74,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_slices"
+    },
+    "r4sP": {
+      "slots": 12,
+      "launched_slots": 12,
+      "official_task_execs": 74,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_slices"
+    },
+    "r4sX": {
+      "slots": 12,
+      "launched_slots": 12,
+      "official_task_execs": 74,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_slices"
+    },
+    "r4s_ctrl": {
+      "slots": 1,
+      "launched_slots": 1,
+      "official_task_execs": 20,
+      "no_appearance": 0,
+      "median_n_ui": 10,
+      "kind": "official_full",
+      "era": "P1_official_only_rolling"
+    },
+    "r4s_gen4a": {
+      "slots": 1,
+      "launched_slots": 1,
+      "official_task_execs": 20,
+      "no_appearance": 0,
+      "median_n_ui": 10,
+      "kind": "official_full",
+      "era": "P1_official_only_rolling"
+    },
+    "r4s_gen4b": {
+      "slots": 1,
+      "launched_slots": 1,
+      "official_task_execs": 20,
+      "no_appearance": 0,
+      "median_n_ui": 10,
+      "kind": "official_full",
+      "era": "P1_official_only_rolling"
+    },
+    "r5_ctrl": {
+      "slots": 25,
+      "launched_slots": 24,
+      "official_task_execs": 576,
+      "no_appearance": 0,
+      "median_n_ui": 12.0,
+      "kind": "official_full",
+      "era": "P1_official_only_rolling"
+    },
+    "r5_gen5c": {
+      "slots": 25,
+      "launched_slots": 24,
+      "official_task_execs": 576,
+      "no_appearance": 0,
+      "median_n_ui": 12.0,
+      "kind": "official_full",
+      "era": "P1_official_only_rolling"
+    },
+    "r5_gen5d": {
+      "slots": 26,
+      "launched_slots": 24,
+      "official_task_execs": 576,
+      "no_appearance": 0,
+      "median_n_ui": 12.0,
+      "kind": "official_full",
+      "era": "P1_official_only_rolling"
+    },
+    "r5ev": {
+      "slots": 12,
+      "launched_slots": 12,
+      "official_task_execs": 72,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_evidence"
+    },
+    "r5s_ctrl": {
+      "slots": 1,
+      "launched_slots": 1,
+      "official_task_execs": 5,
+      "no_appearance": 0,
+      "median_n_ui": 5,
+      "kind": "official_full",
+      "era": "P1_official_only_rolling"
+    },
+    "r5s_gen5c": {
+      "slots": 1,
+      "launched_slots": 1,
+      "official_task_execs": 5,
+      "no_appearance": 0,
+      "median_n_ui": 5,
+      "kind": "official_full",
+      "era": "P1_official_only_rolling"
+    },
+    "r5s_gen5d": {
+      "slots": 1,
+      "launched_slots": 1,
+      "official_task_execs": 5,
+      "no_appearance": 0,
+      "median_n_ui": 5,
+      "kind": "official_full",
+      "era": "P1_official_only_rolling"
+    },
+    "r6ev": {
+      "slots": 12,
+      "launched_slots": 11,
+      "official_task_execs": 67,
+      "no_appearance": 0,
+      "median_n_ui": 6,
+      "kind": "official_full",
+      "era": "P2_daemon_evidence"
+    },
+    "r6sC": {
+      "slots": 12,
+      "launched_slots": 7,
+      "official_task_execs": 42,
+      "no_appearance": 0,
+      "median_n_ui": 6,
+      "kind": "official_full",
+      "era": "P2_daemon_slices"
+    },
+    "r6sP": {
+      "slots": 12,
+      "launched_slots": 9,
+      "official_task_execs": 55,
+      "no_appearance": 0,
+      "median_n_ui": 6,
+      "kind": "official_full",
+      "era": "P2_daemon_slices"
+    },
+    "r6sX": {
+      "slots": 12,
+      "launched_slots": 10,
+      "official_task_execs": 63,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_slices"
+    },
+    "r7ev": {
+      "slots": 12,
+      "launched_slots": 9,
+      "official_task_execs": 54,
+      "no_appearance": 0,
+      "median_n_ui": 6,
+      "kind": "official_full",
+      "era": "P2_daemon_evidence"
+    },
+    "r7fC": {
+      "slots": 58,
+      "launched_slots": 47,
+      "official_task_execs": 1140,
+      "no_appearance": 0,
+      "median_n_ui": 12,
+      "kind": "official_full",
+      "era": "P2_p7_full_transfer"
+    },
+    "r7fX": {
+      "slots": 51,
+      "launched_slots": 47,
+      "official_task_execs": 1136,
+      "no_appearance": 0,
+      "median_n_ui": 12,
+      "kind": "official_full",
+      "era": "P2_p7_full_transfer"
+    },
+    "r7sC": {
+      "slots": 12,
+      "launched_slots": 9,
+      "official_task_execs": 57,
+      "no_appearance": 0,
+      "median_n_ui": 6,
+      "kind": "official_full",
+      "era": "P2_daemon_slices"
+    },
+    "r7sP": {
+      "slots": 12,
+      "launched_slots": 11,
+      "official_task_execs": 68,
+      "no_appearance": 0,
+      "median_n_ui": 6,
+      "kind": "official_full",
+      "era": "P2_daemon_slices"
+    },
+    "r7sX": {
+      "slots": 12,
+      "launched_slots": 11,
+      "official_task_execs": 67,
+      "no_appearance": 0,
+      "median_n_ui": 6,
+      "kind": "official_full",
+      "era": "P2_daemon_slices"
+    },
+    "r8ev": {
+      "slots": 12,
+      "launched_slots": 9,
+      "official_task_execs": 53,
+      "no_appearance": 0,
+      "median_n_ui": 6,
+      "kind": "official_full",
+      "era": "P2_daemon_evidence"
+    },
+    "r8sC": {
+      "slots": 12,
+      "launched_slots": 12,
+      "official_task_execs": 74,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_slices"
+    },
+    "r8sX": {
+      "slots": 12,
+      "launched_slots": 12,
+      "official_task_execs": 74,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_slices"
+    },
+    "r9ev": {
+      "slots": 12,
+      "launched_slots": 10,
+      "official_task_execs": 59,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_evidence"
+    },
+    "r9sC": {
+      "slots": 12,
+      "launched_slots": 9,
+      "official_task_execs": 56,
+      "no_appearance": 0,
+      "median_n_ui": 6,
+      "kind": "official_full",
+      "era": "P2_daemon_slices"
+    },
+    "r9sX": {
+      "slots": 12,
+      "launched_slots": 10,
+      "official_task_execs": 62,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P2_daemon_slices"
+    },
+    "search": {
+      "slots": 3,
+      "launched_slots": 3,
+      "official_task_execs": 21,
+      "no_appearance": 0,
+      "median_n_ui": 7,
+      "kind": "official_full",
+      "era": "P2_r2_wide_search"
+    },
+    "v0": {
+      "slots": 24,
+      "launched_slots": 24,
+      "official_task_execs": 146,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "M_crossmodel_fit"
+    },
+    "v3b": {
+      "slots": 24,
+      "launched_slots": 24,
+      "official_task_execs": 146,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "M_crossmodel_fit"
+    },
+    "vp7": {
+      "slots": 24,
+      "launched_slots": 24,
+      "official_task_execs": 146,
+      "no_appearance": 0,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "M_crossmodel_fit"
+    },
+    "wf": {
+      "slots": 8,
+      "launched_slots": 8,
+      "official_task_execs": 48,
+      "no_appearance": 1,
+      "median_n_ui": 6.0,
+      "kind": "official_full",
+      "era": "P3_postchampion_mechanism_hunt"
+    }
+  },
+  "mac_era_volume_runs": {
+    "atk1": {
+      "runs": 6,
+      "official_task_execs": 36
+    },
+    "atk2": {
+      "runs": 6,
+      "official_task_execs": 36
+    },
+    "calib_rep1": {
+      "runs": 8,
+      "official_task_execs": 50
+    },
+    "calib_rep2": {
+      "runs": 8,
+      "official_task_execs": 50
+    },
+    "conf_gen0": {
+      "runs": 24,
+      "official_task_execs": 146
+    },
+    "conf_gen1b": {
+      "runs": 24,
+      "official_task_execs": 146
+    },
+    "gen0_full101": {
+      "runs": 5,
+      "official_task_execs": 30
+    },
+    "gen0_train_r1": {
+      "runs": 12,
+      "official_task_execs": 72
+    },
+    "judge_gem": {
+      "runs": 1,
+      "official_task_execs": 5
+    },
+    "judge_qwen": {
+      "runs": 1,
+      "official_task_execs": 5
+    },
+    "p2_r1_budget": {
+      "runs": 12,
+      "official_task_execs": 24
+    },
+    "p2_r1_official": {
+      "runs": 7,
+      "official_task_execs": 47
+    },
+    "r1_ctrl": {
+      "runs": 6,
+      "official_task_execs": 36
+    },
+    "r1_gen1a": {
+      "runs": 12,
+      "official_task_execs": 72
+    },
+    "r1_gen1b": {
+      "runs": 12,
+      "official_task_execs": 72
+    },
+    "r2b_ctrl": {
+      "runs": 6,
+      "official_task_execs": 36
+    },
+    "r2b_gen2a": {
+      "runs": 12,
+      "official_task_execs": 72
+    },
+    "r2b_gen2b": {
+      "runs": 12,
+      "official_task_execs": 72
+    },
+    "smoke0": {
+      "runs": 2,
+      "official_task_execs": 12
+    },
+    "traces_g3b": {
+      "runs": 10,
+      "official_task_execs": 10
+    },
+    "void_r2_ctrl": {
+      "runs": 5,
+      "official_task_execs": 30
+    },
+    "void_r2_gen2a": {
+      "runs": 12,
+      "official_task_execs": 72
+    },
+    "void_r2_gen2b": {
+      "runs": 12,
+      "official_task_execs": 72
+    }
+  },
+  "era_totals": {
+    "P2_p2final_full_audit": {
+      "arms": [
+        "ctrlF",
+        "navF"
+      ],
+      "slots": 115,
+      "official_full_tasks": 2432,
+      "screening_diag_tasks": 0
+    },
+    "P3_postchampion_mechanism_hunt": {
+      "arms": [
+        "dp",
+        "fa",
+        "fc",
+        "ns",
+        "ns2",
+        "ns3",
+        "p11_behselfchk",
+        "p11_behselfchko",
+        "p11_bestof2",
+        "p11_bestof2o",
+        "p11_interruntime",
+        "p11par",
+        "p12X",
+        "p12par",
+        "p12v2X",
+        "p12v2par",
+        "p13X",
+        "p13par",
+        "p14X",
+        "p14par",
+        "p15X",
+        "p15par",
+        "p16X",
+        "p16par",
+        "p17X",
+        "p17par",
+        "p18X",
+        "p18par",
+        "p19X",
+        "p19par",
+        "p20X",
+        "p20par",
+        "p21",
+        "p21b",
+        "par",
+        "parB",
+        "pb",
+        "pb2",
+        "pb3",
+        "r13sC",
+        "r13sX",
+        "r17sC",
+        "r17sX",
+        "r18fC",
+        "r18fX",
+        "r18sC",
+        "r18sX",
+        "wf"
+      ],
+      "slots": 625,
+      "official_full_tasks": 6961,
+      "screening_diag_tasks": 40
+    },
+    "P1_official_only_rolling": {
+      "arms": [
+        "final_gen0",
+        "final_gen3b",
+        "r3_ctrl",
+        "r3_gen3a",
+        "r3_gen3b",
+        "r3s_ctrl",
+        "r3s_gen3a",
+        "r3s_gen3b",
+        "r4_ctrl",
+        "r4_gen4a",
+        "r4_gen4b",
+        "r4s_ctrl",
+        "r4s_gen4a",
+        "r4s_gen4b",
+        "r5_ctrl",
+        "r5_gen5c",
+        "r5_gen5d",
+        "r5s_ctrl",
+        "r5s_gen5c",
+        "r5s_gen5d"
+      ],
+      "slots": 331,
+      "official_full_tasks": 7679,
+      "screening_diag_tasks": 0
+    },
+    "P2_r2_wide_search": {
+      "arms": [
+        "color",
+        "ctrl",
+        "form",
+        "nav",
+        "search"
+      ],
+      "slots": 27,
+      "official_full_tasks": 181,
+      "screening_diag_tasks": 0
+    },
+    "M_e1_unbiased_audit": {
+      "arms": [
+        "g0",
+        "g3b",
+        "p7"
+      ],
+      "slots": 520,
+      "official_full_tasks": 3270,
+      "screening_diag_tasks": 0
+    },
+    "M_crossmodel_fit": {
+      "arms": [
+        "m0",
+        "m3b",
+        "mp7",
+        "v0",
+        "v3b",
+        "vp7"
+      ],
+      "slots": 216,
+      "official_full_tasks": 1300,
+      "screening_diag_tasks": 0
+    },
+    "P2_train_evidence": {
+      "arms": [
+        "navT"
+      ],
+      "slots": 12,
+      "official_full_tasks": 66,
+      "screening_diag_tasks": 0
+    },
+    "P2_daemon_p4_p10": {
+      "arms": [
+        "p10_colorinlinem",
+        "p10_formechoreve",
+        "p10_namedfeatanc",
+        "p10_navanchorres",
+        "p10_searchidfloo",
+        "p10_searchidflooo",
+        "p10_vizartifactf",
+        "p10_vizartifactfo",
+        "p10par",
+        "p4_chartartifac",
+        "p4_detailviewde",
+        "p4_formstaterou",
+        "p4_formstaterouo",
+        "p4_multivaluese",
+        "p4_navmenuexhau",
+        "p4_routewireman",
+        "p4_routewiremano",
+        "p4par",
+        "p5_catfilter",
+        "p5_collectact",
+        "p5_detailpane",
+        "p5_formrecord",
+        "p5_navreach",
+        "p5_navreacho",
+        "p5_searchidx",
+        "p5_searchidxo",
+        "p5par",
+        "p6_detailalways",
+        "p6_featurestubp",
+        "p6_navdumbancho",
+        "p6_navdumbanchoo",
+        "p6_searchprefil",
+        "p6_searchprefilo",
+        "p6_sitemissinga",
+        "p6_viztablefall",
+        "p6par",
+        "p7_colorspeccom",
+        "p7_dataartifact",
+        "p7_emitatomicit",
+        "p7_emitatomicito",
+        "p7_formacksurfa",
+        "p7_namedfeature",
+        "p7_namedfeatureo",
+        "p7_searchindexl",
+        "p7par",
+        "p8_colorinlines",
+        "p8_detailinline",
+        "p8_emitguardret",
+        "p8_formackinlin",
+        "p8_formackinlino",
+        "p8_navlabelpres",
+        "p8_navlabelpreso",
+        "p8_searchprefil",
+        "p8par",
+        "p9_emitatomicit",
+        "p9_emitatomicito",
+        "p9_formackinlin",
+        "p9_formackinlino",
+        "p9_namedfeature",
+        "p9_navanchorlan",
+        "p9_searchprepop",
+        "p9_vizconcretea",
+        "p9par"
+      ],
+      "slots": 336,
+      "official_full_tasks": 869,
+      "screening_diag_tasks": 304
+    },
+    "P2_ws_p3": {
+      "arms": [
+        "p3_chartwidgetr",
+        "p3_multistatere",
+        "p3_multistatereo",
+        "p3_namedsection",
+        "p3_sitesurvival",
+        "p3_statefuledit",
+        "p3_submitacksta",
+        "p3_submitackstao",
+        "p3par"
+      ],
+      "slots": 48,
+      "official_full_tasks": 144,
+      "screening_diag_tasks": 38
+    },
+    "P2_daemon_evidence": {
+      "arms": [
+        "r10ev",
+        "r12ev",
+        "r5ev",
+        "r6ev",
+        "r7ev",
+        "r8ev",
+        "r9ev"
+      ],
+      "slots": 76,
+      "official_full_tasks": 401,
+      "screening_diag_tasks": 0
+    },
+    "P2_daemon_slices": {
+      "arms": [
+        "r10sC",
+        "r10sX",
+        "r4sC",
+        "r4sP",
+        "r4sX",
+        "r6sC",
+        "r6sP",
+        "r6sX",
+        "r7sC",
+        "r7sP",
+        "r7sX",
+        "r8sC",
+        "r8sX",
+        "r9sC",
+        "r9sX"
+      ],
+      "slots": 180,
+      "official_full_tasks": 988,
+      "screening_diag_tasks": 0
+    },
+    "P2_p7_full_transfer": {
+      "arms": [
+        "r7fC",
+        "r7fX"
+      ],
+      "slots": 109,
+      "official_full_tasks": 2276,
+      "screening_diag_tasks": 0
+    },
+    "P2_r2_K3_confirm": {
+      "arms": [
+        "c3gen3b",
+        "c3nav",
+        "c3sub"
+      ],
+      "slots": 36,
+      "official_full_tasks": 222,
+      "screening_diag_tasks": 0
+    },
+    "M_smoke": {
+      "arms": [
+        "podsmoke"
+      ],
+      "slots": 3,
+      "official_full_tasks": 16,
+      "screening_diag_tasks": 0
+    }
+  },
+  "search_rounds_meta": {
+    "p10": {
+      "parent": "p7_emitatomicit",
+      "n_candidates": 6,
+      "n_screened": 6,
+      "shortlist_K": 2,
+      "eval_saving_tasks": 0.429
+    },
+    "p3": {
+      "parent": "p2r2_nav",
+      "n_candidates": 6,
+      "n_screened": 6,
+      "shortlist_K": 2,
+      "eval_saving_tasks": 0.429
+    },
+    "p4": {
+      "parent": "p2r2_nav",
+      "n_candidates": 6,
+      "n_screened": 6,
+      "shortlist_K": 2,
+      "eval_saving_tasks": 0.429
+    },
+    "p5": {
+      "parent": "p4_formstaterou",
+      "n_candidates": 6,
+      "n_screened": 6,
+      "shortlist_K": 2,
+      "eval_saving_tasks": 0.429
+    },
+    "p6": {
+      "parent": "p4_formstaterou",
+      "n_candidates": 6,
+      "n_screened": 6,
+      "shortlist_K": 2,
+      "eval_saving_tasks": 0.429
+    },
+    "p7": {
+      "parent": "p6_navdumbancho",
+      "n_candidates": 6,
+      "n_screened": 6,
+      "shortlist_K": 2,
+      "eval_saving_tasks": 0.429
+    },
+    "p8": {
+      "parent": "p7_emitatomicit",
+      "n_candidates": 6,
+      "n_screened": 6,
+      "shortlist_K": 2,
+      "eval_saving_tasks": 0.429
+    },
+    "p9": {
+      "parent": "p7_emitatomicit",
+      "n_candidates": 6,
+      "n_screened": 6,
+      "shortlist_K": 2,
+      "eval_saving_tasks": 0.429
+    }
+  },
+  "daemon_state_history": {
+    "champion": "p7_emitatomicit",
+    "leader": null,
+    "leader_delta": 0.0,
+    "round_no": 10,
+    "history": [
+      {
+        "round": 4,
+        "parent": "p2r2_nav",
+        "cand": "p4_formstaterou",
+        "saving": 0.429,
+        "slice": {
+          "mean": 0.0307,
+          "t": 0.34,
+          "n": 6,
+          "wins": 2,
+          "losses": 3,
+          "diffs": [
+            -0.036,
+            -0.167,
+            0.0,
+            0.125,
+            -0.167,
+            0.429
+          ]
+        }
+      },
+      {
+        "round": 5,
+        "parent": "p4_formstaterou",
+        "cand": null,
+        "saving": 0.429
+      },
+      {
+        "round": 6,
+        "parent": "p4_formstaterou",
+        "cand": "p6_navdumbancho",
+        "saving": 0.429,
+        "slice": {
+          "mean": 0.0919,
+          "t": 0.74,
+          "n": 6,
+          "wins": 3,
+          "losses": 3,
+          "diffs": [
+            0.214,
+            -0.042,
+            -0.3,
+            0.167,
+            0.583,
+            -0.071
+          ]
+        }
+      },
+      {
+        "round": 7,
+        "parent": "p6_navdumbancho",
+        "cand": "p7_emitatomicit",
+        "saving": 0.429,
+        "slice": {
+          "mean": 0.1361,
+          "t": 1.44,
+          "n": 6,
+          "wins": 4,
+          "losses": 2,
+          "diffs": [
+            -0.179,
+            0.25,
+            0.4,
+            0.083,
+            0.333,
+            -0.071
+          ]
+        },
+        "full": {
+          "mean": 0.0584,
+          "t": 1.67,
+          "n": 12,
+          "wins": 8,
+          "losses": 4,
+          "diffs": [
+            -0.125,
+            0.042,
+            0.037,
+            0.135,
+            0.177,
+            0.17,
+            -0.156,
+            0.125,
+            -0.01,
+            0.135,
+            0.213,
+            -0.042
+          ]
+        },
+        "transfer": true
+      },
+      {
+        "round": 8,
+        "parent": "p7_emitatomicit",
+        "cand": "p8_navlabelpres",
+        "saving": 0.429,
+        "slice": {
+          "mean": -0.0782,
+          "t": -0.66,
+          "n": 6,
+          "wins": 4,
+          "losses": 2,
+          "diffs": [
+            0.143,
+            -0.333,
+            0.15,
+            0.042,
+            -0.542,
+            0.071
+          ]
+        }
+      },
+      {
+        "round": 9,
+        "parent": "p7_emitatomicit",
+        "cand": "p9_formackinlin",
+        "saving": 0.429,
+        "slice": {
+          "mean": -0.073,
+          "t": -0.8,
+          "n": 6,
+          "wins": 2,
+          "losses": 4,
+          "diffs": [
+            0.036,
+            -0.333,
+            0.3,
+            -0.25,
+            -0.083,
+            -0.107
+          ]
+        }
+      }
+    ]
+  },
+  "champion_timeline": [
+    {
+      "event": "P1 final review gen3b transfer (§16, 12 heldout × m4 × K2)",
+      "champion": "gen3b",
+      "selection_set_scores": {
+        "gen0": 0.541,
+        "gen3b": 0.5921
+      },
+      "delta": "+0.0511 t=1.485 W7/L5",
+      "raw": "evolve/evidence/final_m4k2_retry_compare.json"
+    },
+    {
+      "event": "P2 nav full final review failed the gate (champion remains gen3b)",
+      "champion": "gen3b",
+      "raw_content": {
+        "batch": "p2final (de670) + retry (44d61)",
+        "protocol": "12 heldout × 4 seeds × 2 eval-reps, interleaved within the same batch; crashed attempt1 retried, earliest success scored",
+        "n_result_files": 114,
+        "n_resolved": 96,
+        "missing": {
+          "ctrlF": 0,
+          "navF": 0
+        },
+        "crash_ledger": {
+          "ctrlF": {
+            "initial_crash": 6,
+            "retried_ok": 6,
+            "residual_crash": 0
+          },
+          "navF": {
+            "initial_crash": 9,
+            "retried_ok": 7,
+            "residual_crash": 2
+          }
+        },
+        "per_case": {
+          "000005": {
+            "gen3b": 0.5446,
+            "nav": 0.4821,
+            "n_seeds": [
+              4,
+              4
+            ]
+          },
+          "000012": {
+            "gen3b": 0.4479,
+            "nav": 0.5208,
+            "n_seeds": [
+              4,
+              4
+            ]
+          },
+          "000014": {
+            "gen3b": 0.6875,
+            "nav": 0.7875,
+            "n_seeds": [
+              4,
+              4
+            ]
+          },
+          "000018": {
+            "gen3b": 0.7083,
+            "nav": 0.7084,
+            "n_seeds": [
+              4,
+              4
+            ]
+          },
+          "000028": {
+            "gen3b": 0.8438,
+            "nav": 0.6875,
+            "n_seeds": [
+              4,
+              4
+            ]
+          },
+          "000029": {
+            "gen3b": 0.4107,
+            "nav": 0.5267,
+            "n_seeds": [
+              4,
+              4
+            ]
+          },
+          "000030": {
+            "gen3b": 0.5,
+            "nav": 0.5469,
+            "n_seeds": [
+              4,
+              4
+            ]
+          },
+          "000055": {
+            "gen3b": 0.4553,
+            "nav": 0.6339,
+            "n_seeds": [
+              4,
+              4
+            ]
+          },
+          "000065": {
+            "gen3b": 0.6771,
+            "nav": 0.7291,
+            "n_seeds": [
+              4,
+              4
+            ]
+          },
+          "000070": {
+            "gen3b": 0.5521,
+            "nav": 0.6354,
+            "n_seeds": [
+              4,
+              4
+            ]
+          },
+          "000076": {
+            "gen3b": 0.7125,
+            "nav": 0.65,
+            "n_seeds": [
+              4,
+              4
+            ]
+          },
+          "000087": {
+            "gen3b": 0.2344,
+            "nav": 0.2188,
+            "n_seeds": [
+              4,
+              4
+            ]
+          }
+        },
+        "n_paired_cases": 12,
+        "nav_minus_gen3b": {
+          "mean": 0.0294,
+          "sd": 0.0927,
+          "t": 1.099,
+          "wins": 7,
+          "losses": 4,
+          "diffs": [
+            -0.063,
+            0.073,
+            0.1,
+            0.0,
+            -0.156,
+            0.116,
+            0.047,
+            0.179,
+            0.052,
+            0.083,
+            -0.062,
+            -0.016
+          ]
+        },
+        "appearance": {
+          "ctrlF": 4.042,
+          "navF": 4.0
+        },
+        "arm_means": {
+          "ctrlF": 0.5645,
+          "navF": 0.5939
+        },
+        "gate_pass": false,
+        "champion": "gen3b (nav failed the gate, downgraded to a directional result)",
+        "ts": "0719-06:06"
+      }
+    },
+    {
+      "event": "P2 daemon p7_emitatomicit full three-gate transfer (§17 cont. 6)",
+      "champion": "p7_emitatomicit",
+      "delta": "+0.0584 t=1.67 W8/L4",
+      "raw_content": {
+        "cand": "p7_emitatomicit",
+        "champion": "gen3b",
+        "verdict": {
+          "mean": 0.0584,
+          "t": 1.67,
+          "n": 12,
+          "wins": 8,
+          "losses": 4,
+          "diffs": [
+            -0.125,
+            0.042,
+            0.037,
+            0.135,
+            0.177,
+            0.17,
+            -0.156,
+            0.125,
+            -0.01,
+            0.135,
+            0.213,
+            -0.042
+          ]
+        },
+        "ledger": {
+          "r7fC": {
+            "initial_crash": 10,
+            "retried_ok": 9,
+            "residual_crash": 1
+          },
+          "r7fX": {
+            "initial_crash": 3,
+            "retried_ok": 2,
+            "residual_crash": 1
+          }
+        },
+        "gate_pass": true,
+        "per": {
+          "r7fC|000005": 0.6518,
+          "r7fC|000012": 0.4583,
+          "r7fC|000014": 0.775,
+          "r7fC|000018": 0.6041,
+          "r7fC|000028": 0.6666,
+          "r7fC|000029": 0.2054,
+          "r7fC|000030": 0.5312,
+          "r7fC|000055": 0.5447,
+          "r7fC|000065": 0.7083,
+          "r7fC|000070": 0.5938,
+          "r7fC|000076": 0.7125,
+          "r7fC|000087": 0.3125,
+          "r7fX|000005": 0.5268,
+          "r7fX|000012": 0.5,
+          "r7fX|000014": 0.8125,
+          "r7fX|000018": 0.7396,
+          "r7fX|000028": 0.8437,
+          "r7fX|000029": 0.375,
+          "r7fX|000030": 0.375,
+          "r7fX|000055": 0.6697,
+          "r7fX|000065": 0.6979,
+          "r7fX|000070": 0.7292,
+          "r7fX|000076": 0.925,
+          "r7fX|000087": 0.2708
+        }
+      }
+    },
+    {
+      "event": "E1 unbiased re-test anchor (83 untouched cases, §18) — second y protocol of the curve",
+      "arms": {
+        "g0": {
+          "n_cases": 83,
+          "mean_acc": 0.5342
+        },
+        "g3b": {
+          "n_cases": 83,
+          "mean_acc": 0.5924
+        },
+        "p7": {
+          "n_cases": 83,
+          "mean_acc": 0.5527
+        }
+      },
+      "pairs": {
+        "p7-g0": {
+          "mean_delta": 0.0185,
+          "W/L/T": "41/28/14"
+        },
+        "p7-g3b": {
+          "mean_delta": -0.0397,
+          "W/L/T": "31/39/13"
+        },
+        "g3b-g0": {
+          "mean_delta": 0.0582,
+          "W/L/T": "44/31/8"
+        }
+      }
+    }
+  ]
+}

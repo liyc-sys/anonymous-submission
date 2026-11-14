@@ -1,0 +1,10 @@
+{
+ "round": "ganR3",
+ "n": 14,
+ "judge_winrate": 0.429,
+ "cand_official": 0.496,
+ "ref_official": 0.4999,
+ "official_delta": -0.004,
+ "fooling_pairs": 0,
+ "fools": []
+}

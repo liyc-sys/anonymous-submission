@@ -1,0 +1,27 @@
+{
+ "documented": {
+  "sigma_rep_viewport": 0.0906,
+  "sigma_K1": 0.052,
+  "sigma_K2": 0.037,
+  "sigma_K4": 0.026,
+  "same_harness_regen_sigma": 0.06,
+  "source": "analysis/round1_analysis.md / PHASE2_CONTINUATION.md"
+ },
+ "composite_repeat_K1": {
+  "n": 8,
+  "mean_abs_diff": 0.0338,
+  "sd_diff": 0.0424,
+  "max_abs": 0.0731,
+  "note": "identical composite pages evaluated under two labels (union==b1 picks)"
+ },
+ "same_arm_redraw_gen10": {
+  "n": 8,
+  "sd_diff": 0.0929,
+  "mean_diff": 0.0076
+ },
+ "same_arm_redraw_gen19b": {
+  "n": 8,
+  "sd_diff": 0.0953,
+  "mean_diff": 0.0095
+ }
+}

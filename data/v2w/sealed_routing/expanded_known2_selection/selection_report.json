@@ -1,0 +1,308 @@
+{
+  "config": {
+    "arms": [
+      "p2bk_gen10",
+      "p2bk_gen20b"
+    ],
+    "tasks": [
+      "hugedomains",
+      "jotform",
+      "legistify",
+      "recipecloud"
+    ],
+    "seeds": [
+      "0",
+      "1"
+    ],
+    "output_tag": "p2bon_known2_jgen2",
+    "judge": "judge_genomes/jgen2.py",
+    "selection_policy": "round-robin Copeland points; first arm wins exact point ties",
+    "score_access_policy": "selector reads rendered pages and prototypes only"
+  },
+  "groups": [
+    {
+      "task": "hugedomains",
+      "seed": "0",
+      "arms": [
+        "p2bk_gen10",
+        "p2bk_gen20b"
+      ],
+      "candidates": [
+        "p2bon_known2_jgen2__g000__a0",
+        "p2bon_known2_jgen2__g000__a1"
+      ],
+      "arm_index": 1,
+      "points": [
+        0.0,
+        1.0
+      ],
+      "tied_arm_indices": [
+        1
+      ],
+      "selected_arm": "p2bk_gen20b"
+    },
+    {
+      "task": "hugedomains",
+      "seed": "1",
+      "arms": [
+        "p2bk_gen10",
+        "p2bk_gen20b"
+      ],
+      "candidates": [
+        "p2bon_known2_jgen2__g001__a0",
+        "p2bon_known2_jgen2__g001__a1"
+      ],
+      "arm_index": 0,
+      "points": [
+        1.0,
+        0.0
+      ],
+      "tied_arm_indices": [
+        0
+      ],
+      "selected_arm": "p2bk_gen10"
+    },
+    {
+      "task": "jotform",
+      "seed": "0",
+      "arms": [
+        "p2bk_gen10",
+        "p2bk_gen20b"
+      ],
+      "candidates": [
+        "p2bon_known2_jgen2__g002__a0",
+        "p2bon_known2_jgen2__g002__a1"
+      ],
+      "arm_index": 1,
+      "points": [
+        0.0,
+        1.0
+      ],
+      "tied_arm_indices": [
+        1
+      ],
+      "selected_arm": "p2bk_gen20b"
+    },
+    {
+      "task": "jotform",
+      "seed": "1",
+      "arms": [
+        "p2bk_gen10",
+        "p2bk_gen20b"
+      ],
+      "candidates": [
+        "p2bon_known2_jgen2__g003__a0",
+        "p2bon_known2_jgen2__g003__a1"
+      ],
+      "arm_index": 1,
+      "points": [
+        0.0,
+        1.0
+      ],
+      "tied_arm_indices": [
+        1
+      ],
+      "selected_arm": "p2bk_gen20b"
+    },
+    {
+      "task": "legistify",
+      "seed": "0",
+      "arms": [
+        "p2bk_gen10",
+        "p2bk_gen20b"
+      ],
+      "candidates": [
+        "p2bon_known2_jgen2__g004__a0",
+        "p2bon_known2_jgen2__g004__a1"
+      ],
+      "arm_index": 0,
+      "points": [
+        1.0,
+        0.0
+      ],
+      "tied_arm_indices": [
+        0
+      ],
+      "selected_arm": "p2bk_gen10"
+    },
+    {
+      "task": "legistify",
+      "seed": "1",
+      "arms": [
+        "p2bk_gen10",
+        "p2bk_gen20b"
+      ],
+      "candidates": [
+        "p2bon_known2_jgen2__g005__a0",
+        "p2bon_known2_jgen2__g005__a1"
+      ],
+      "arm_index": 0,
+      "points": [
+        1.0,
+        0.0
+      ],
+      "tied_arm_indices": [
+        0
+      ],
+      "selected_arm": "p2bk_gen10"
+    },
+    {
+      "task": "recipecloud",
+      "seed": "0",
+      "arms": [
+        "p2bk_gen10",
+        "p2bk_gen20b"
+      ],
+      "candidates": [
+        "p2bon_known2_jgen2__g006__a0",
+        "p2bon_known2_jgen2__g006__a1"
+      ],
+      "arm_index": 0,
+      "points": [
+        1.0,
+        0.0
+      ],
+      "tied_arm_indices": [
+        0
+      ],
+      "selected_arm": "p2bk_gen10"
+    },
+    {
+      "task": "recipecloud",
+      "seed": "1",
+      "arms": [
+        "p2bk_gen10",
+        "p2bk_gen20b"
+      ],
+      "candidates": [
+        "p2bon_known2_jgen2__g007__a0",
+        "p2bon_known2_jgen2__g007__a1"
+      ],
+      "arm_index": 0,
+      "points": [
+        1.0,
+        0.0
+      ],
+      "tied_arm_indices": [
+        0
+      ],
+      "selected_arm": "p2bk_gen10"
+    }
+  ],
+  "selection_counts": {
+    "p2bk_gen10": 5,
+    "p2bk_gen20b": 3
+  },
+  "summary": {
+    "tag": "p2bon_known2_jgen2",
+    "jobs": 8,
+    "complete": 8,
+    "selector": "jgen2 three-viewport majority plus deterministic defect-aware fallback",
+    "results": [
+      {
+        "task": "hugedomains",
+        "seed": "seed_0",
+        "selected_arm": "p2bk_gen20b",
+        "arm_index": 1,
+        "points": [
+          0.0,
+          1.0
+        ],
+        "tied_arm_indices": [
+          1
+        ]
+      },
+      {
+        "task": "hugedomains",
+        "seed": "seed_1",
+        "selected_arm": "p2bk_gen10",
+        "arm_index": 0,
+        "points": [
+          1.0,
+          0.0
+        ],
+        "tied_arm_indices": [
+          0
+        ]
+      },
+      {
+        "task": "jotform",
+        "seed": "seed_0",
+        "selected_arm": "p2bk_gen20b",
+        "arm_index": 1,
+        "points": [
+          0.0,
+          1.0
+        ],
+        "tied_arm_indices": [
+          1
+        ]
+      },
+      {
+        "task": "jotform",
+        "seed": "seed_1",
+        "selected_arm": "p2bk_gen20b",
+        "arm_index": 1,
+        "points": [
+          0.0,
+          1.0
+        ],
+        "tied_arm_indices": [
+          1
+        ]
+      },
+      {
+        "task": "legistify",
+        "seed": "seed_0",
+        "selected_arm": "p2bk_gen10",
+        "arm_index": 0,
+        "points": [
+          1.0,
+          0.0
+        ],
+        "tied_arm_indices": [
+          0
+        ]
+      },
+      {
+        "task": "legistify",
+        "seed": "seed_1",
+        "selected_arm": "p2bk_gen10",
+        "arm_index": 0,
+        "points": [
+          1.0,
+          0.0
+        ],
+        "tied_arm_indices": [
+          0
+        ]
+      },
+      {
+        "task": "recipecloud",
+        "seed": "seed_0",
+        "selected_arm": "p2bk_gen10",
+        "arm_index": 0,
+        "points": [
+          1.0,
+          0.0
+        ],
+        "tied_arm_indices": [
+          0
+        ]
+      },
+      {
+        "task": "recipecloud",
+        "seed": "seed_1",
+        "selected_arm": "p2bk_gen10",
+        "arm_index": 0,
+        "points": [
+          1.0,
+          0.0
+        ],
+        "tied_arm_indices": [
+          0
+        ]
+      }
+    ]
+  }
+}

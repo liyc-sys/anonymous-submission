@@ -1,0 +1,678 @@
+{
+ "n0725": {
+  "n0725_comp4_jgen4/n0725_comp4_jgen4_k1_summary.json": {
+   "label": "n0725_comp4_jgen4_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.59663,
+   "per_instance": {
+    "aspose|seed_0": 0.547619,
+    "aspose|seed_1": 0.5714286666666667,
+    "bayleys|seed_0": 0.7083333333333334,
+    "bayleys|seed_1": 0.6392856666666666,
+    "dermstore|seed_0": 0.453283,
+    "dermstore|seed_1": 0.5732323333333333,
+    "eventbrite|seed_0": 0.5993056666666666,
+    "eventbrite|seed_1": 0.6805556666666667
+   }
+  },
+  "n0725_comp4_jgen4/n0725_comp4_jgen4_k2_summary.json": {
+   "label": "n0725_comp4_jgen4_k2",
+   "K": 2,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.587782,
+   "per_instance": {
+    "aspose|seed_0": 0.5776786666666667,
+    "aspose|seed_1": 0.6155586666666667,
+    "bayleys|seed_0": 0.5689813333333333,
+    "bayleys|seed_1": 0.6532736666666666,
+    "dermstore|seed_0": 0.4661106666666667,
+    "dermstore|seed_1": 0.5766276666666666,
+    "eventbrite|seed_0": 0.6637203333333334,
+    "eventbrite|seed_1": 0.5803073333333333
+   }
+  },
+  "n0725_comp4_jgen4/n0725_comp4_jgen4_k4_summary.json": {
+   "label": "n0725_comp4_jgen4_k4",
+   "K": 4,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.598048,
+   "per_instance": {
+    "aspose|seed_0": 0.5985036666666667,
+    "aspose|seed_1": 0.563864,
+    "bayleys|seed_0": 0.6806876666666667,
+    "bayleys|seed_1": 0.680408,
+    "dermstore|seed_0": 0.462304,
+    "dermstore|seed_1": 0.54766,
+    "eventbrite|seed_0": 0.622963,
+    "eventbrite|seed_1": 0.627996
+   }
+  },
+  "n0725_comp4_jgen5b1/n0725_comp4_jgen5b1_k1_summary.json": {
+   "label": "n0725_comp4_jgen5b1_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.610051,
+   "per_instance": {
+    "aspose|seed_0": 0.5674603333333333,
+    "aspose|seed_1": 0.598214,
+    "bayleys|seed_0": 0.6388886666666667,
+    "bayleys|seed_1": 0.6581196666666667,
+    "dermstore|seed_0": 0.5405593333333334,
+    "dermstore|seed_1": 0.5572283333333333,
+    "eventbrite|seed_0": 0.653968,
+    "eventbrite|seed_1": 0.6659723333333334
+   }
+  },
+  "n0725_comp4_jgen5b1/n0725_comp4_jgen5b1_k2_summary.json": {
+   "label": "n0725_comp4_jgen5b1_k2",
+   "K": 2,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.599283,
+   "per_instance": {
+    "aspose|seed_0": 0.6031746666666666,
+    "aspose|seed_1": 0.5885416666666666,
+    "bayleys|seed_0": 0.6031266666666667,
+    "bayleys|seed_1": 0.649958,
+    "dermstore|seed_0": 0.48716333333333334,
+    "dermstore|seed_1": 0.5734126666666667,
+    "eventbrite|seed_0": 0.6791670000000001,
+    "eventbrite|seed_1": 0.6097223333333334
+   }
+  },
+  "n0725_comp4_jgen5b1/n0725_comp4_jgen5b1_k4_summary.json": {
+   "label": "n0725_comp4_jgen5b1_k4",
+   "K": 4,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.592137,
+   "per_instance": {
+    "aspose|seed_0": 0.5500166666666667,
+    "aspose|seed_1": 0.5956363333333333,
+    "bayleys|seed_0": 0.672663,
+    "bayleys|seed_1": 0.610386,
+    "dermstore|seed_0": 0.4829636666666666,
+    "dermstore|seed_1": 0.5407896666666667,
+    "eventbrite|seed_0": 0.6759476666666667,
+    "eventbrite|seed_1": 0.6086923333333334
+   }
+  },
+  "n0725_comp4_jgen5b2/n0725_comp4_jgen5b2_k1_summary.json": {
+   "label": "n0725_comp4_jgen5b2_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.57389,
+   "per_instance": {
+    "aspose|seed_0": 0.5892856666666667,
+    "aspose|seed_1": 0.5223213333333333,
+    "bayleys|seed_0": 0.663889,
+    "bayleys|seed_1": 0.5666936666666667,
+    "dermstore|seed_0": 0.48569033333333334,
+    "dermstore|seed_1": 0.4319443333333333,
+    "eventbrite|seed_0": 0.7007406666666667,
+    "eventbrite|seed_1": 0.6305556666666666
+   }
+  },
+  "n0725_comp4_union/n0725_comp4_union_k1_summary.json": {
+   "label": "n0725_comp4_union_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.59512,
+   "per_instance": {
+    "aspose|seed_0": 0.5656416666666667,
+    "aspose|seed_1": 0.5907736666666666,
+    "bayleys|seed_0": 0.5977776666666667,
+    "bayleys|seed_1": 0.6474866666666667,
+    "dermstore|seed_0": 0.47272733333333333,
+    "dermstore|seed_1": 0.6303030000000001,
+    "eventbrite|seed_0": 0.65625,
+    "eventbrite|seed_1": 0.6
+   }
+  },
+  "n0725_comp4_union/n0725_comp4_union_k2_summary.json": {
+   "label": "n0725_comp4_union_k2",
+   "K": 2,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.593918,
+   "per_instance": {
+    "aspose|seed_0": 0.6086476666666667,
+    "aspose|seed_1": 0.5684523333333333,
+    "bayleys|seed_0": 0.6442553333333333,
+    "bayleys|seed_1": 0.630665,
+    "dermstore|seed_0": 0.5117846666666667,
+    "dermstore|seed_1": 0.548088,
+    "eventbrite|seed_0": 0.6296296666666666,
+    "eventbrite|seed_1": 0.6098213333333333
+   }
+  },
+  "n0725_comp6_jgen4/n0725_comp6_jgen4_k1_summary.json": {
+   "label": "n0725_comp6_jgen4_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.580188,
+   "per_instance": {
+    "aspose|seed_0": 0.524471,
+    "aspose|seed_1": 0.7142856666666667,
+    "bayleys|seed_0": 0.5854976666666667,
+    "bayleys|seed_1": 0.7099116666666667,
+    "dermstore|seed_0": 0.40635533333333335,
+    "dermstore|seed_1": 0.46486733333333335,
+    "eventbrite|seed_0": 0.6472223333333333,
+    "eventbrite|seed_1": 0.588889
+   }
+  },
+  "n0725_gen10/n0725_gen10_k1_summary.json": {
+   "label": "n0725_gen10_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.561052,
+   "per_instance": {
+    "aspose|seed_0": 0.5848213333333333,
+    "aspose|seed_1": 0.5863096666666666,
+    "bayleys|seed_0": 0.5305556666666666,
+    "bayleys|seed_1": 0.6559716666666666,
+    "dermstore|seed_0": 0.42954566666666666,
+    "dermstore|seed_1": 0.455177,
+    "eventbrite|seed_0": 0.6444443333333333,
+    "eventbrite|seed_1": 0.6015873333333334
+   }
+  },
+  "n0725_gen10/n0725_gen10_k2_summary.json": {
+   "label": "n0725_gen10_k2",
+   "K": 2,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.538512,
+   "per_instance": {
+    "aspose|seed_0": 0.6049106666666667,
+    "aspose|seed_1": 0.45386933333333335,
+    "bayleys|seed_0": 0.4989673333333333,
+    "bayleys|seed_1": 0.5804653333333334,
+    "dermstore|seed_0": 0.43933066666666665,
+    "dermstore|seed_1": 0.5486110000000001,
+    "eventbrite|seed_0": 0.5722223333333333,
+    "eventbrite|seed_1": 0.6097223333333334
+   }
+  },
+  "n0725_gen10_r2/n0725_gen10_r2_k1_summary.json": {
+   "label": "n0725_gen10_r2_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.553405,
+   "per_instance": {
+    "aspose|seed_0": 0.547619,
+    "aspose|seed_1": 0.675099,
+    "bayleys|seed_0": 0.5175826666666666,
+    "bayleys|seed_1": 0.5134376666666667,
+    "dermstore|seed_0": 0.602315,
+    "dermstore|seed_1": 0.43634233333333333,
+    "eventbrite|seed_0": 0.5476190000000001,
+    "eventbrite|seed_1": 0.5872223333333334
+   }
+  },
+  "n0725_gen19b/n0725_gen19b_k1_summary.json": {
+   "label": "n0725_gen19b_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.602443,
+   "per_instance": {
+    "aspose|seed_0": 0.6696426666666667,
+    "aspose|seed_1": 0.5193453333333333,
+    "bayleys|seed_0": 0.5983796666666666,
+    "bayleys|seed_1": 0.611111,
+    "dermstore|seed_0": 0.46464666666666665,
+    "dermstore|seed_1": 0.5925323333333333,
+    "eventbrite|seed_0": 0.6357143333333334,
+    "eventbrite|seed_1": 0.7281746666666666
+   }
+  },
+  "n0725_gen19b_r2/n0725_gen19b_r2_k1_summary.json": {
+   "label": "n0725_gen19b_r2_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.59298,
+   "per_instance": {
+    "aspose|seed_0": 0.553836,
+    "aspose|seed_1": 0.7291666666666666,
+    "bayleys|seed_0": 0.61,
+    "bayleys|seed_1": 0.5217803333333334,
+    "dermstore|seed_0": 0.437374,
+    "dermstore|seed_1": 0.6226323333333333,
+    "eventbrite|seed_0": 0.6166666666666667,
+    "eventbrite|seed_1": 0.652381
+   }
+  },
+  "n0725_gen19c/n0725_gen19c_k1_summary.json": {
+   "label": "n0725_gen19c_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.565149,
+   "per_instance": {
+    "aspose|seed_0": 0.440476,
+    "aspose|seed_1": 0.5684523333333333,
+    "bayleys|seed_0": 0.543771,
+    "bayleys|seed_1": 0.685119,
+    "dermstore|seed_0": 0.4745066666666667,
+    "dermstore|seed_1": 0.5422006666666667,
+    "eventbrite|seed_0": 0.65,
+    "eventbrite|seed_1": 0.6166666666666667
+   }
+  },
+  "n0725_gen19d/n0725_gen19d_k1_summary.json": {
+   "label": "n0725_gen19d_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.537622,
+   "per_instance": {
+    "aspose|seed_0": 0.6058203333333333,
+    "aspose|seed_1": 0.464286,
+    "bayleys|seed_0": 0.47106466666666663,
+    "bayleys|seed_1": 0.5555556666666667,
+    "dermstore|seed_0": 0.603788,
+    "dermstore|seed_1": 0.48379633333333333,
+    "eventbrite|seed_0": 0.6472223333333333,
+    "eventbrite|seed_1": 0.46944433333333335
+   }
+  },
+  "n0725_gen23/n0725_gen23_k1_summary.json": {
+   "label": "n0725_gen23_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.574022,
+   "per_instance": {
+    "aspose|seed_0": 0.5462963333333333,
+    "aspose|seed_1": 0.5684523333333333,
+    "bayleys|seed_0": 0.582143,
+    "bayleys|seed_1": 0.59127,
+    "dermstore|seed_0": 0.426407,
+    "dermstore|seed_1": 0.6513206666666667,
+    "eventbrite|seed_0": 0.598512,
+    "eventbrite|seed_1": 0.6277776666666667
+   }
+  },
+  "n0725_gen23/n0725_gen23_k2_summary.json": {
+   "label": "n0725_gen23_k2",
+   "K": 2,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.531841,
+   "per_instance": {
+    "aspose|seed_0": 0.49363433333333334,
+    "aspose|seed_1": 0.49927266666666664,
+    "bayleys|seed_0": 0.5623576666666666,
+    "bayleys|seed_1": 0.5971393333333334,
+    "dermstore|seed_0": 0.38535366666666665,
+    "dermstore|seed_1": 0.579484,
+    "eventbrite|seed_0": 0.5593136666666667,
+    "eventbrite|seed_1": 0.5781746666666667
+   }
+  },
+  "n0725_gen23d1/n0725_gen23d1_k1_summary.json": {
+   "label": "n0725_gen23d1_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.552128,
+   "per_instance": {
+    "aspose|seed_0": 0.554398,
+    "aspose|seed_1": 0.47817466666666664,
+    "bayleys|seed_0": 0.5708333333333333,
+    "bayleys|seed_1": 0.5328283333333333,
+    "dermstore|seed_0": 0.43573233333333333,
+    "dermstore|seed_1": 0.5395023333333333,
+    "eventbrite|seed_0": 0.6722223333333334,
+    "eventbrite|seed_1": 0.6333333333333333
+   }
+  }
+ },
+ "n0726": {
+  "n0726_compmm3_jgen4/n0726_compmm3_jgen4_k1_summary.json": {
+   "label": "n0726_compmm3_jgen4_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.732106,
+   "per_instance": {
+    "aspose|seed_0": 0.6785713333333333,
+    "aspose|seed_1": 0.6428573333333333,
+    "bayleys|seed_0": 0.8479166666666667,
+    "bayleys|seed_1": 0.8104166666666667,
+    "dermstore|seed_0": 0.6354166666666666,
+    "dermstore|seed_1": 0.6944443333333333,
+    "eventbrite|seed_0": 0.7694443333333333,
+    "eventbrite|seed_1": 0.7777776666666667
+   }
+  },
+  "n0726_compmm3_jgen4/n0726_compmm3_jgen4_k2_summary.json": {
+   "label": "n0726_compmm3_jgen4_k2",
+   "K": 2,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.732679,
+   "per_instance": {
+    "aspose|seed_0": 0.734375,
+    "aspose|seed_1": 0.626488,
+    "bayleys|seed_0": 0.805966,
+    "bayleys|seed_1": 0.800926,
+    "dermstore|seed_0": 0.621828,
+    "dermstore|seed_1": 0.6728176666666666,
+    "eventbrite|seed_0": 0.8509026666666667,
+    "eventbrite|seed_1": 0.748125
+   }
+  },
+  "n0726_gen0mm3/n0726_gen0mm3_k1_summary.json": {
+   "label": "n0726_gen0mm3_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.69408,
+   "per_instance": {
+    "aspose|seed_0": 0.7291666666666666,
+    "aspose|seed_1": 0.6368056666666667,
+    "bayleys|seed_0": 0.7843913333333333,
+    "bayleys|seed_1": 0.8078346666666667,
+    "dermstore|seed_0": 0.6421296666666667,
+    "dermstore|seed_1": 0.6412036666666666,
+    "eventbrite|seed_0": 0.6944443333333333,
+    "eventbrite|seed_1": 0.6166666666666667
+   }
+  },
+  "n0726_gen10mm3/n0726_gen10mm3_k1_summary.json": {
+   "label": "n0726_gen10mm3_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.698843,
+   "per_instance": {
+    "aspose|seed_0": 0.6815473333333334,
+    "aspose|seed_1": 0.62252,
+    "bayleys|seed_0": 0.7604166666666666,
+    "bayleys|seed_1": 0.7263256666666666,
+    "dermstore|seed_0": 0.7325756666666667,
+    "dermstore|seed_1": 0.5527776666666666,
+    "eventbrite|seed_0": 0.7395833333333334,
+    "eventbrite|seed_1": 0.775
+   }
+  },
+  "n0726_gen10mm3/n0726_gen10mm3_k2_summary.json": {
+   "label": "n0726_gen10mm3_k2",
+   "K": 2,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.718315,
+   "per_instance": {
+    "aspose|seed_0": 0.7905753333333333,
+    "aspose|seed_1": 0.6072253333333333,
+    "bayleys|seed_0": 0.7408563333333333,
+    "bayleys|seed_1": 0.7965443333333333,
+    "dermstore|seed_0": 0.7316286666666666,
+    "dermstore|seed_1": 0.600433,
+    "eventbrite|seed_0": 0.737037,
+    "eventbrite|seed_1": 0.7422223333333333
+   }
+  },
+  "n0726_gen19bmm3/n0726_gen19bmm3_k1_summary.json": {
+   "label": "n0726_gen19bmm3_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 7,
+   "mean": 0.733219,
+   "per_instance": {
+    "aspose|seed_0": 0.7395833333333334,
+    "aspose|seed_1": 0.71875,
+    "bayleys|seed_0": 0.8177610000000001,
+    "bayleys|seed_1": 0.888889,
+    "dermstore|seed_0": 0.573611,
+    "dermstore|seed_1": 0.6439393333333333,
+    "eventbrite|seed_0": 0.75
+   }
+  },
+  "n0726_gen19cmm3/n0726_gen19cmm3_k1_summary.json": {
+   "label": "n0726_gen19cmm3_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.759303,
+   "per_instance": {
+    "aspose|seed_0": 0.7916666666666666,
+    "aspose|seed_1": 0.6755953333333333,
+    "bayleys|seed_0": 0.8406863333333333,
+    "bayleys|seed_1": 0.749411,
+    "dermstore|seed_0": 0.6555556666666666,
+    "dermstore|seed_1": 0.7323426666666667,
+    "eventbrite|seed_0": 0.8291666666666666,
+    "eventbrite|seed_1": 0.8
+   }
+  },
+  "n0726_gen19dmm3/n0726_gen19dmm3_k1_summary.json": {
+   "label": "n0726_gen19dmm3_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.716074,
+   "per_instance": {
+    "aspose|seed_0": 0.7748013333333333,
+    "aspose|seed_1": 0.673077,
+    "bayleys|seed_0": 0.8979313333333333,
+    "bayleys|seed_1": 0.784722,
+    "dermstore|seed_0": 0.6011783333333333,
+    "dermstore|seed_1": 0.618308,
+    "eventbrite|seed_0": 0.6833333333333333,
+    "eventbrite|seed_1": 0.695238
+   }
+  }
+ },
+ "round1": {
+  "phase2_round1_gen21_k1_summary.json": {
+   "label": "phase2_round1_gen21_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.558537,
+   "per_instance": {
+    "aspose|seed_0": 0.672619,
+    "aspose|seed_1": 0.553842,
+    "bayleys|seed_0": 0.4895833333333333,
+    "bayleys|seed_1": 0.5281386666666666,
+    "dermstore|seed_0": 0.5171716666666667,
+    "dermstore|seed_1": 0.46527766666666664,
+    "eventbrite|seed_0": 0.6083333333333334,
+    "eventbrite|seed_1": 0.6333333333333333
+   }
+  },
+  "phase2_round1_gen21rej_k1_summary.json": {
+   "label": "phase2_round1_gen21rej_k1",
+   "K": 1,
+   "jobs": 7,
+   "valid": 7,
+   "mean": 0.485741,
+   "per_instance": {
+    "aspose|seed_0": 0.5625,
+    "aspose|seed_1": 0.5995673333333333,
+    "bayleys|seed_0": 0.47787399999999997,
+    "bayleys|seed_1": 0.43668833333333335,
+    "dermstore|seed_1": 0.22051266666666666,
+    "eventbrite|seed_0": 0.60582,
+    "eventbrite|seed_1": 0.4972223333333334
+   }
+  },
+  "phase2_round2_gen10_k1_summary.json": {
+   "label": "phase2_round2_gen10_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.606748,
+   "per_instance": {
+    "aspose|seed_0": 0.6830356666666667,
+    "aspose|seed_1": 0.6190476666666667,
+    "bayleys|seed_0": 0.6625,
+    "bayleys|seed_1": 0.5238096666666666,
+    "dermstore|seed_0": 0.540909,
+    "dermstore|seed_1": 0.6170453333333333,
+    "eventbrite|seed_0": 0.6069443333333333,
+    "eventbrite|seed_1": 0.6006943333333333
+   }
+  }
+ },
+ "round2": {
+  "sealed_jgen4_k2_summary.json": {
+   "label": "phase2_round2_sealed_jgen4_k2",
+   "K": 2,
+   "jobs": 16,
+   "valid": 16,
+   "mean": 0.614228,
+   "per_instance": {
+    "gdacs|seed_0": 0.6194,
+    "gdacs|seed_1": 0.6711,
+    "humankinetics|seed_0": 0.52,
+    "humankinetics|seed_1": 0.5472,
+    "labelzone|seed_0": 0.7076,
+    "labelzone|seed_1": 0.7008,
+    "monash|seed_0": 0.7617,
+    "monash|seed_1": 0.7304,
+    "payscale|seed_0": 0.6752,
+    "payscale|seed_1": 0.7683,
+    "rottentomatoes|seed_0": 0.4555,
+    "rottentomatoes|seed_1": 0.4375,
+    "tefcu|seed_0": 0.5634,
+    "tefcu|seed_1": 0.4946,
+    "visitseoul|seed_0": 0.5581,
+    "visitseoul|seed_1": 0.6169
+   }
+  },
+  "sealed_jgen4_k4_summary.json": {
+   "label": "phase2_round2_sealed_jgen4_k4",
+   "K": 4,
+   "jobs": 16,
+   "valid": 16,
+   "mean": 0.623515,
+   "per_instance": {
+    "gdacs|seed_0": 0.6672703333333333,
+    "gdacs|seed_1": 0.7091553333333334,
+    "humankinetics|seed_0": 0.5305486666666667,
+    "humankinetics|seed_1": 0.5340066666666666,
+    "labelzone|seed_0": 0.7199636666666667,
+    "labelzone|seed_1": 0.6843276666666667,
+    "monash|seed_0": 0.784659,
+    "monash|seed_1": 0.7691416666666667,
+    "payscale|seed_0": 0.6681746666666667,
+    "payscale|seed_1": 0.681578,
+    "rottentomatoes|seed_0": 0.47739233333333336,
+    "rottentomatoes|seed_1": 0.47972033333333336,
+    "tefcu|seed_0": 0.5613003333333333,
+    "tefcu|seed_1": 0.5302953333333333,
+    "visitseoul|seed_0": 0.556112,
+    "visitseoul|seed_1": 0.6225916666666667
+   }
+  },
+  "sealed_jgen4_k4_summary_partial.json": {
+   "label": "phase2_round2_sealed_jgen4_k4",
+   "K": 4,
+   "jobs": 16,
+   "valid": 14,
+   "mean": 0.616178,
+   "per_instance": {
+    "gdacs|seed_0": 0.6672703333333333,
+    "gdacs|seed_1": 0.7091553333333334,
+    "humankinetics|seed_0": 0.5305486666666667,
+    "humankinetics|seed_1": 0.5340066666666666,
+    "labelzone|seed_0": 0.7199636666666667,
+    "labelzone|seed_1": 0.6843276666666667,
+    "monash|seed_0": 0.784659,
+    "monash|seed_1": 0.7691416666666667,
+    "rottentomatoes|seed_0": 0.47739233333333336,
+    "rottentomatoes|seed_1": 0.47972033333333336,
+    "tefcu|seed_0": 0.5613003333333333,
+    "tefcu|seed_1": 0.5302953333333333,
+    "visitseoul|seed_0": 0.556112,
+    "visitseoul|seed_1": 0.6225916666666667
+   }
+  }
+ },
+ "round3": {
+  "phase2_round2_gen10_k1_summary.json": {
+   "label": "phase2_round2_gen10_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.606748,
+   "per_instance": {
+    "aspose|seed_0": 0.6830356666666667,
+    "aspose|seed_1": 0.6190476666666667,
+    "bayleys|seed_0": 0.6625,
+    "bayleys|seed_1": 0.5238096666666666,
+    "dermstore|seed_0": 0.540909,
+    "dermstore|seed_1": 0.6170453333333333,
+    "eventbrite|seed_0": 0.6069443333333333,
+    "eventbrite|seed_1": 0.6006943333333333
+   }
+  },
+  "phase2_round3_gen19b_k1_summary.json": {
+   "label": "phase2_round3_gen19b_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.602426,
+   "per_instance": {
+    "aspose|seed_0": 0.443783,
+    "aspose|seed_1": 0.5818453333333333,
+    "bayleys|seed_0": 0.638889,
+    "bayleys|seed_1": 0.6742063333333334,
+    "dermstore|seed_0": 0.6521466666666667,
+    "dermstore|seed_1": 0.5507576666666667,
+    "eventbrite|seed_0": 0.5777776666666666,
+    "eventbrite|seed_1": 0.7
+   }
+  },
+  "phase2_round3_gen19c_k1_summary.json": {
+   "label": "phase2_round3_gen19c_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.569067,
+   "per_instance": {
+    "aspose|seed_0": 0.6309523333333333,
+    "aspose|seed_1": 0.485119,
+    "bayleys|seed_0": 0.589015,
+    "bayleys|seed_1": 0.5401403333333333,
+    "dermstore|seed_0": 0.5552083333333333,
+    "dermstore|seed_1": 0.627098,
+    "eventbrite|seed_0": 0.6180556666666667,
+    "eventbrite|seed_1": 0.5069443333333333
+   }
+  },
+  "phase2_round3_gen19d_k1_summary.json": {
+   "label": "phase2_round3_gen19d_k1",
+   "K": 1,
+   "jobs": 8,
+   "valid": 8,
+   "mean": 0.543168,
+   "per_instance": {
+    "aspose|seed_0": 0.5714286666666667,
+    "aspose|seed_1": 0.547619,
+    "bayleys|seed_0": 0.5478956666666667,
+    "bayleys|seed_1": 0.59375,
+    "dermstore|seed_0": 0.5656566666666667,
+    "dermstore|seed_1": 0.5261363333333333,
+    "eventbrite|seed_0": 0.65,
+    "eventbrite|seed_1": 0.34285699999999997
+   }
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "round": "ganR2",
+ "n": 15,
+ "judge_winrate": 0.733,
+ "cand_official": 0.5007,
+ "ref_official": 0.5013,
+ "official_delta": -0.0006,
+ "fooling_pairs": 4,
+ "fools": [
+  {
+   "pid": "gan_ganR2_006",
+   "k": [
+    "jotform",
+    "seed_3"
+   ],
+   "cand_score": 0.509,
+   "ref_score": 0.61
+  },
+  {
+   "pid": "gan_ganR2_009",
+   "k": [
+    "legistify",
+    "seed_2"
+   ],
+   "cand_score": 0.384,
+   "ref_score": 0.493
+  },
+  {
+   "pid": "gan_ganR2_013",
+   "k": [
+    "recipecloud",
+    "seed_2"
+   ],
+   "cand_score": 0.423,
+   "ref_score": 0.489
+  },
+  {
+   "pid": "gan_ganR2_014",
+   "k": [
+    "recipecloud",
+    "seed_3"
+   ],
+   "cand_score": 0.5,
+   "ref_score": 0.534
+  }
+ ]
+}

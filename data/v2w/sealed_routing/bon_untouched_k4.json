@@ -1,0 +1,150 @@
+{
+  "baseline": "p2bu_gen10",
+  "label": "phase2_bon_untouched_k4",
+  "comparisons": [
+    {
+      "candidate": "p2bon_untouched_jgen2",
+      "n": 16,
+      "baseline_mean": 0.572244,
+      "candidate_mean": 0.616357,
+      "mean_delta": 0.044113,
+      "ci95": [
+        -0.008893,
+        0.097119
+      ],
+      "official_winrate": 0.6875,
+      "task_deltas": {
+        "gdacs": 0.127674,
+        "humankinetics": -0.021656,
+        "labelzone": 0.048639,
+        "monash": -0.01806,
+        "payscale": 0.023848,
+        "rottentomatoes": 0.006641,
+        "tefcu": 0.086963,
+        "visitseoul": 0.098856
+      },
+      "pairs": [
+        {
+          "task": "gdacs",
+          "seed": "seed_0",
+          "baseline": 0.441031,
+          "candidate": 0.691279,
+          "delta": 0.250248
+        },
+        {
+          "task": "gdacs",
+          "seed": "seed_1",
+          "baseline": 0.731781,
+          "candidate": 0.736881,
+          "delta": 0.0051
+        },
+        {
+          "task": "humankinetics",
+          "seed": "seed_0",
+          "baseline": 0.577757,
+          "candidate": 0.488022,
+          "delta": -0.089736
+        },
+        {
+          "task": "humankinetics",
+          "seed": "seed_1",
+          "baseline": 0.4308,
+          "candidate": 0.477223,
+          "delta": 0.046423
+        },
+        {
+          "task": "labelzone",
+          "seed": "seed_0",
+          "baseline": 0.664952,
+          "candidate": 0.755208,
+          "delta": 0.090257
+        },
+        {
+          "task": "labelzone",
+          "seed": "seed_1",
+          "baseline": 0.663519,
+          "candidate": 0.67054,
+          "delta": 0.007021
+        },
+        {
+          "task": "monash",
+          "seed": "seed_0",
+          "baseline": 0.74746,
+          "candidate": 0.766619,
+          "delta": 0.019159
+        },
+        {
+          "task": "monash",
+          "seed": "seed_1",
+          "baseline": 0.772264,
+          "candidate": 0.716985,
+          "delta": -0.055279
+        },
+        {
+          "task": "payscale",
+          "seed": "seed_0",
+          "baseline": 0.647244,
+          "candidate": 0.677246,
+          "delta": 0.030002
+        },
+        {
+          "task": "payscale",
+          "seed": "seed_1",
+          "baseline": 0.660302,
+          "candidate": 0.677996,
+          "delta": 0.017694
+        },
+        {
+          "task": "rottentomatoes",
+          "seed": "seed_0",
+          "baseline": 0.443613,
+          "candidate": 0.457896,
+          "delta": 0.014283
+        },
+        {
+          "task": "rottentomatoes",
+          "seed": "seed_1",
+          "baseline": 0.437352,
+          "candidate": 0.436351,
+          "delta": -0.001001
+        },
+        {
+          "task": "tefcu",
+          "seed": "seed_0",
+          "baseline": 0.383505,
+          "candidate": 0.569598,
+          "delta": 0.186093
+        },
+        {
+          "task": "tefcu",
+          "seed": "seed_1",
+          "baseline": 0.564027,
+          "candidate": 0.55186,
+          "delta": -0.012167
+        },
+        {
+          "task": "visitseoul",
+          "seed": "seed_0",
+          "baseline": 0.567044,
+          "candidate": 0.525532,
+          "delta": -0.041512
+        },
+        {
+          "task": "visitseoul",
+          "seed": "seed_1",
+          "baseline": 0.423251,
+          "candidate": 0.662475,
+          "delta": 0.239224
+        }
+      ],
+      "task_clustered": {
+        "n_tasks": 8,
+        "mean_delta": 0.044113,
+        "ci95": [
+          -0.010711,
+          0.098937
+        ]
+      }
+    }
+  ]
+}

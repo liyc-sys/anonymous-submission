@@ -1,0 +1,602 @@
+{
+ "heldout_0000": {
+  "winner": "A",
+  "gap": 0.0581,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0001": {
+  "winner": "A",
+  "gap": 0.0445,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0002": {
+  "winner": "A",
+  "gap": 0.0469,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0003": {
+  "winner": "B",
+  "gap": 0.0519,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0004": {
+  "winner": "B",
+  "gap": 0.0404,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0005": {
+  "winner": "A",
+  "gap": 0.0356,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0006": {
+  "winner": "B",
+  "gap": 0.0519,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0007": {
+  "winner": "B",
+  "gap": 0.0475,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0008": {
+  "winner": "B",
+  "gap": 0.0502,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0009": {
+  "winner": "A",
+  "gap": 0.0481,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0010": {
+  "winner": "A",
+  "gap": 0.051,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0011": {
+  "winner": "A",
+  "gap": 0.0413,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0012": {
+  "winner": "A",
+  "gap": 0.0581,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0013": {
+  "winner": "A",
+  "gap": 0.0528,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0014": {
+  "winner": "B",
+  "gap": 0.0399,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0015": {
+  "winner": "B",
+  "gap": 0.0522,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0016": {
+  "winner": "B",
+  "gap": 0.043,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0017": {
+  "winner": "A",
+  "gap": 0.048,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0018": {
+  "winner": "B",
+  "gap": 0.0472,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0019": {
+  "winner": "B",
+  "gap": 0.0493,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0020": {
+  "winner": "A",
+  "gap": 0.0538,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0021": {
+  "winner": "B",
+  "gap": 0.0535,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0022": {
+  "winner": "B",
+  "gap": 0.0465,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0023": {
+  "winner": "B",
+  "gap": 0.0584,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0024": {
+  "winner": "B",
+  "gap": 0.043,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0025": {
+  "winner": "A",
+  "gap": 0.0303,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0026": {
+  "winner": "A",
+  "gap": 0.0389,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0027": {
+  "winner": "B",
+  "gap": 0.0455,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0028": {
+  "winner": "A",
+  "gap": 0.0429,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0029": {
+  "winner": "B",
+  "gap": 0.0341,
+  "bin": "0.03-0.06"
+ },
+ "heldout_0030": {
+  "winner": "B",
+  "gap": 0.0666,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0031": {
+  "winner": "A",
+  "gap": 0.066,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0032": {
+  "winner": "A",
+  "gap": 0.0689,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0033": {
+  "winner": "B",
+  "gap": 0.0983,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0034": {
+  "winner": "B",
+  "gap": 0.0664,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0035": {
+  "winner": "A",
+  "gap": 0.0741,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0036": {
+  "winner": "A",
+  "gap": 0.0634,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0037": {
+  "winner": "A",
+  "gap": 0.0748,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0038": {
+  "winner": "B",
+  "gap": 0.0768,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0039": {
+  "winner": "B",
+  "gap": 0.0649,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0040": {
+  "winner": "A",
+  "gap": 0.088,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0041": {
+  "winner": "B",
+  "gap": 0.098,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0042": {
+  "winner": "B",
+  "gap": 0.062,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0043": {
+  "winner": "B",
+  "gap": 0.0796,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0044": {
+  "winner": "A",
+  "gap": 0.0826,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0045": {
+  "winner": "B",
+  "gap": 0.0869,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0046": {
+  "winner": "A",
+  "gap": 0.0814,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0047": {
+  "winner": "A",
+  "gap": 0.0605,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0048": {
+  "winner": "B",
+  "gap": 0.0867,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0049": {
+  "winner": "B",
+  "gap": 0.0778,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0050": {
+  "winner": "B",
+  "gap": 0.0713,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0051": {
+  "winner": "B",
+  "gap": 0.0763,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0052": {
+  "winner": "A",
+  "gap": 0.087,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0053": {
+  "winner": "B",
+  "gap": 0.0691,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0054": {
+  "winner": "B",
+  "gap": 0.0678,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0055": {
+  "winner": "A",
+  "gap": 0.0875,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0056": {
+  "winner": "A",
+  "gap": 0.0681,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0057": {
+  "winner": "A",
+  "gap": 0.0912,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0058": {
+  "winner": "A",
+  "gap": 0.0927,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0059": {
+  "winner": "B",
+  "gap": 0.0804,
+  "bin": "0.06-0.1"
+ },
+ "heldout_0060": {
+  "winner": "A",
+  "gap": 0.1889,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0061": {
+  "winner": "A",
+  "gap": 0.117,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0062": {
+  "winner": "A",
+  "gap": 0.1118,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0063": {
+  "winner": "B",
+  "gap": 0.1233,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0064": {
+  "winner": "A",
+  "gap": 0.1496,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0065": {
+  "winner": "A",
+  "gap": 0.1064,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0066": {
+  "winner": "B",
+  "gap": 0.123,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0067": {
+  "winner": "B",
+  "gap": 0.1147,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0068": {
+  "winner": "A",
+  "gap": 0.1693,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0069": {
+  "winner": "B",
+  "gap": 0.1632,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0070": {
+  "winner": "B",
+  "gap": 0.1009,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0071": {
+  "winner": "B",
+  "gap": 0.1088,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0072": {
+  "winner": "B",
+  "gap": 0.1387,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0073": {
+  "winner": "A",
+  "gap": 0.1132,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0074": {
+  "winner": "A",
+  "gap": 0.1162,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0075": {
+  "winner": "A",
+  "gap": 0.119,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0076": {
+  "winner": "A",
+  "gap": 0.1163,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0077": {
+  "winner": "B",
+  "gap": 0.1255,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0078": {
+  "winner": "A",
+  "gap": 0.1732,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0079": {
+  "winner": "A",
+  "gap": 0.1156,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0080": {
+  "winner": "B",
+  "gap": 0.1743,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0081": {
+  "winner": "B",
+  "gap": 0.177,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0082": {
+  "winner": "A",
+  "gap": 0.1949,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0083": {
+  "winner": "B",
+  "gap": 0.1511,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0084": {
+  "winner": "B",
+  "gap": 0.1544,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0085": {
+  "winner": "B",
+  "gap": 0.1115,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0086": {
+  "winner": "A",
+  "gap": 0.1997,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0087": {
+  "winner": "B",
+  "gap": 0.1736,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0088": {
+  "winner": "A",
+  "gap": 0.1093,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0089": {
+  "winner": "A",
+  "gap": 0.1507,
+  "bin": "0.1-0.2"
+ },
+ "heldout_0090": {
+  "winner": "B",
+  "gap": 0.4572,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0091": {
+  "winner": "B",
+  "gap": 0.2753,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0092": {
+  "winner": "B",
+  "gap": 0.5351,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0093": {
+  "winner": "B",
+  "gap": 0.4504,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0094": {
+  "winner": "B",
+  "gap": 0.2618,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0095": {
+  "winner": "A",
+  "gap": 0.5205,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0096": {
+  "winner": "B",
+  "gap": 0.3074,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0097": {
+  "winner": "B",
+  "gap": 0.5543,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0098": {
+  "winner": "B",
+  "gap": 0.3533,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0099": {
+  "winner": "B",
+  "gap": 0.3985,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0100": {
+  "winner": "A",
+  "gap": 0.2389,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0101": {
+  "winner": "B",
+  "gap": 0.5443,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0102": {
+  "winner": "A",
+  "gap": 0.5434,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0103": {
+  "winner": "B",
+  "gap": 0.2003,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0104": {
+  "winner": "B",
+  "gap": 0.2693,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0105": {
+  "winner": "B",
+  "gap": 0.2259,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0106": {
+  "winner": "B",
+  "gap": 0.255,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0107": {
+  "winner": "A",
+  "gap": 0.2019,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0108": {
+  "winner": "B",
+  "gap": 0.5869,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0109": {
+  "winner": "B",
+  "gap": 0.3047,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0110": {
+  "winner": "B",
+  "gap": 0.2101,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0111": {
+  "winner": "A",
+  "gap": 0.3788,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0112": {
+  "winner": "A",
+  "gap": 0.503,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0113": {
+  "winner": "A",
+  "gap": 0.2322,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0114": {
+  "winner": "A",
+  "gap": 0.2548,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0115": {
+  "winner": "A",
+  "gap": 0.4407,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0116": {
+  "winner": "A",
+  "gap": 0.6145,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0117": {
+  "winner": "B",
+  "gap": 0.3683,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0118": {
+  "winner": "B",
+  "gap": 0.2157,
+  "bin": "0.2-9.9"
+ },
+ "heldout_0119": {
+  "winner": "B",
+  "gap": 0.2114,
+  "bin": "0.2-9.9"
+ }
+}

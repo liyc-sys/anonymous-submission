@@ -1,0 +1,22 @@
+{
+  "arms": [
+    "p2d_gen10",
+    "p2d_gen19b",
+    "p2d_gen19c",
+    "p2d_gen19d"
+  ],
+  "tasks": [
+    "aspose",
+    "bayleys",
+    "dermstore",
+    "eventbrite"
+  ],
+  "seeds": [
+    "0",
+    "1"
+  ],
+  "output_tag": "p2bon_dev_jgen2",
+  "judge": "judge_genomes/jgen2.py",
+  "selection_policy": "round-robin Copeland points; first arm wins exact point ties",
+  "score_access_policy": "selector reads rendered pages and prototypes only"
+}

@@ -1,0 +1,722 @@
+[
+ {
+  "id": "heldout_0000",
+  "task": "eventbrite",
+  "A": "gen12conf__eventbrite__seed_1",
+  "B": "g5aconf__eventbrite__seed_0"
+ },
+ {
+  "id": "heldout_0001",
+  "task": "eventbrite",
+  "A": "g5aconf__eventbrite__seed_1",
+  "B": "g0final2__eventbrite__seed_0"
+ },
+ {
+  "id": "heldout_0002",
+  "task": "eventbrite",
+  "A": "lad8b__eventbrite__seed_1",
+  "B": "lad10__eventbrite__seed_2"
+ },
+ {
+  "id": "heldout_0003",
+  "task": "dermstore",
+  "A": "g5aconf__dermstore__seed_3",
+  "B": "gen12conf__dermstore__seed_3"
+ },
+ {
+  "id": "heldout_0004",
+  "task": "eventbrite",
+  "A": "lad10__eventbrite__seed_1",
+  "B": "lad8b__eventbrite__seed_1"
+ },
+ {
+  "id": "heldout_0005",
+  "task": "dermstore",
+  "A": "g5aconf__dermstore__seed_2",
+  "B": "lad8b__dermstore__seed_1"
+ },
+ {
+  "id": "heldout_0006",
+  "task": "eventbrite",
+  "A": "g0conf__eventbrite__seed_0",
+  "B": "lad10__eventbrite__seed_0"
+ },
+ {
+  "id": "heldout_0007",
+  "task": "aspose",
+  "A": "g0conf2__aspose__seed_7",
+  "B": "lad11b__aspose__seed_1"
+ },
+ {
+  "id": "heldout_0008",
+  "task": "eventbrite",
+  "A": "g0final__eventbrite__seed_2",
+  "B": "lad10__eventbrite__seed_1"
+ },
+ {
+  "id": "heldout_0009",
+  "task": "eventbrite",
+  "A": "lad0__eventbrite__seed_2",
+  "B": "g0final2__eventbrite__seed_0"
+ },
+ {
+  "id": "heldout_0010",
+  "task": "bayleys",
+  "A": "gen12conf__bayleys__seed_0",
+  "B": "lad11b__bayleys__seed_3"
+ },
+ {
+  "id": "heldout_0011",
+  "task": "bayleys",
+  "A": "lad12__bayleys__seed_0",
+  "B": "lad0__bayleys__seed_2"
+ },
+ {
+  "id": "heldout_0012",
+  "task": "bayleys",
+  "A": "lad12__bayleys__seed_1",
+  "B": "lad10__bayleys__seed_2"
+ },
+ {
+  "id": "heldout_0013",
+  "task": "bayleys",
+  "A": "lad0__bayleys__seed_3",
+  "B": "g5aconf__bayleys__seed_2"
+ },
+ {
+  "id": "heldout_0014",
+  "task": "bayleys",
+  "A": "lad12__bayleys__seed_3",
+  "B": "lad11b__bayleys__seed_3"
+ },
+ {
+  "id": "heldout_0015",
+  "task": "dermstore",
+  "A": "lad0__dermstore__seed_1",
+  "B": "lad9__dermstore__seed_1"
+ },
+ {
+  "id": "heldout_0016",
+  "task": "eventbrite",
+  "A": "g0conf2__eventbrite__seed_6",
+  "B": "lad8b__eventbrite__seed_2"
+ },
+ {
+  "id": "heldout_0017",
+  "task": "eventbrite",
+  "A": "lad12__eventbrite__seed_1",
+  "B": "lad0__eventbrite__seed_2"
+ },
+ {
+  "id": "heldout_0018",
+  "task": "bayleys",
+  "A": "lad11b__bayleys__seed_1",
+  "B": "gen12conf__bayleys__seed_1"
+ },
+ {
+  "id": "heldout_0019",
+  "task": "aspose",
+  "A": "g5aconf__aspose__seed_1",
+  "B": "g0final2__aspose__seed_0"
+ },
+ {
+  "id": "heldout_0020",
+  "task": "bayleys",
+  "A": "lad12__bayleys__seed_1",
+  "B": "g5afinal__bayleys__seed_1"
+ },
+ {
+  "id": "heldout_0021",
+  "task": "eventbrite",
+  "A": "g0final2__eventbrite__seed_0",
+  "B": "g0conf__eventbrite__seed_2"
+ },
+ {
+  "id": "heldout_0022",
+  "task": "aspose",
+  "A": "g0conf__aspose__seed_5",
+  "B": "g0conf__aspose__seed_1"
+ },
+ {
+  "id": "heldout_0023",
+  "task": "bayleys",
+  "A": "gen12conf__bayleys__seed_3",
+  "B": "g5am3__bayleys__seed_0"
+ },
+ {
+  "id": "heldout_0024",
+  "task": "eventbrite",
+  "A": "g5aconf__eventbrite__seed_1",
+  "B": "gen12conf__eventbrite__seed_7"
+ },
+ {
+  "id": "heldout_0025",
+  "task": "eventbrite",
+  "A": "gen12conf__eventbrite__seed_6",
+  "B": "lad12__eventbrite__seed_2"
+ },
+ {
+  "id": "heldout_0026",
+  "task": "eventbrite",
+  "A": "gen12conf__eventbrite__seed_0",
+  "B": "g5afinal__eventbrite__seed_0"
+ },
+ {
+  "id": "heldout_0027",
+  "task": "eventbrite",
+  "A": "lad9__eventbrite__seed_0",
+  "B": "g5aconf__eventbrite__seed_5"
+ },
+ {
+  "id": "heldout_0028",
+  "task": "eventbrite",
+  "A": "gen12conf__eventbrite__seed_2",
+  "B": "g0conf__eventbrite__seed_5"
+ },
+ {
+  "id": "heldout_0029",
+  "task": "eventbrite",
+  "A": "g0final2__eventbrite__seed_0",
+  "B": "lad9__eventbrite__seed_0"
+ },
+ {
+  "id": "heldout_0030",
+  "task": "eventbrite",
+  "A": "lad12__eventbrite__seed_0",
+  "B": "g5am3__eventbrite__seed_0"
+ },
+ {
+  "id": "heldout_0031",
+  "task": "eventbrite",
+  "A": "g0conf__eventbrite__seed_0",
+  "B": "g0conf__eventbrite__seed_1"
+ },
+ {
+  "id": "heldout_0032",
+  "task": "dermstore",
+  "A": "lad9__dermstore__seed_0",
+  "B": "g5afinal__dermstore__seed_2"
+ },
+ {
+  "id": "heldout_0033",
+  "task": "eventbrite",
+  "A": "g5aconf__eventbrite__seed_3",
+  "B": "lad10__eventbrite__seed_1"
+ },
+ {
+  "id": "heldout_0034",
+  "task": "bayleys",
+  "A": "gen12conf__bayleys__seed_2",
+  "B": "gen12conf__bayleys__seed_1"
+ },
+ {
+  "id": "heldout_0035",
+  "task": "bayleys",
+  "A": "gen12conf__bayleys__seed_1",
+  "B": "g5aconf__bayleys__seed_4"
+ },
+ {
+  "id": "heldout_0036",
+  "task": "bayleys",
+  "A": "lad12__bayleys__seed_1",
+  "B": "lad12__bayleys__seed_2"
+ },
+ {
+  "id": "heldout_0037",
+  "task": "aspose",
+  "A": "lad10__aspose__seed_2",
+  "B": "g5afinal__aspose__seed_0"
+ },
+ {
+  "id": "heldout_0038",
+  "task": "eventbrite",
+  "A": "g0conf__eventbrite__seed_4",
+  "B": "g0final__eventbrite__seed_1"
+ },
+ {
+  "id": "heldout_0039",
+  "task": "dermstore",
+  "A": "lad9__dermstore__seed_1",
+  "B": "lad9__dermstore__seed_0"
+ },
+ {
+  "id": "heldout_0040",
+  "task": "bayleys",
+  "A": "g5am3__bayleys__seed_0",
+  "B": "gen12conf__bayleys__seed_4"
+ },
+ {
+  "id": "heldout_0041",
+  "task": "eventbrite",
+  "A": "g5aconf__eventbrite__seed_0",
+  "B": "lad12__eventbrite__seed_3"
+ },
+ {
+  "id": "heldout_0042",
+  "task": "bayleys",
+  "A": "g5am3__bayleys__seed_0",
+  "B": "g5am3__bayleys__seed_2"
+ },
+ {
+  "id": "heldout_0043",
+  "task": "dermstore",
+  "A": "lad0__dermstore__seed_3",
+  "B": "g5afinal__dermstore__seed_1"
+ },
+ {
+  "id": "heldout_0044",
+  "task": "eventbrite",
+  "A": "gen12conf__eventbrite__seed_3",
+  "B": "g5aconf__eventbrite__seed_4"
+ },
+ {
+  "id": "heldout_0045",
+  "task": "dermstore",
+  "A": "lad8b__dermstore__seed_1",
+  "B": "lad10__dermstore__seed_0"
+ },
+ {
+  "id": "heldout_0046",
+  "task": "aspose",
+  "A": "g0conf2__aspose__seed_6",
+  "B": "g0conf__aspose__seed_0"
+ },
+ {
+  "id": "heldout_0047",
+  "task": "bayleys",
+  "A": "g0final__bayleys__seed_2",
+  "B": "g5aconf__bayleys__seed_4"
+ },
+ {
+  "id": "heldout_0048",
+  "task": "bayleys",
+  "A": "g0final__bayleys__seed_0",
+  "B": "lad9__bayleys__seed_2"
+ },
+ {
+  "id": "heldout_0049",
+  "task": "eventbrite",
+  "A": "g5aconf__eventbrite__seed_1",
+  "B": "lad11b__eventbrite__seed_0"
+ },
+ {
+  "id": "heldout_0050",
+  "task": "dermstore",
+  "A": "g0conf2__dermstore__seed_7",
+  "B": "gen12conf__dermstore__seed_5"
+ },
+ {
+  "id": "heldout_0051",
+  "task": "eventbrite",
+  "A": "g0conf2__eventbrite__seed_5",
+  "B": "g0conf__eventbrite__seed_2"
+ },
+ {
+  "id": "heldout_0052",
+  "task": "aspose",
+  "A": "lad8b__aspose__seed_3",
+  "B": "g0conf__aspose__seed_2"
+ },
+ {
+  "id": "heldout_0053",
+  "task": "eventbrite",
+  "A": "gen12conf__eventbrite__seed_1",
+  "B": "lad10__eventbrite__seed_1"
+ },
+ {
+  "id": "heldout_0054",
+  "task": "eventbrite",
+  "A": "lad10__eventbrite__seed_3",
+  "B": "gen12conf__eventbrite__seed_2"
+ },
+ {
+  "id": "heldout_0055",
+  "task": "aspose",
+  "A": "g0final__aspose__seed_1",
+  "B": "gen12conf__aspose__seed_2"
+ },
+ {
+  "id": "heldout_0056",
+  "task": "aspose",
+  "A": "lad9__aspose__seed_3",
+  "B": "gen12conf__aspose__seed_2"
+ },
+ {
+  "id": "heldout_0057",
+  "task": "bayleys",
+  "A": "lad12__bayleys__seed_1",
+  "B": "lad8b__bayleys__seed_0"
+ },
+ {
+  "id": "heldout_0058",
+  "task": "aspose",
+  "A": "lad10__aspose__seed_2",
+  "B": "lad0__aspose__seed_0"
+ },
+ {
+  "id": "heldout_0059",
+  "task": "bayleys",
+  "A": "lad12__bayleys__seed_3",
+  "B": "lad10__bayleys__seed_3"
+ },
+ {
+  "id": "heldout_0060",
+  "task": "bayleys",
+  "A": "gen12conf__bayleys__seed_3",
+  "B": "g0conf__bayleys__seed_1"
+ },
+ {
+  "id": "heldout_0061",
+  "task": "dermstore",
+  "A": "gen12conf__dermstore__seed_6",
+  "B": "lad0__dermstore__seed_1"
+ },
+ {
+  "id": "heldout_0062",
+  "task": "bayleys",
+  "A": "g0conf2__bayleys__seed_6",
+  "B": "g5afinal__bayleys__seed_1"
+ },
+ {
+  "id": "heldout_0063",
+  "task": "eventbrite",
+  "A": "lad10__eventbrite__seed_3",
+  "B": "lad10__eventbrite__seed_1"
+ },
+ {
+  "id": "heldout_0064",
+  "task": "eventbrite",
+  "A": "g5am3__eventbrite__seed_0",
+  "B": "g0conf2__eventbrite__seed_4"
+ },
+ {
+  "id": "heldout_0065",
+  "task": "eventbrite",
+  "A": "lad9__eventbrite__seed_2",
+  "B": "g0conf2__eventbrite__seed_2"
+ },
+ {
+  "id": "heldout_0066",
+  "task": "aspose",
+  "A": "lad10__aspose__seed_0",
+  "B": "g5am3__aspose__seed_2"
+ },
+ {
+  "id": "heldout_0067",
+  "task": "aspose",
+  "A": "g0conf__aspose__seed_4",
+  "B": "lad9__aspose__seed_3"
+ },
+ {
+  "id": "heldout_0068",
+  "task": "dermstore",
+  "A": "g5am3__dermstore__seed_0",
+  "B": "g0final__dermstore__seed_1"
+ },
+ {
+  "id": "heldout_0069",
+  "task": "aspose",
+  "A": "g5aconf__aspose__seed_5",
+  "B": "lad12__aspose__seed_3"
+ },
+ {
+  "id": "heldout_0070",
+  "task": "bayleys",
+  "A": "gen12conf__bayleys__seed_7",
+  "B": "g5am3__bayleys__seed_2"
+ },
+ {
+  "id": "heldout_0071",
+  "task": "bayleys",
+  "A": "g0conf2__bayleys__seed_2",
+  "B": "g0conf2__bayleys__seed_7"
+ },
+ {
+  "id": "heldout_0072",
+  "task": "bayleys",
+  "A": "lad8b__bayleys__seed_1",
+  "B": "gen12conf__bayleys__seed_4"
+ },
+ {
+  "id": "heldout_0073",
+  "task": "aspose",
+  "A": "gen12conf__aspose__seed_6",
+  "B": "g5aconf__aspose__seed_3"
+ },
+ {
+  "id": "heldout_0074",
+  "task": "eventbrite",
+  "A": "lad8b__eventbrite__seed_1",
+  "B": "g0conf__eventbrite__seed_0"
+ },
+ {
+  "id": "heldout_0075",
+  "task": "eventbrite",
+  "A": "g5am3__eventbrite__seed_0",
+  "B": "g5afinal__eventbrite__seed_2"
+ },
+ {
+  "id": "heldout_0076",
+  "task": "aspose",
+  "A": "lad8b__aspose__seed_0",
+  "B": "g0conf2__aspose__seed_3"
+ },
+ {
+  "id": "heldout_0077",
+  "task": "aspose",
+  "A": "lad9__aspose__seed_1",
+  "B": "lad12__aspose__seed_3"
+ },
+ {
+  "id": "heldout_0078",
+  "task": "aspose",
+  "A": "lad11b__aspose__seed_2",
+  "B": "lad12__aspose__seed_0"
+ },
+ {
+  "id": "heldout_0079",
+  "task": "dermstore",
+  "A": "lad10__dermstore__seed_3",
+  "B": "lad0__dermstore__seed_0"
+ },
+ {
+  "id": "heldout_0080",
+  "task": "dermstore",
+  "A": "g0final2__dermstore__seed_1",
+  "B": "lad9__dermstore__seed_0"
+ },
+ {
+  "id": "heldout_0081",
+  "task": "aspose",
+  "A": "g0conf__aspose__seed_5",
+  "B": "lad8b__aspose__seed_0"
+ },
+ {
+  "id": "heldout_0082",
+  "task": "dermstore",
+  "A": "g5afinal__dermstore__seed_2",
+  "B": "g5afinal__dermstore__seed_0"
+ },
+ {
+  "id": "heldout_0083",
+  "task": "aspose",
+  "A": "g0conf2__aspose__seed_2",
+  "B": "g5afinal__aspose__seed_0"
+ },
+ {
+  "id": "heldout_0084",
+  "task": "dermstore",
+  "A": "g5afinal__dermstore__seed_0",
+  "B": "g5aconf__dermstore__seed_3"
+ },
+ {
+  "id": "heldout_0085",
+  "task": "bayleys",
+  "A": "lad11b__bayleys__seed_0",
+  "B": "lad10__bayleys__seed_0"
+ },
+ {
+  "id": "heldout_0086",
+  "task": "bayleys",
+  "A": "g5am3__bayleys__seed_2",
+  "B": "g5aconf__bayleys__seed_3"
+ },
+ {
+  "id": "heldout_0087",
+  "task": "aspose",
+  "A": "g0conf__aspose__seed_4",
+  "B": "lad10__aspose__seed_2"
+ },
+ {
+  "id": "heldout_0088",
+  "task": "dermstore",
+  "A": "gen12conf__dermstore__seed_6",
+  "B": "g5aconf__dermstore__seed_3"
+ },
+ {
+  "id": "heldout_0089",
+  "task": "dermstore",
+  "A": "lad12__dermstore__seed_3",
+  "B": "lad8b__dermstore__seed_1"
+ },
+ {
+  "id": "heldout_0090",
+  "task": "bayleys",
+  "A": "g5aconf__bayleys__seed_1",
+  "B": "lad8b__bayleys__seed_0"
+ },
+ {
+  "id": "heldout_0091",
+  "task": "bayleys",
+  "A": "g0conf2__bayleys__seed_7",
+  "B": "g5am3__bayleys__seed_1"
+ },
+ {
+  "id": "heldout_0092",
+  "task": "bayleys",
+  "A": "g5aconf__bayleys__seed_1",
+  "B": "g5afinal__bayleys__seed_0"
+ },
+ {
+  "id": "heldout_0093",
+  "task": "aspose",
+  "A": "g5aconf__aspose__seed_0",
+  "B": "lad8b__aspose__seed_2"
+ },
+ {
+  "id": "heldout_0094",
+  "task": "aspose",
+  "A": "lad12__aspose__seed_0",
+  "B": "g0final__aspose__seed_1"
+ },
+ {
+  "id": "heldout_0095",
+  "task": "bayleys",
+  "A": "g5am3__bayleys__seed_0",
+  "B": "g0conf2__bayleys__seed_2"
+ },
+ {
+  "id": "heldout_0096",
+  "task": "dermstore",
+  "A": "g5afinal__dermstore__seed_0",
+  "B": "lad11b__dermstore__seed_0"
+ },
+ {
+  "id": "heldout_0097",
+  "task": "bayleys",
+  "A": "g5aconf__bayleys__seed_0",
+  "B": "g0conf2__bayleys__seed_1"
+ },
+ {
+  "id": "heldout_0098",
+  "task": "bayleys",
+  "A": "g0conf2__bayleys__seed_7",
+  "B": "gen12conf__bayleys__seed_3"
+ },
+ {
+  "id": "heldout_0099",
+  "task": "dermstore",
+  "A": "gen12conf__dermstore__seed_7",
+  "B": "g5aconf__dermstore__seed_0"
+ },
+ {
+  "id": "heldout_0100",
+  "task": "bayleys",
+  "A": "g5am3__bayleys__seed_2",
+  "B": "lad12__bayleys__seed_3"
+ },
+ {
+  "id": "heldout_0101",
+  "task": "bayleys",
+  "A": "g5aconf__bayleys__seed_0",
+  "B": "g5afinal__bayleys__seed_0"
+ },
+ {
+  "id": "heldout_0102",
+  "task": "dermstore",
+  "A": "gen12conf__dermstore__seed_0",
+  "B": "g5am3__dermstore__seed_1"
+ },
+ {
+  "id": "heldout_0103",
+  "task": "aspose",
+  "A": "g0final__aspose__seed_2",
+  "B": "lad12__aspose__seed_2"
+ },
+ {
+  "id": "heldout_0104",
+  "task": "dermstore",
+  "A": "g5aconf__dermstore__seed_4",
+  "B": "g5afinal__dermstore__seed_2"
+ },
+ {
+  "id": "heldout_0105",
+  "task": "aspose",
+  "A": "g0conf2__aspose__seed_2",
+  "B": "lad10__aspose__seed_2"
+ },
+ {
+  "id": "heldout_0106",
+  "task": "dermstore",
+  "A": "g5afinal__dermstore__seed_0",
+  "B": "lad8b__dermstore__seed_2"
+ },
+ {
+  "id": "heldout_0107",
+  "task": "aspose",
+  "A": "gen12conf__aspose__seed_1",
+  "B": "g0final__aspose__seed_0"
+ },
+ {
+  "id": "heldout_0108",
+  "task": "bayleys",
+  "A": "g5aconf__bayleys__seed_1",
+  "B": "gen12conf__bayleys__seed_0"
+ },
+ {
+  "id": "heldout_0109",
+  "task": "bayleys",
+  "A": "lad0__bayleys__seed_1",
+  "B": "g5am3__bayleys__seed_2"
+ },
+ {
+  "id": "heldout_0110",
+  "task": "bayleys",
+  "A": "g5afinal__bayleys__seed_2",
+  "B": "gen12conf__bayleys__seed_3"
+ },
+ {
+  "id": "heldout_0111",
+  "task": "bayleys",
+  "A": "gen12conf__bayleys__seed_5",
+  "B": "g0conf2__bayleys__seed_2"
+ },
+ {
+  "id": "heldout_0112",
+  "task": "aspose",
+  "A": "g0conf2__aspose__seed_3",
+  "B": "g5aconf__aspose__seed_0"
+ },
+ {
+  "id": "heldout_0113",
+  "task": "bayleys",
+  "A": "g5am3__bayleys__seed_0",
+  "B": "g0conf2__bayleys__seed_5"
+ },
+ {
+  "id": "heldout_0114",
+  "task": "aspose",
+  "A": "lad12__aspose__seed_1",
+  "B": "g0conf2__aspose__seed_2"
+ },
+ {
+  "id": "heldout_0115",
+  "task": "bayleys",
+  "A": "g0conf2__bayleys__seed_5",
+  "B": "g5aconf__bayleys__seed_1"
+ },
+ {
+  "id": "heldout_0116",
+  "task": "bayleys",
+  "A": "gen12conf__bayleys__seed_3",
+  "B": "g5aconf__bayleys__seed_1"
+ },
+ {
+  "id": "heldout_0117",
+  "task": "aspose",
+  "A": "g5afinal__aspose__seed_2",
+  "B": "g0final__aspose__seed_2"
+ },
+ {
+  "id": "heldout_0118",
+  "task": "bayleys",
+  "A": "lad8b__bayleys__seed_0",
+  "B": "g5am3__bayleys__seed_0"
+ },
+ {
+  "id": "heldout_0119",
+  "task": "aspose",
+  "A": "lad9__aspose__seed_1",
+  "B": "lad12__aspose__seed_1"
+ }
+]

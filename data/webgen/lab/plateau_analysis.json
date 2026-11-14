@@ -1,0 +1,1054 @@
+{
+ "emitatomicit": {
+  "acc": 0.5827464788732394,
+  "labels": {
+   "NO": 135,
+   "NONE": 83,
+   "YES": 312,
+   "PARTIAL": 38
+  },
+  "fail_by_type": {
+   "other": 72,
+   "search/filter": 38,
+   "content/display": 33,
+   "nav/reach": 32,
+   "crud/persist": 16,
+   "form/submit": 56,
+   "auth/login": 9
+  },
+  "all_by_type": {
+   "other": 102,
+   "search/filter": 72,
+   "content/display": 126,
+   "nav/reach": 102,
+   "crud/persist": 46,
+   "form/submit": 102,
+   "auth/login": 18
+  },
+  "case_loss": {
+   "000087": 0.7291666666666666,
+   "000029": 0.625,
+   "000030": 0.625,
+   "000012": 0.5,
+   "000055": 0.49107142857142855,
+   "000005": 0.4732142857142857,
+   "000028": 0.3854166666666667,
+   "000065": 0.3020833333333333,
+   "000070": 0.2708333333333333,
+   "000018": 0.2604166666666667,
+   "000014": 0.1875,
+   "000076": 0.075
+  }
+ },
+ "gen3b": {
+  "acc": 0.4263698630136986,
+  "labels": {
+   "YES": 238,
+   "PARTIAL": 22,
+   "NO": 128,
+   "NONE": 196
+  },
+  "fail_by_type": {
+   "search/filter": 30,
+   "other": 162,
+   "content/display": 34,
+   "nav/reach": 39,
+   "crud/persist": 22,
+   "form/submit": 43,
+   "auth/login": 16
+  },
+  "all_by_type": {
+   "other": 188,
+   "search/filter": 62,
+   "content/display": 110,
+   "nav/reach": 84,
+   "crud/persist": 42,
+   "form/submit": 76,
+   "auth/login": 22
+  },
+  "case_loss": {
+   "000029": 0.7946428571428571,
+   "000055": 0.7946428571428571,
+   "000018": 0.7708333333333334,
+   "000087": 0.6875,
+   "000012": 0.625,
+   "000030": 0.59375,
+   "000028": 0.5416666666666666,
+   "000065": 0.5104166666666666,
+   "000070": 0.40625,
+   "000014": 0.375,
+   "000005": 0.3482142857142857,
+   "000076": 0.2875
+  }
+ },
+ "judge_noise": {
+  "task_flip_rate": 0.21830985915492956,
+  "yes_flip_rate": 0.1267605633802817,
+  "acc_delta_mean": 0.07642127659574469
+ },
+ "gen_var": {
+  "gen_sd_mean": 0.20006290419805484
+ },
+ "fail_examples": [
+  {
+   "case": "000005",
+   "seed": 0,
+   "rep": 0,
+   "label": "NO",
+   "task": "Test the data visualization feature for a selected regulatory policy.",
+   "why": ""
+  },
+  {
+   "case": "000005",
+   "seed": 0,
+   "rep": 0,
+   "label": "NONE",
+   "task": "Check the filter function for regulatory policies.",
+   "why": ""
+  },
+  {
+   "case": "000005",
+   "seed": 0,
+   "rep": 1,
+   "label": "NO",
+   "task": "Test the data visualization feature for a selected regulatory policy.",
+   "why": ""
+  },
+  {
+   "case": "000005",
+   "seed": 1,
+   "rep": 0,
+   "label": "NO",
+   "task": "Test the data visualization feature for a selected regulatory policy.",
+   "why": ""
+  },
+  {
+   "case": "000005",
+   "seed": 1,
+   "rep": 0,
+   "label": "NO",
+   "task": "Evaluate the clarity and relevance of the content displayed for the first regulatory policy.",
+   "why": ""
+  },
+  {
+   "case": "000005",
+   "seed": 1,
+   "rep": 1,
+   "label": "NONE",
+   "task": "Check the filter function for regulatory policies.",
+   "why": ""
+  },
+  {
+   "case": "000005",
+   "seed": 1,
+   "rep": 1,
+   "label": "NO",
+   "task": "Evaluate the clarity and relevance of the content displayed for the first regulatory policy.",
+   "why": ""
+  },
+  {
+   "case": "000005",
+   "seed": 2,
+   "rep": 0,
+   "label": "NONE",
+   "task": "Test the data visualization feature for a selected regulatory policy.",
+   "why": ""
+  },
+  {
+   "case": "000005",
+   "seed": 2,
+   "rep": 0,
+   "label": "NO",
+   "task": "Check the filter function for regulatory policies.",
+   "why": ""
+  },
+  {
+   "case": "000005",
+   "seed": 2,
+   "rep": 0,
+   "label": "NO",
+   "task": "Assess the sorting functionality within the dashboard.",
+   "why": ""
+  },
+  {
+   "case": "000005",
+   "seed": 2,
+   "rep": 0,
+   "label": "NONE",
+   "task": "Evaluate the clarity and relevance of the content displayed for the first regulatory policy.",
+   "why": ""
+  },
+  {
+   "case": "000005",
+   "seed": 2,
+   "rep": 0,
+   "label": "NO",
+   "task": "Assess the policy search functionality on the website.",
+   "why": ""
+  },
+  {
+   "case": "000005",
+   "seed": 2,
+   "rep": 1,
+   "label": "NO",
+   "task": "Test the data visualization feature for a selected regulatory policy.",
+   "why": ""
+  },
+  {
+   "case": "000005",
+   "seed": 2,
+   "rep": 1,
+   "label": "NO",
+   "task": "Check the filter function for regulatory policies.",
+   "why": ""
+  },
+  {
+   "case": "000005",
+   "seed": 2,
+   "rep": 1,
+   "label": "NO",
+   "task": "Assess the sorting functionality within the dashboard.",
+   "why": ""
+  },
+  {
+   "case": "000005",
+   "seed": 2,
+   "rep": 1,
+   "label": "NONE",
+   "task": "Evaluate the clarity and relevance of the content displayed for the first regulatory policy.",
+   "why": ""
+  },
+  {
+   "case": "000005",
+   "seed": 2,
+   "rep": 1,
+   "label": "NO",
+   "task": "Assess the policy search functionality on the website.",
+   "why": ""
+  },
+  {
+   "case": "000005",
+   "seed": 3,
+   "rep": 0,
+   "label": "NO",
+   "task": "Test the data visualization feature for a selected regulatory policy.",
+   "why": ""
+  },
+  {
+   "case": "000005",
+   "seed": 3,
+   "rep": 0,
+   "label": "NONE",
+   "task": "Check the filter function for regulatory policies.",
+   "why": ""
+  },
+  {
+   "case": "000005",
+   "seed": 3,
+   "rep": 0,
+   "label": "NONE",
+   "task": "Evaluate the clarity and relevance of the content displayed for the first regulatory policy.",
+   "why": ""
+  },
+  {
+   "case": "000005",
+   "seed": 3,
+   "rep": 1,
+   "label": "NO",
+   "task": "Test the data visualization feature for a selected regulatory policy.",
+   "why": ""
+  },
+  {
+   "case": "000005",
+   "seed": 3,
+   "rep": 1,
+   "label": "NONE",
+   "task": "Check the filter function for regulatory policies.",
+   "why": ""
+  },
+  {
+   "case": "000005",
+   "seed": 3,
+   "rep": 1,
+   "label": "NONE",
+   "task": "Evaluate the clarity and relevance of the content displayed for the first regulatory policy.",
+   "why": ""
+  },
+  {
+   "case": "000005",
+   "seed": 3,
+   "rep": 1,
+   "label": "NO",
+   "task": "Assess the policy search functionality on the website.",
+   "why": ""
+  },
+  {
+   "case": "000012",
+   "seed": 0,
+   "rep": 0,
+   "label": "NO",
+   "task": "Navigate to the player statistics section and select a player to view detailed statistics.",
+   "why": ""
+  },
+  {
+   "case": "000012",
+   "seed": 0,
+   "rep": 0,
+   "label": "NONE",
+   "task": "Open the game simulation feature and initiate a new game simulation.",
+   "why": ""
+  },
+  {
+   "case": "000012",
+   "seed": 0,
+   "rep": 0,
+   "label": "NONE",
+   "task": "Attempt to adjust the team's strategy settings for defense before starting a game simulation.",
+   "why": ""
+  },
+  {
+   "case": "000012",
+   "seed": 0,
+   "rep": 0,
+   "label": "NONE",
+   "task": "Review the team's financial management section and adjust the budget allocation for training expenses.",
+   "why": ""
+  },
+  {
+   "case": "000012",
+   "seed": 0,
+   "rep": 1,
+   "label": "NO",
+   "task": "Navigate to the player statistics section and select a player to view detailed statistics.",
+   "why": ""
+  },
+  {
+   "case": "000012",
+   "seed": 0,
+   "rep": 1,
+   "label": "NONE",
+   "task": "Open the game simulation feature and initiate a new game simulation.",
+   "why": ""
+  },
+  {
+   "case": "000012",
+   "seed": 0,
+   "rep": 1,
+   "label": "NONE",
+   "task": "Attempt to adjust the team's strategy settings for defense before starting a game simulation.",
+   "why": ""
+  },
+  {
+   "case": "000012",
+   "seed": 0,
+   "rep": 1,
+   "label": "NONE",
+   "task": "Review the team's financial management section and adjust the budget allocation for training expenses.",
+   "why": ""
+  },
+  {
+   "case": "000012",
+   "seed": 1,
+   "rep": 0,
+   "label": "NO",
+   "task": "Navigate to the player statistics section and select a player to view detailed statistics.",
+   "why": ""
+  },
+  {
+   "case": "000012",
+   "seed": 1,
+   "rep": 0,
+   "label": "NO",
+   "task": "Attempt to adjust the team's strategy settings for defense before starting a game simulation.",
+   "why": ""
+  },
+  {
+   "case": "000012",
+   "seed": 1,
+   "rep": 0,
+   "label": "NONE",
+   "task": "Review the team's financial management section and adjust the budget allocation for training expenses.",
+   "why": ""
+  },
+  {
+   "case": "000012",
+   "seed": 1,
+   "rep": 1,
+   "label": "NONE",
+   "task": "Navigate to the player statistics section and select a player to view detailed statistics.",
+   "why": ""
+  },
+  {
+   "case": "000012",
+   "seed": 1,
+   "rep": 1,
+   "label": "NO",
+   "task": "Attempt to adjust the team's strategy settings for defense before starting a game simulation.",
+   "why": ""
+  },
+  {
+   "case": "000012",
+   "seed": 1,
+   "rep": 1,
+   "label": "NO",
+   "task": "Review the team's financial management section and adjust the budget allocation for training expenses.",
+   "why": ""
+  },
+  {
+   "case": "000012",
+   "seed": 2,
+   "rep": 0,
+   "label": "NO",
+   "task": "Attempt to adjust the team's strategy settings for defense before starting a game simulation.",
+   "why": ""
+  },
+  {
+   "case": "000012",
+   "seed": 2,
+   "rep": 0,
+   "label": "NO",
+   "task": "Review the team's financial management section and adjust the budget allocation for training expenses.",
+   "why": ""
+  },
+  {
+   "case": "000012",
+   "seed": 2,
+   "rep": 1,
+   "label": "NO",
+   "task": "Navigate to the player statistics section and select a player to view detailed statistics.",
+   "why": ""
+  },
+  {
+   "case": "000012",
+   "seed": 2,
+   "rep": 1,
+   "label": "NO",
+   "task": "Attempt to adjust the team's strategy settings for defense before starting a game simulation.",
+   "why": ""
+  },
+  {
+   "case": "000012",
+   "seed": 2,
+   "rep": 1,
+   "label": "NONE",
+   "task": "Review the team's financial management section and adjust the budget allocation for training expenses.",
+   "why": ""
+  },
+  {
+   "case": "000012",
+   "seed": 2,
+   "rep": 1,
+   "label": "NO",
+   "task": "Use the navigation menu to access and then return from each main section (player statistics, team management, live game simulation) to the homepage.",
+   "why": ""
+  },
+  {
+   "case": "000012",
+   "seed": 3,
+   "rep": 0,
+   "label": "NO",
+   "task": "Navigate to the player statistics section and select a player to view detailed statistics.",
+   "why": ""
+  },
+  {
+   "case": "000012",
+   "seed": 3,
+   "rep": 0,
+   "label": "NONE",
+   "task": "Attempt to adjust the team's strategy settings for defense before starting a game simulation.",
+   "why": ""
+  },
+  {
+   "case": "000012",
+   "seed": 3,
+   "rep": 1,
+   "label": "NONE",
+   "task": "Navigate to the player statistics section and select a player to view detailed statistics.",
+   "why": ""
+  },
+  {
+   "case": "000012",
+   "seed": 3,
+   "rep": 1,
+   "label": "NO",
+   "task": "Attempt to adjust the team's strategy settings for defense before starting a game simulation.",
+   "why": ""
+  },
+  {
+   "case": "000014",
+   "seed": 0,
+   "rep": 0,
+   "label": "NO",
+   "task": "Test the form submission functionality by inputting valid personal information and credit status details.",
+   "why": ""
+  },
+  {
+   "case": "000014",
+   "seed": 0,
+   "rep": 1,
+   "label": "NO",
+   "task": "Test the form submission functionality by inputting valid personal information and credit status details.",
+   "why": ""
+  },
+  {
+   "case": "000014",
+   "seed": 2,
+   "rep": 0,
+   "label": "NONE",
+   "task": "Test the form submission functionality by inputting valid personal information and credit status details.",
+   "why": ""
+  },
+  {
+   "case": "000014",
+   "seed": 2,
+   "rep": 1,
+   "label": "NONE",
+   "task": "Test the form submission functionality by inputting valid personal information and credit status details.",
+   "why": ""
+  },
+  {
+   "case": "000014",
+   "seed": 3,
+   "rep": 0,
+   "label": "NO",
+   "task": "Test the form submission functionality by inputting valid personal information and credit status details.",
+   "why": ""
+  },
+  {
+   "case": "000014",
+   "seed": 3,
+   "rep": 1,
+   "label": "NO",
+   "task": "Test the form submission functionality by inputting valid personal information and credit status details.",
+   "why": ""
+  },
+  {
+   "case": "000018",
+   "seed": 0,
+   "rep": 0,
+   "label": "NONE",
+   "task": "Access the \"Book Now\" page and successfully submit a booking form with all required fields completed (e.g., service type, date, customer details).",
+   "why": ""
+  },
+  {
+   "case": "000018",
+   "seed": 0,
+   "rep": 1,
+   "label": "NONE",
+   "task": "Access the \"Book Now\" page and successfully submit a booking form with all required fields completed (e.g., service type, date, customer details).",
+   "why": ""
+  },
+  {
+   "case": "000018",
+   "seed": 1,
+   "rep": 0,
+   "label": "NO",
+   "task": "Access the \"Book Now\" page and successfully submit a booking form with all required fields completed (e.g., service type, date, customer details).",
+   "why": ""
+  },
+  {
+   "case": "000018",
+   "seed": 1,
+   "rep": 0,
+   "label": "NO",
+   "task": "From the homepage, use the navigation to access the service status feature and input a booking reference to check its status.",
+   "why": ""
+  },
+  {
+   "case": "000018",
+   "seed": 1,
+   "rep": 1,
+   "label": "NONE",
+   "task": "Access the \"Book Now\" page and successfully submit a booking form with all required fields completed (e.g., service type, date, customer details).",
+   "why": ""
+  },
+  {
+   "case": "000018",
+   "seed": 1,
+   "rep": 1,
+   "label": "NO",
+   "task": "From the homepage, use the navigation to access the service status feature and input a booking reference to check its status.",
+   "why": ""
+  },
+  {
+   "case": "000018",
+   "seed": 1,
+   "rep": 1,
+   "label": "NO",
+   "task": "Verify that the website uses 'azure mist' as the background color and 'dark slate blue' as the component color, as specified in the design requirements.",
+   "why": ""
+  },
+  {
+   "case": "000018",
+   "seed": 2,
+   "rep": 0,
+   "label": "NONE",
+   "task": "Access the \"Book Now\" page and successfully submit a booking form with all required fields completed (e.g., service type, date, customer details).",
+   "why": ""
+  },
+  {
+   "case": "000018",
+   "seed": 2,
+   "rep": 1,
+   "label": "NONE",
+   "task": "Access the \"Book Now\" page and successfully submit a booking form with all required fields completed (e.g., service type, date, customer details).",
+   "why": ""
+  },
+  {
+   "case": "000018",
+   "seed": 3,
+   "rep": 0,
+   "label": "NONE",
+   "task": "Access the \"Book Now\" page and successfully submit a booking form with all required fields completed (e.g., service type, date, customer details).",
+   "why": ""
+  },
+  {
+   "case": "000018",
+   "seed": 3,
+   "rep": 1,
+   "label": "NONE",
+   "task": "Access the \"Book Now\" page and successfully submit a booking form with all required fields completed (e.g., service type, date, customer details).",
+   "why": ""
+  },
+  {
+   "case": "000028",
+   "seed": 0,
+   "rep": 1,
+   "label": "NO",
+   "task": "Navigate to the \"Contest Announcements\" page and check for the presence of the latest contest announcement.",
+   "why": ""
+  },
+  {
+   "case": "000028",
+   "seed": 1,
+   "rep": 0,
+   "label": "NONE",
+   "task": "",
+   "why": "site missing"
+  },
+  {
+   "case": "000028",
+   "seed": 1,
+   "rep": 0,
+   "label": "NONE",
+   "task": "",
+   "why": "site missing"
+  },
+  {
+   "case": "000028",
+   "seed": 1,
+   "rep": 0,
+   "label": "NONE",
+   "task": "",
+   "why": "site missing"
+  },
+  {
+   "case": "000028",
+   "seed": 1,
+   "rep": 0,
+   "label": "NONE",
+   "task": "",
+   "why": "site missing"
+  },
+  {
+   "case": "000028",
+   "seed": 1,
+   "rep": 0,
+   "label": "NONE",
+   "task": "",
+   "why": "site missing"
+  },
+  {
+   "case": "000028",
+   "seed": 1,
+   "rep": 0,
+   "label": "NONE",
+   "task": "",
+   "why": "site missing"
+  },
+  {
+   "case": "000028",
+   "seed": 1,
+   "rep": 1,
+   "label": "NONE",
+   "task": "",
+   "why": "site missing"
+  },
+  {
+   "case": "000028",
+   "seed": 1,
+   "rep": 1,
+   "label": "NONE",
+   "task": "",
+   "why": "site missing"
+  },
+  {
+   "case": "000028",
+   "seed": 1,
+   "rep": 1,
+   "label": "NONE",
+   "task": "",
+   "why": "site missing"
+  },
+  {
+   "case": "000028",
+   "seed": 1,
+   "rep": 1,
+   "label": "NONE",
+   "task": "",
+   "why": "site missing"
+  },
+  {
+   "case": "000028",
+   "seed": 1,
+   "rep": 1,
+   "label": "NONE",
+   "task": "",
+   "why": "site missing"
+  },
+  {
+   "case": "000028",
+   "seed": 1,
+   "rep": 1,
+   "label": "NONE",
+   "task": "",
+   "why": "site missing"
+  },
+  {
+   "case": "000028",
+   "seed": 2,
+   "rep": 0,
+   "label": "NO",
+   "task": "Attempt to register for a contest using the provided registration form with valid details.",
+   "why": ""
+  },
+  {
+   "case": "000028",
+   "seed": 2,
+   "rep": 1,
+   "label": "NO",
+   "task": "Attempt to register for a contest using the provided registration form with valid details.",
+   "why": ""
+  },
+  {
+   "case": "000028",
+   "seed": 3,
+   "rep": 0,
+   "label": "NONE",
+   "task": "Attempt to register for a contest using the provided registration form with valid details.",
+   "why": ""
+  },
+  {
+   "case": "000028",
+   "seed": 3,
+   "rep": 0,
+   "label": "NO",
+   "task": "Access the \"Contest Results\" page and verify the display of the most recent contest results.",
+   "why": ""
+  },
+  {
+   "case": "000028",
+   "seed": 3,
+   "rep": 1,
+   "label": "NONE",
+   "task": "Attempt to register for a contest using the provided registration form with valid details.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 0,
+   "rep": 0,
+   "label": "NO",
+   "task": "Test the reply functionality by responding to an existing post.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 0,
+   "rep": 0,
+   "label": "NO",
+   "task": "Test the search feature by entering a specific keyword like health.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 0,
+   "rep": 0,
+   "label": "NO",
+   "task": "Verify that the website uses 'ghost white' as the background color and 'slate gray' as the component color, as specified in the design requirements.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 0,
+   "rep": 1,
+   "label": "NO",
+   "task": "Test the reply functionality by responding to an existing post.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 0,
+   "rep": 1,
+   "label": "NO",
+   "task": "Test the search feature by entering a specific keyword like health.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 1,
+   "rep": 0,
+   "label": "NONE",
+   "task": "Test posting a new forum topic as a user.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 1,
+   "rep": 0,
+   "label": "NO",
+   "task": "Test the reply functionality by responding to an existing post.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 1,
+   "rep": 0,
+   "label": "NO",
+   "task": "Test browsing posts by selecting a specific category.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 1,
+   "rep": 1,
+   "label": "NO",
+   "task": "Test posting a new forum topic as a user.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 1,
+   "rep": 1,
+   "label": "NONE",
+   "task": "Test the reply functionality by responding to an existing post.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 1,
+   "rep": 1,
+   "label": "NO",
+   "task": "Test browsing posts by selecting a specific category.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 2,
+   "rep": 0,
+   "label": "NO",
+   "task": "Test the reply functionality by responding to an existing post.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 2,
+   "rep": 0,
+   "label": "NO",
+   "task": "Test the search feature by entering a specific keyword like health.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 2,
+   "rep": 0,
+   "label": "NO",
+   "task": "Test browsing posts by selecting a specific category.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 2,
+   "rep": 0,
+   "label": "NO",
+   "task": "Check the user center for correctness of displayed personal information.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 2,
+   "rep": 1,
+   "label": "NO",
+   "task": "Test posting a new forum topic as a user.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 2,
+   "rep": 1,
+   "label": "NO",
+   "task": "Test the reply functionality by responding to an existing post.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 2,
+   "rep": 1,
+   "label": "NO",
+   "task": "Test the search feature by entering a specific keyword like health.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 2,
+   "rep": 1,
+   "label": "NO",
+   "task": "Check the user center for correctness of displayed personal information.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 3,
+   "rep": 0,
+   "label": "NO",
+   "task": "Test posting a new forum topic as a user.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 3,
+   "rep": 0,
+   "label": "NO",
+   "task": "Test the reply functionality by responding to an existing post.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 3,
+   "rep": 0,
+   "label": "NO",
+   "task": "Test the search feature by entering a specific keyword like health.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 3,
+   "rep": 0,
+   "label": "NO",
+   "task": "Test browsing posts by selecting a specific category.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 3,
+   "rep": 0,
+   "label": "NO",
+   "task": "Verify content accuracy by checking the user center to view personal posts and replies.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 3,
+   "rep": 0,
+   "label": "NO",
+   "task": "Check the user center for correctness of displayed personal information.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 3,
+   "rep": 1,
+   "label": "NO",
+   "task": "Test posting a new forum topic as a user.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 3,
+   "rep": 1,
+   "label": "NO",
+   "task": "Test the reply functionality by responding to an existing post.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 3,
+   "rep": 1,
+   "label": "NO",
+   "task": "Test the search feature by entering a specific keyword like health.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 3,
+   "rep": 1,
+   "label": "NO",
+   "task": "Test browsing posts by selecting a specific category.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 3,
+   "rep": 1,
+   "label": "NO",
+   "task": "Verify content accuracy by checking the user center to view personal posts and replies.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 3,
+   "rep": 1,
+   "label": "NO",
+   "task": "Check the user center for correctness of displayed personal information.",
+   "why": ""
+  },
+  {
+   "case": "000029",
+   "seed": 3,
+   "rep": 1,
+   "label": "NO",
+   "task": "Verify that the website uses 'ghost white' as the background color and 'slate gray' as the component color, as specified in the design requirements.",
+   "why": ""
+  },
+  {
+   "case": "000030",
+   "seed": 0,
+   "rep": 0,
+   "label": "NO",
+   "task": "Navigate to the technical articles section using the main navigation menu.",
+   "why": ""
+  },
+  {
+   "case": "000030",
+   "seed": 0,
+   "rep": 0,
+   "label": "NO",
+   "task": "Use the search functionality to find a specific technical topic.",
+   "why": ""
+  },
+  {
+   "case": "000030",
+   "seed": 0,
+   "rep": 0,
+   "label": "NO",
+   "task": "Open a technical article and verify its content.",
+   "why": ""
+  },
+  {
+   "case": "000030",
+   "seed": 0,
+   "rep": 0,
+   "label": "NO",
+   "task": "Verify that the website uses 'lavender' as the background color and 'indigo' as the component color, as specified in the design requirements.",
+   "why": ""
+  },
+  {
+   "case": "000030",
+   "seed": 0,
+   "rep": 1,
+   "label": "NO",
+   "task": "Navigate to the technical articles section using the main navigation menu.",
+   "why": ""
+  }
+ ]
+}

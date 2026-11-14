@@ -1,0 +1,624 @@
+{
+ "ganR1": {
+  "headline": {
+   "round": "ganR1",
+   "n": 13,
+   "judge_winrate": 0.538,
+   "cand_official": 0.4835,
+   "ref_official": 0.4939,
+   "official_delta": -0.0103,
+   "fooling_pairs": 0,
+   "fools": []
+  },
+  "v_ganR1": {
+   "n": 13,
+   "judge_winrate_cand": 0.5385,
+   "official_delta_mean": -0.0103,
+   "fooling_pairs_gt0.05": 0,
+   "fooling_pairs_gt0.10": 0,
+   "pairs": [
+    {
+     "pid": "gan_ganR1_000",
+     "task_seed": [
+      "hugedomains",
+      "seed_0"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": -0.1243
+    },
+    {
+     "pid": "gan_ganR1_001",
+     "task_seed": [
+      "hugedomains",
+      "seed_1"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": -0.1711
+    },
+    {
+     "pid": "gan_ganR1_002",
+     "task_seed": [
+      "hugedomains",
+      "seed_2"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": -0.0734
+    },
+    {
+     "pid": "gan_ganR1_003",
+     "task_seed": [
+      "hugedomains",
+      "seed_3"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": 0.0275
+    },
+    {
+     "pid": "gan_ganR1_004",
+     "task_seed": [
+      "jotform",
+      "seed_1"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": -0.0287
+    },
+    {
+     "pid": "gan_ganR1_005",
+     "task_seed": [
+      "jotform",
+      "seed_2"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": 0.0488
+    },
+    {
+     "pid": "gan_ganR1_006",
+     "task_seed": [
+      "legistify",
+      "seed_1"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": 0.1217
+    },
+    {
+     "pid": "gan_ganR1_007",
+     "task_seed": [
+      "legistify",
+      "seed_2"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": -0.0489
+    },
+    {
+     "pid": "gan_ganR1_008",
+     "task_seed": [
+      "legistify",
+      "seed_3"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": 0.0658
+    },
+    {
+     "pid": "gan_ganR1_009",
+     "task_seed": [
+      "recipecloud",
+      "seed_0"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": -0.0843
+    },
+    {
+     "pid": "gan_ganR1_010",
+     "task_seed": [
+      "recipecloud",
+      "seed_1"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": 0.0302
+    },
+    {
+     "pid": "gan_ganR1_011",
+     "task_seed": [
+      "recipecloud",
+      "seed_2"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": 0.142
+    },
+    {
+     "pid": "gan_ganR1_012",
+     "task_seed": [
+      "recipecloud",
+      "seed_3"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": -0.0396
+    }
+   ]
+  }
+ },
+ "ganR2": {
+  "headline": {
+   "round": "ganR2",
+   "n": 15,
+   "judge_winrate": 0.733,
+   "cand_official": 0.5007,
+   "ref_official": 0.5013,
+   "official_delta": -0.0006,
+   "fooling_pairs": 4,
+   "fools": [
+    {
+     "pid": "gan_ganR2_006",
+     "k": [
+      "jotform",
+      "seed_3"
+     ],
+     "cand_score": 0.509,
+     "ref_score": 0.61
+    },
+    {
+     "pid": "gan_ganR2_009",
+     "k": [
+      "legistify",
+      "seed_2"
+     ],
+     "cand_score": 0.384,
+     "ref_score": 0.493
+    },
+    {
+     "pid": "gan_ganR2_013",
+     "k": [
+      "recipecloud",
+      "seed_2"
+     ],
+     "cand_score": 0.423,
+     "ref_score": 0.489
+    },
+    {
+     "pid": "gan_ganR2_014",
+     "k": [
+      "recipecloud",
+      "seed_3"
+     ],
+     "cand_score": 0.5,
+     "ref_score": 0.534
+    }
+   ]
+  },
+  "v_ganR2": {
+   "n": 15,
+   "judge_winrate_cand": 0.7333,
+   "official_delta_mean": -0.0006,
+   "fooling_pairs_gt0.05": 3,
+   "fooling_pairs_gt0.10": 2,
+   "pairs": [
+    {
+     "pid": "gan_ganR2_000",
+     "task_seed": [
+      "hugedomains",
+      "seed_0"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": 0.0669
+    },
+    {
+     "pid": "gan_ganR2_001",
+     "task_seed": [
+      "hugedomains",
+      "seed_1"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": 0.0397
+    },
+    {
+     "pid": "gan_ganR2_002",
+     "task_seed": [
+      "hugedomains",
+      "seed_3"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": 0.0561
+    },
+    {
+     "pid": "gan_ganR2_003",
+     "task_seed": [
+      "jotform",
+      "seed_0"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": 0.141
+    },
+    {
+     "pid": "gan_ganR2_004",
+     "task_seed": [
+      "jotform",
+      "seed_1"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": -0.0625
+    },
+    {
+     "pid": "gan_ganR2_005",
+     "task_seed": [
+      "jotform",
+      "seed_2"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": 0.0573
+    },
+    {
+     "pid": "gan_ganR2_006",
+     "task_seed": [
+      "jotform",
+      "seed_3"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": -0.101
+    },
+    {
+     "pid": "gan_ganR2_007",
+     "task_seed": [
+      "legistify",
+      "seed_0"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": -0.1181
+    },
+    {
+     "pid": "gan_ganR2_008",
+     "task_seed": [
+      "legistify",
+      "seed_1"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": 0.0278
+    },
+    {
+     "pid": "gan_ganR2_009",
+     "task_seed": [
+      "legistify",
+      "seed_2"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": -0.1094
+    },
+    {
+     "pid": "gan_ganR2_010",
+     "task_seed": [
+      "legistify",
+      "seed_3"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": 0.0377
+    },
+    {
+     "pid": "gan_ganR2_011",
+     "task_seed": [
+      "recipecloud",
+      "seed_0"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": -0.0154
+    },
+    {
+     "pid": "gan_ganR2_012",
+     "task_seed": [
+      "recipecloud",
+      "seed_1"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": 0.0713
+    },
+    {
+     "pid": "gan_ganR2_013",
+     "task_seed": [
+      "recipecloud",
+      "seed_2"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": -0.0659
+    },
+    {
+     "pid": "gan_ganR2_014",
+     "task_seed": [
+      "recipecloud",
+      "seed_3"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": -0.0343
+    }
+   ]
+  },
+  "v_ganR2_jgen2": {
+   "n": 15,
+   "judge_winrate_cand": 0.4667,
+   "official_delta_mean": -0.0006,
+   "fooling_pairs_gt0.05": 2,
+   "fooling_pairs_gt0.10": 1,
+   "pairs": [
+    {
+     "pid": "gan_ganR2_000",
+     "task_seed": [
+      "hugedomains",
+      "seed_0"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": 0.0669
+    },
+    {
+     "pid": "gan_ganR2_001",
+     "task_seed": [
+      "hugedomains",
+      "seed_1"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": 0.0397
+    },
+    {
+     "pid": "gan_ganR2_002",
+     "task_seed": [
+      "hugedomains",
+      "seed_3"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": 0.0561
+    },
+    {
+     "pid": "gan_ganR2_003",
+     "task_seed": [
+      "jotform",
+      "seed_0"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": 0.141
+    },
+    {
+     "pid": "gan_ganR2_004",
+     "task_seed": [
+      "jotform",
+      "seed_1"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": -0.0625
+    },
+    {
+     "pid": "gan_ganR2_005",
+     "task_seed": [
+      "jotform",
+      "seed_2"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": 0.0573
+    },
+    {
+     "pid": "gan_ganR2_006",
+     "task_seed": [
+      "jotform",
+      "seed_3"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": -0.101
+    },
+    {
+     "pid": "gan_ganR2_007",
+     "task_seed": [
+      "legistify",
+      "seed_0"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": -0.1181
+    },
+    {
+     "pid": "gan_ganR2_008",
+     "task_seed": [
+      "legistify",
+      "seed_1"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": 0.0278
+    },
+    {
+     "pid": "gan_ganR2_009",
+     "task_seed": [
+      "legistify",
+      "seed_2"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": -0.1094
+    },
+    {
+     "pid": "gan_ganR2_010",
+     "task_seed": [
+      "legistify",
+      "seed_3"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": 0.0377
+    },
+    {
+     "pid": "gan_ganR2_011",
+     "task_seed": [
+      "recipecloud",
+      "seed_0"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": -0.0154
+    },
+    {
+     "pid": "gan_ganR2_012",
+     "task_seed": [
+      "recipecloud",
+      "seed_1"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": 0.0713
+    },
+    {
+     "pid": "gan_ganR2_013",
+     "task_seed": [
+      "recipecloud",
+      "seed_2"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": -0.0659
+    },
+    {
+     "pid": "gan_ganR2_014",
+     "task_seed": [
+      "recipecloud",
+      "seed_3"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": -0.0343
+    }
+   ]
+  }
+ },
+ "ganR3": {
+  "headline": {
+   "round": "ganR3",
+   "n": 14,
+   "judge_winrate": 0.429,
+   "cand_official": 0.496,
+   "ref_official": 0.4999,
+   "official_delta": -0.004,
+   "fooling_pairs": 0,
+   "fools": []
+  },
+  "v_ganR3": {
+   "n": 14,
+   "judge_winrate_cand": 0.4286,
+   "official_delta_mean": -0.0039,
+   "fooling_pairs_gt0.05": 0,
+   "fooling_pairs_gt0.10": 0,
+   "pairs": [
+    {
+     "pid": "gan_ganR3_000",
+     "task_seed": [
+      "hugedomains",
+      "seed_0"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": -0.0449
+    },
+    {
+     "pid": "gan_ganR3_001",
+     "task_seed": [
+      "hugedomains",
+      "seed_2"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": -0.0264
+    },
+    {
+     "pid": "gan_ganR3_002",
+     "task_seed": [
+      "hugedomains",
+      "seed_3"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": 0.1214
+    },
+    {
+     "pid": "gan_ganR3_003",
+     "task_seed": [
+      "jotform",
+      "seed_0"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": 0.1373
+    },
+    {
+     "pid": "gan_ganR3_004",
+     "task_seed": [
+      "jotform",
+      "seed_1"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": -0.0331
+    },
+    {
+     "pid": "gan_ganR3_005",
+     "task_seed": [
+      "jotform",
+      "seed_2"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": 0.0369
+    },
+    {
+     "pid": "gan_ganR3_006",
+     "task_seed": [
+      "jotform",
+      "seed_3"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": -0.0241
+    },
+    {
+     "pid": "gan_ganR3_007",
+     "task_seed": [
+      "legistify",
+      "seed_0"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": 0.0362
+    },
+    {
+     "pid": "gan_ganR3_008",
+     "task_seed": [
+      "legistify",
+      "seed_1"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": -0.0572
+    },
+    {
+     "pid": "gan_ganR3_009",
+     "task_seed": [
+      "legistify",
+      "seed_2"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": -0.0246
+    },
+    {
+     "pid": "gan_ganR3_010",
+     "task_seed": [
+      "legistify",
+      "seed_3"
+     ],
+     "judge_picked_cand": true,
+     "official_delta": 0.0114
+    },
+    {
+     "pid": "gan_ganR3_011",
+     "task_seed": [
+      "recipecloud",
+      "seed_0"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": -0.1921
+    },
+    {
+     "pid": "gan_ganR3_012",
+     "task_seed": [
+      "recipecloud",
+      "seed_1"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": -0.0401
+    },
+    {
+     "pid": "gan_ganR3_013",
+     "task_seed": [
+      "recipecloud",
+      "seed_3"
+     ],
+     "judge_picked_cand": false,
+     "official_delta": 0.0441
+    }
+   ]
+  }
+ }
+}

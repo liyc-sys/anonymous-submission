@@ -1,0 +1,16 @@
+{
+ "n_sites": 500,
+ "n_cases": 83,
+ "spearman": 0.851,
+ "mae": 0.1726,
+ "pair_agree_detie": 0.8526,
+ "n_pairs_detie": 1058,
+ "pair_agree_eps05": 0.8526,
+ "n_pairs_eps05": 1058,
+ "calibration_reference": {
+  "spearman": 0.915,
+  "pair_agree": 0.809,
+  "mae": 0.115,
+  "note": "19 arms x 4 train cases"
+ }
+}

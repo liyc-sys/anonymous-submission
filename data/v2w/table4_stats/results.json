@@ -1,0 +1,1489 @@
+{
+ "A_bon_pool_spearman": {
+  "definition": "Night-3 BoN pool: 16 complete groups (lad ladder 6 arms × 4 tasks, 4 seed pages within each group).Each judge generation runs the within-group 6-pair round-robin to Copeland points (win=1, undecided=0.5) as the judge ranking; official axis=same-page K4 official mean. Spearman=Pearson over the 4 pages' average ranks, computed per group then averaged over 16 groups.",
+  "judges": {
+   "jgen0": {
+    "n_groups": 16,
+    "mean_spearman": 0.4991,
+    "sd": 0.4925,
+    "median": 0.7873,
+    "min": -0.6,
+    "max": 1.0,
+    "n_undecided_pairs_total": 0,
+    "per_group": [
+     {
+      "group": "lad0|aspose",
+      "pages": [
+       "lad0__aspose__seed_0",
+       "lad0__aspose__seed_1",
+       "lad0__aspose__seed_2",
+       "lad0__aspose__seed_3"
+      ],
+      "judge_points": [
+       2.0,
+       2.0,
+       0.0,
+       2.0
+      ],
+      "official_k4": [
+       0.5297,
+       0.505,
+       0.4727,
+       0.5517
+      ],
+      "spearman": 0.7745966692414834
+     },
+     {
+      "group": "lad0|dermstore",
+      "pages": [
+       "lad0__dermstore__seed_0",
+       "lad0__dermstore__seed_1",
+       "lad0__dermstore__seed_2",
+       "lad0__dermstore__seed_3"
+      ],
+      "judge_points": [
+       2.0,
+       1.0,
+       3.0,
+       0.0
+      ],
+      "official_k4": [
+       0.513,
+       0.4463,
+       0.4593,
+       0.354
+      ],
+      "spearman": 0.7999999999999998
+     },
+     {
+      "group": "lad0|eventbrite",
+      "pages": [
+       "lad0__eventbrite__seed_0",
+       "lad0__eventbrite__seed_1",
+       "lad0__eventbrite__seed_2",
+       "lad0__eventbrite__seed_3"
+      ],
+      "judge_points": [
+       1.0,
+       3.0,
+       0.0,
+       2.0
+      ],
+      "official_k4": [
+       0.5637,
+       0.5077,
+       0.5627,
+       0.4553
+      ],
+      "spearman": -0.5999999999999999
+     },
+     {
+      "group": "lad10|dermstore",
+      "pages": [
+       "lad10__dermstore__seed_0",
+       "lad10__dermstore__seed_1",
+       "lad10__dermstore__seed_2",
+       "lad10__dermstore__seed_3"
+      ],
+      "judge_points": [
+       2.0,
+       1.0,
+       1.0,
+       2.0
+      ],
+      "official_k4": [
+       0.4807,
+       0.4913,
+       0.5363,
+       0.6287
+      ],
+      "spearman": 0.0
+     },
+     {
+      "group": "lad10|eventbrite",
+      "pages": [
+       "lad10__eventbrite__seed_0",
+       "lad10__eventbrite__seed_1",
+       "lad10__eventbrite__seed_2",
+       "lad10__eventbrite__seed_3"
+      ],
+      "judge_points": [
+       1.0,
+       2.0,
+       2.0,
+       1.0
+      ],
+      "official_k4": [
+       0.6027,
+       0.6267,
+       0.62,
+       0.5033
+      ],
+      "spearman": 0.8944271909999159
+     },
+     {
+      "group": "lad11b|bayleys",
+      "pages": [
+       "lad11b__bayleys__seed_0",
+       "lad11b__bayleys__seed_1",
+       "lad11b__bayleys__seed_2",
+       "lad11b__bayleys__seed_3"
+      ],
+      "judge_points": [
+       3.0,
+       1.0,
+       0.0,
+       2.0
+      ],
+      "official_k4": [
+       0.544,
+       0.5023,
+       0.456,
+       0.558
+      ],
+      "spearman": 0.7999999999999998
+     },
+     {
+      "group": "lad11b|dermstore",
+      "pages": [
+       "lad11b__dermstore__seed_0",
+       "lad11b__dermstore__seed_1",
+       "lad11b__dermstore__seed_2",
+       "lad11b__dermstore__seed_3"
+      ],
+      "judge_points": [
+       3.0,
+       0.0,
+       1.0,
+       2.0
+      ],
+      "official_k4": [
+       0.6067,
+       0.51,
+       0.502,
+       0.5487
+      ],
+      "spearman": 0.7999999999999998
+     },
+     {
+      "group": "lad11b|eventbrite",
+      "pages": [
+       "lad11b__eventbrite__seed_0",
+       "lad11b__eventbrite__seed_1",
+       "lad11b__eventbrite__seed_2",
+       "lad11b__eventbrite__seed_3"
+      ],
+      "judge_points": [
+       2.0,
+       3.0,
+       1.0,
+       0.0
+      ],
+      "official_k4": [
+       0.6367,
+       0.5823,
+       0.6453,
+       0.5367
+      ],
+      "spearman": 0.19999999999999996
+     },
+     {
+      "group": "lad12|aspose",
+      "pages": [
+       "lad12__aspose__seed_0",
+       "lad12__aspose__seed_1",
+       "lad12__aspose__seed_2",
+       "lad12__aspose__seed_3"
+      ],
+      "judge_points": [
+       0.0,
+       3.0,
+       1.0,
+       2.0
+      ],
+      "official_k4": [
+       0.3213,
+       0.6517,
+       0.5767,
+       0.5657
+      ],
+      "spearman": 0.7999999999999998
+     },
+     {
+      "group": "lad12|bayleys",
+      "pages": [
+       "lad12__bayleys__seed_0",
+       "lad12__bayleys__seed_1",
+       "lad12__bayleys__seed_2",
+       "lad12__bayleys__seed_3"
+      ],
+      "judge_points": [
+       1.0,
+       2.0,
+       3.0,
+       0.0
+      ],
+      "official_k4": [
+       0.5297,
+       0.5707,
+       0.507,
+       0.518
+      ],
+      "spearman": -0.19999999999999996
+     },
+     {
+      "group": "lad12|eventbrite",
+      "pages": [
+       "lad12__eventbrite__seed_0",
+       "lad12__eventbrite__seed_1",
+       "lad12__eventbrite__seed_2",
+       "lad12__eventbrite__seed_3"
+      ],
+      "judge_points": [
+       3.0,
+       1.0,
+       2.0,
+       0.0
+      ],
+      "official_k4": [
+       0.6027,
+       0.611,
+       0.6003,
+       0.5977
+      ],
+      "spearman": 0.3999999999999999
+     },
+     {
+      "group": "lad8b|bayleys",
+      "pages": [
+       "lad8b__bayleys__seed_0",
+       "lad8b__bayleys__seed_1",
+       "lad8b__bayleys__seed_2",
+       "lad8b__bayleys__seed_3"
+      ],
+      "judge_points": [
+       1.0,
+       1.0,
+       1.0,
+       3.0
+      ],
+      "official_k4": [
+       0.4793,
+       0.4683,
+       0.4193,
+       0.499
+      ],
+      "spearman": 0.7745966692414834
+     },
+     {
+      "group": "lad8b|dermstore",
+      "pages": [
+       "lad8b__dermstore__seed_0",
+       "lad8b__dermstore__seed_1",
+       "lad8b__dermstore__seed_2",
+       "lad8b__dermstore__seed_3"
+      ],
+      "judge_points": [
+       2.0,
+       0.0,
+       1.0,
+       3.0
+      ],
+      "official_k4": [
+       0.5683,
+       0.394,
+       0.5543,
+       0.6293
+      ],
+      "spearman": 0.9999999999999998
+     },
+     {
+      "group": "lad9|aspose",
+      "pages": [
+       "lad9__aspose__seed_0",
+       "lad9__aspose__seed_1",
+       "lad9__aspose__seed_2",
+       "lad9__aspose__seed_3"
+      ],
+      "judge_points": [
+       3.0,
+       0.0,
+       1.0,
+       2.0
+      ],
+      "official_k4": [
+       0.5853,
+       0.4403,
+       0.4763,
+       0.5637
+      ],
+      "spearman": 0.9999999999999998
+     },
+     {
+      "group": "lad9|bayleys",
+      "pages": [
+       "lad9__bayleys__seed_0",
+       "lad9__bayleys__seed_1",
+       "lad9__bayleys__seed_2",
+       "lad9__bayleys__seed_3"
+      ],
+      "judge_points": [
+       3.0,
+       1.0,
+       0.0,
+       2.0
+      ],
+      "official_k4": [
+       0.605,
+       0.45,
+       0.5833,
+       0.5963
+      ],
+      "spearman": 0.7999999999999998
+     },
+     {
+      "group": "lad9|dermstore",
+      "pages": [
+       "lad9__dermstore__seed_0",
+       "lad9__dermstore__seed_1",
+       "lad9__dermstore__seed_2",
+       "lad9__dermstore__seed_3"
+      ],
+      "judge_points": [
+       1.0,
+       1.0,
+       1.0,
+       3.0
+      ],
+      "official_k4": [
+       0.5633,
+       0.4983,
+       0.5517,
+       0.5277
+      ],
+      "spearman": -0.2581988897471611
+     }
+    ]
+   },
+   "jgen1": {
+    "n_groups": 16,
+    "mean_spearman": 0.4793,
+    "sd": 0.5093,
+    "median": 0.7873,
+    "min": -0.8,
+    "max": 1.0,
+    "n_undecided_pairs_total": 0,
+    "per_group": [
+     {
+      "group": "lad0|aspose",
+      "pages": [
+       "lad0__aspose__seed_0",
+       "lad0__aspose__seed_1",
+       "lad0__aspose__seed_2",
+       "lad0__aspose__seed_3"
+      ],
+      "judge_points": [
+       1.0,
+       1.0,
+       1.0,
+       3.0
+      ],
+      "official_k4": [
+       0.5297,
+       0.505,
+       0.4727,
+       0.5517
+      ],
+      "spearman": 0.7745966692414834
+     },
+     {
+      "group": "lad0|dermstore",
+      "pages": [
+       "lad0__dermstore__seed_0",
+       "lad0__dermstore__seed_1",
+       "lad0__dermstore__seed_2",
+       "lad0__dermstore__seed_3"
+      ],
+      "judge_points": [
+       3.0,
+       1.0,
+       2.0,
+       0.0
+      ],
+      "official_k4": [
+       0.513,
+       0.4463,
+       0.4593,
+       0.354
+      ],
+      "spearman": 0.9999999999999998
+     },
+     {
+      "group": "lad0|eventbrite",
+      "pages": [
+       "lad0__eventbrite__seed_0",
+       "lad0__eventbrite__seed_1",
+       "lad0__eventbrite__seed_2",
+       "lad0__eventbrite__seed_3"
+      ],
+      "judge_points": [
+       2.0,
+       2.0,
+       0.0,
+       2.0
+      ],
+      "official_k4": [
+       0.5637,
+       0.5077,
+       0.5627,
+       0.4553
+      ],
+      "spearman": -0.2581988897471611
+     },
+     {
+      "group": "lad10|dermstore",
+      "pages": [
+       "lad10__dermstore__seed_0",
+       "lad10__dermstore__seed_1",
+       "lad10__dermstore__seed_2",
+       "lad10__dermstore__seed_3"
+      ],
+      "judge_points": [
+       0.0,
+       1.0,
+       3.0,
+       2.0
+      ],
+      "official_k4": [
+       0.4807,
+       0.4913,
+       0.5363,
+       0.6287
+      ],
+      "spearman": 0.7999999999999998
+     },
+     {
+      "group": "lad10|eventbrite",
+      "pages": [
+       "lad10__eventbrite__seed_0",
+       "lad10__eventbrite__seed_1",
+       "lad10__eventbrite__seed_2",
+       "lad10__eventbrite__seed_3"
+      ],
+      "judge_points": [
+       1.0,
+       2.0,
+       2.0,
+       1.0
+      ],
+      "official_k4": [
+       0.6027,
+       0.6267,
+       0.62,
+       0.5033
+      ],
+      "spearman": 0.8944271909999159
+     },
+     {
+      "group": "lad11b|bayleys",
+      "pages": [
+       "lad11b__bayleys__seed_0",
+       "lad11b__bayleys__seed_1",
+       "lad11b__bayleys__seed_2",
+       "lad11b__bayleys__seed_3"
+      ],
+      "judge_points": [
+       2.0,
+       1.0,
+       0.0,
+       3.0
+      ],
+      "official_k4": [
+       0.544,
+       0.5023,
+       0.456,
+       0.558
+      ],
+      "spearman": 0.9999999999999998
+     },
+     {
+      "group": "lad11b|dermstore",
+      "pages": [
+       "lad11b__dermstore__seed_0",
+       "lad11b__dermstore__seed_1",
+       "lad11b__dermstore__seed_2",
+       "lad11b__dermstore__seed_3"
+      ],
+      "judge_points": [
+       3.0,
+       0.0,
+       1.0,
+       2.0
+      ],
+      "official_k4": [
+       0.6067,
+       0.51,
+       0.502,
+       0.5487
+      ],
+      "spearman": 0.7999999999999998
+     },
+     {
+      "group": "lad11b|eventbrite",
+      "pages": [
+       "lad11b__eventbrite__seed_0",
+       "lad11b__eventbrite__seed_1",
+       "lad11b__eventbrite__seed_2",
+       "lad11b__eventbrite__seed_3"
+      ],
+      "judge_points": [
+       3.0,
+       1.0,
+       2.0,
+       0.0
+      ],
+      "official_k4": [
+       0.6367,
+       0.5823,
+       0.6453,
+       0.5367
+      ],
+      "spearman": 0.7999999999999998
+     },
+     {
+      "group": "lad12|aspose",
+      "pages": [
+       "lad12__aspose__seed_0",
+       "lad12__aspose__seed_1",
+       "lad12__aspose__seed_2",
+       "lad12__aspose__seed_3"
+      ],
+      "judge_points": [
+       0.0,
+       2.0,
+       1.0,
+       3.0
+      ],
+      "official_k4": [
+       0.3213,
+       0.6517,
+       0.5767,
+       0.5657
+      ],
+      "spearman": 0.3999999999999999
+     },
+     {
+      "group": "lad12|bayleys",
+      "pages": [
+       "lad12__bayleys__seed_0",
+       "lad12__bayleys__seed_1",
+       "lad12__bayleys__seed_2",
+       "lad12__bayleys__seed_3"
+      ],
+      "judge_points": [
+       2.0,
+       2.0,
+       2.0,
+       0.0
+      ],
+      "official_k4": [
+       0.5297,
+       0.5707,
+       0.507,
+       0.518
+      ],
+      "spearman": 0.2581988897471611
+     },
+     {
+      "group": "lad12|eventbrite",
+      "pages": [
+       "lad12__eventbrite__seed_0",
+       "lad12__eventbrite__seed_1",
+       "lad12__eventbrite__seed_2",
+       "lad12__eventbrite__seed_3"
+      ],
+      "judge_points": [
+       0.0,
+       2.0,
+       2.0,
+       2.0
+      ],
+      "official_k4": [
+       0.6027,
+       0.611,
+       0.6003,
+       0.5977
+      ],
+      "spearman": -0.2581988897471611
+     },
+     {
+      "group": "lad8b|bayleys",
+      "pages": [
+       "lad8b__bayleys__seed_0",
+       "lad8b__bayleys__seed_1",
+       "lad8b__bayleys__seed_2",
+       "lad8b__bayleys__seed_3"
+      ],
+      "judge_points": [
+       3.0,
+       1.0,
+       0.0,
+       2.0
+      ],
+      "official_k4": [
+       0.4793,
+       0.4683,
+       0.4193,
+       0.499
+      ],
+      "spearman": 0.7999999999999998
+     },
+     {
+      "group": "lad8b|dermstore",
+      "pages": [
+       "lad8b__dermstore__seed_0",
+       "lad8b__dermstore__seed_1",
+       "lad8b__dermstore__seed_2",
+       "lad8b__dermstore__seed_3"
+      ],
+      "judge_points": [
+       3.0,
+       0.0,
+       1.0,
+       2.0
+      ],
+      "official_k4": [
+       0.5683,
+       0.394,
+       0.5543,
+       0.6293
+      ],
+      "spearman": 0.7999999999999998
+     },
+     {
+      "group": "lad9|aspose",
+      "pages": [
+       "lad9__aspose__seed_0",
+       "lad9__aspose__seed_1",
+       "lad9__aspose__seed_2",
+       "lad9__aspose__seed_3"
+      ],
+      "judge_points": [
+       1.0,
+       1.0,
+       1.0,
+       3.0
+      ],
+      "official_k4": [
+       0.5853,
+       0.4403,
+       0.4763,
+       0.5637
+      ],
+      "spearman": 0.2581988897471611
+     },
+     {
+      "group": "lad9|bayleys",
+      "pages": [
+       "lad9__bayleys__seed_0",
+       "lad9__bayleys__seed_1",
+       "lad9__bayleys__seed_2",
+       "lad9__bayleys__seed_3"
+      ],
+      "judge_points": [
+       2.0,
+       0.0,
+       3.0,
+       1.0
+      ],
+      "official_k4": [
+       0.605,
+       0.45,
+       0.5833,
+       0.5963
+      ],
+      "spearman": 0.3999999999999999
+     },
+     {
+      "group": "lad9|dermstore",
+      "pages": [
+       "lad9__dermstore__seed_0",
+       "lad9__dermstore__seed_1",
+       "lad9__dermstore__seed_2",
+       "lad9__dermstore__seed_3"
+      ],
+      "judge_points": [
+       0.0,
+       3.0,
+       2.0,
+       1.0
+      ],
+      "official_k4": [
+       0.5633,
+       0.4983,
+       0.5517,
+       0.5277
+      ],
+      "spearman": -0.7999999999999998
+     }
+    ]
+   },
+   "jgen2": {
+    "n_groups": 16,
+    "mean_spearman": 0.5255,
+    "sd": 0.388,
+    "median": 0.7746,
+    "min": -0.4,
+    "max": 1.0,
+    "n_undecided_pairs_total": 0,
+    "per_group": [
+     {
+      "group": "lad0|aspose",
+      "pages": [
+       "lad0__aspose__seed_0",
+       "lad0__aspose__seed_1",
+       "lad0__aspose__seed_2",
+       "lad0__aspose__seed_3"
+      ],
+      "judge_points": [
+       1.0,
+       2.0,
+       0.0,
+       3.0
+      ],
+      "official_k4": [
+       0.5297,
+       0.505,
+       0.4727,
+       0.5517
+      ],
+      "spearman": 0.7999999999999998
+     },
+     {
+      "group": "lad0|dermstore",
+      "pages": [
+       "lad0__dermstore__seed_0",
+       "lad0__dermstore__seed_1",
+       "lad0__dermstore__seed_2",
+       "lad0__dermstore__seed_3"
+      ],
+      "judge_points": [
+       3.0,
+       1.0,
+       2.0,
+       0.0
+      ],
+      "official_k4": [
+       0.513,
+       0.4463,
+       0.4593,
+       0.354
+      ],
+      "spearman": 0.9999999999999998
+     },
+     {
+      "group": "lad0|eventbrite",
+      "pages": [
+       "lad0__eventbrite__seed_0",
+       "lad0__eventbrite__seed_1",
+       "lad0__eventbrite__seed_2",
+       "lad0__eventbrite__seed_3"
+      ],
+      "judge_points": [
+       3.0,
+       2.0,
+       0.0,
+       1.0
+      ],
+      "official_k4": [
+       0.5637,
+       0.5077,
+       0.5627,
+       0.4553
+      ],
+      "spearman": 0.3999999999999999
+     },
+     {
+      "group": "lad10|dermstore",
+      "pages": [
+       "lad10__dermstore__seed_0",
+       "lad10__dermstore__seed_1",
+       "lad10__dermstore__seed_2",
+       "lad10__dermstore__seed_3"
+      ],
+      "judge_points": [
+       0.0,
+       2.0,
+       2.0,
+       2.0
+      ],
+      "official_k4": [
+       0.4807,
+       0.4913,
+       0.5363,
+       0.6287
+      ],
+      "spearman": 0.7745966692414834
+     },
+     {
+      "group": "lad10|eventbrite",
+      "pages": [
+       "lad10__eventbrite__seed_0",
+       "lad10__eventbrite__seed_1",
+       "lad10__eventbrite__seed_2",
+       "lad10__eventbrite__seed_3"
+      ],
+      "judge_points": [
+       2.0,
+       3.0,
+       1.0,
+       0.0
+      ],
+      "official_k4": [
+       0.6027,
+       0.6267,
+       0.62,
+       0.5033
+      ],
+      "spearman": 0.7999999999999998
+     },
+     {
+      "group": "lad11b|bayleys",
+      "pages": [
+       "lad11b__bayleys__seed_0",
+       "lad11b__bayleys__seed_1",
+       "lad11b__bayleys__seed_2",
+       "lad11b__bayleys__seed_3"
+      ],
+      "judge_points": [
+       2.0,
+       0.0,
+       1.0,
+       3.0
+      ],
+      "official_k4": [
+       0.544,
+       0.5023,
+       0.456,
+       0.558
+      ],
+      "spearman": 0.7999999999999998
+     },
+     {
+      "group": "lad11b|dermstore",
+      "pages": [
+       "lad11b__dermstore__seed_0",
+       "lad11b__dermstore__seed_1",
+       "lad11b__dermstore__seed_2",
+       "lad11b__dermstore__seed_3"
+      ],
+      "judge_points": [
+       3.0,
+       0.0,
+       2.0,
+       1.0
+      ],
+      "official_k4": [
+       0.6067,
+       0.51,
+       0.502,
+       0.5487
+      ],
+      "spearman": 0.3999999999999999
+     },
+     {
+      "group": "lad11b|eventbrite",
+      "pages": [
+       "lad11b__eventbrite__seed_0",
+       "lad11b__eventbrite__seed_1",
+       "lad11b__eventbrite__seed_2",
+       "lad11b__eventbrite__seed_3"
+      ],
+      "judge_points": [
+       3.0,
+       2.0,
+       0.0,
+       1.0
+      ],
+      "official_k4": [
+       0.6367,
+       0.5823,
+       0.6453,
+       0.5367
+      ],
+      "spearman": -0.19999999999999996
+     },
+     {
+      "group": "lad12|aspose",
+      "pages": [
+       "lad12__aspose__seed_0",
+       "lad12__aspose__seed_1",
+       "lad12__aspose__seed_2",
+       "lad12__aspose__seed_3"
+      ],
+      "judge_points": [
+       0.0,
+       3.0,
+       1.0,
+       2.0
+      ],
+      "official_k4": [
+       0.3213,
+       0.6517,
+       0.5767,
+       0.5657
+      ],
+      "spearman": 0.7999999999999998
+     },
+     {
+      "group": "lad12|bayleys",
+      "pages": [
+       "lad12__bayleys__seed_0",
+       "lad12__bayleys__seed_1",
+       "lad12__bayleys__seed_2",
+       "lad12__bayleys__seed_3"
+      ],
+      "judge_points": [
+       2.0,
+       1.0,
+       3.0,
+       0.0
+      ],
+      "official_k4": [
+       0.5297,
+       0.5707,
+       0.507,
+       0.518
+      ],
+      "spearman": -0.3999999999999999
+     },
+     {
+      "group": "lad12|eventbrite",
+      "pages": [
+       "lad12__eventbrite__seed_0",
+       "lad12__eventbrite__seed_1",
+       "lad12__eventbrite__seed_2",
+       "lad12__eventbrite__seed_3"
+      ],
+      "judge_points": [
+       0.0,
+       3.0,
+       1.0,
+       2.0
+      ],
+      "official_k4": [
+       0.6027,
+       0.611,
+       0.6003,
+       0.5977
+      ],
+      "spearman": 0.19999999999999996
+     },
+     {
+      "group": "lad8b|bayleys",
+      "pages": [
+       "lad8b__bayleys__seed_0",
+       "lad8b__bayleys__seed_1",
+       "lad8b__bayleys__seed_2",
+       "lad8b__bayleys__seed_3"
+      ],
+      "judge_points": [
+       3.0,
+       1.0,
+       0.0,
+       2.0
+      ],
+      "official_k4": [
+       0.4793,
+       0.4683,
+       0.4193,
+       0.499
+      ],
+      "spearman": 0.7999999999999998
+     },
+     {
+      "group": "lad8b|dermstore",
+      "pages": [
+       "lad8b__dermstore__seed_0",
+       "lad8b__dermstore__seed_1",
+       "lad8b__dermstore__seed_2",
+       "lad8b__dermstore__seed_3"
+      ],
+      "judge_points": [
+       2.0,
+       0.0,
+       2.0,
+       2.0
+      ],
+      "official_k4": [
+       0.5683,
+       0.394,
+       0.5543,
+       0.6293
+      ],
+      "spearman": 0.7745966692414834
+     },
+     {
+      "group": "lad9|aspose",
+      "pages": [
+       "lad9__aspose__seed_0",
+       "lad9__aspose__seed_1",
+       "lad9__aspose__seed_2",
+       "lad9__aspose__seed_3"
+      ],
+      "judge_points": [
+       3.0,
+       1.0,
+       0.0,
+       2.0
+      ],
+      "official_k4": [
+       0.5853,
+       0.4403,
+       0.4763,
+       0.5637
+      ],
+      "spearman": 0.7999999999999998
+     },
+     {
+      "group": "lad9|bayleys",
+      "pages": [
+       "lad9__bayleys__seed_0",
+       "lad9__bayleys__seed_1",
+       "lad9__bayleys__seed_2",
+       "lad9__bayleys__seed_3"
+      ],
+      "judge_points": [
+       1.0,
+       0.0,
+       2.0,
+       3.0
+      ],
+      "official_k4": [
+       0.605,
+       0.45,
+       0.5833,
+       0.5963
+      ],
+      "spearman": 0.3999999999999999
+     },
+     {
+      "group": "lad9|dermstore",
+      "pages": [
+       "lad9__dermstore__seed_0",
+       "lad9__dermstore__seed_1",
+       "lad9__dermstore__seed_2",
+       "lad9__dermstore__seed_3"
+      ],
+      "judge_points": [
+       2.0,
+       2.0,
+       2.0,
+       0.0
+      ],
+      "official_k4": [
+       0.5633,
+       0.4983,
+       0.5517,
+       0.5277
+      ],
+      "spearman": 0.2581988897471611
+     }
+    ]
+   }
+  }
+ },
+ "B_screening_candidate_spearman_jgen2": {
+  "definition": "Judge axis=candidate's judge win rate against champion (gen10) (12-16 page-level duels per candidate); official axis=candidate official mean − gen10 same-batch official mean (mean_delta). Cross-round pooled Spearman.",
+  "multiround_R2R4_n10": {
+   "n": 10,
+   "spearman": 0.2376,
+   "candidates": [
+    {
+     "candidate": "gen15e",
+     "round": "mr_r2",
+     "judge_winrate": 0.615,
+     "mean_delta": -0.039325,
+     "official_mean": 0.441798,
+     "ci95": [
+      -0.168562,
+      0.089912
+     ]
+    },
+    {
+     "candidate": "gen15b",
+     "round": "mr_r2",
+     "judge_winrate": 0.536,
+     "mean_delta": -0.067173,
+     "official_mean": 0.41395,
+     "ci95": [
+      -0.160891,
+      0.026546
+     ]
+    },
+    {
+     "candidate": "gen15a",
+     "round": "mr_r2",
+     "judge_winrate": 0.5,
+     "mean_delta": -0.087129,
+     "official_mean": 0.393994,
+     "ci95": [
+      -0.216775,
+      0.042517
+     ]
+    },
+    {
+     "candidate": "gen15f",
+     "round": "mr_r2",
+     "judge_winrate": 0.5,
+     "mean_delta": -0.006831,
+     "official_mean": 0.474292,
+     "ci95": [
+      -0.043918,
+      0.030255
+     ]
+    },
+    {
+     "candidate": "gen16d",
+     "round": "mr_r3",
+     "judge_winrate": 0.625,
+     "mean_delta": 0.0166,
+     "official_mean": 0.507733,
+     "ci95": [
+      -0.031299,
+      0.064499
+     ]
+    },
+    {
+     "candidate": "gen16c",
+     "round": "mr_r3",
+     "judge_winrate": 0.5,
+     "mean_delta": 0.00604,
+     "official_mean": 0.497173,
+     "ci95": [
+      -0.041675,
+      0.053755
+     ]
+    },
+    {
+     "candidate": "gen16f",
+     "round": "mr_r3",
+     "judge_winrate": 0.429,
+     "mean_delta": -0.107944,
+     "official_mean": 0.38319,
+     "ci95": [
+      -0.208011,
+      -0.007877
+     ]
+    },
+    {
+     "candidate": "gen17a",
+     "round": "mr_r4",
+     "judge_winrate": 0.533,
+     "mean_delta": -0.041221,
+     "official_mean": 0.449623,
+     "ci95": [
+      -0.158289,
+      0.075847
+     ]
+    },
+    {
+     "candidate": "gen17b",
+     "round": "mr_r4",
+     "judge_winrate": 0.5,
+     "mean_delta": 0.017573,
+     "official_mean": 0.508417,
+     "ci95": [
+      -0.017858,
+      0.053004
+     ]
+    },
+    {
+     "candidate": "gen17e",
+     "round": "mr_r4",
+     "judge_winrate": 0.467,
+     "mean_delta": -0.031127,
+     "official_mean": 0.459717,
+     "ci95": [
+      -0.100649,
+      0.038394
+     ]
+    }
+   ]
+  },
+  "plus_gen14_batch_n15": {
+   "n": 15,
+   "spearman": 0.248,
+   "candidates": [
+    {
+     "candidate": "gen15e",
+     "round": "mr_r2",
+     "judge_winrate": 0.615,
+     "mean_delta": -0.039325,
+     "official_mean": 0.441798,
+     "ci95": [
+      -0.168562,
+      0.089912
+     ]
+    },
+    {
+     "candidate": "gen15b",
+     "round": "mr_r2",
+     "judge_winrate": 0.536,
+     "mean_delta": -0.067173,
+     "official_mean": 0.41395,
+     "ci95": [
+      -0.160891,
+      0.026546
+     ]
+    },
+    {
+     "candidate": "gen15a",
+     "round": "mr_r2",
+     "judge_winrate": 0.5,
+     "mean_delta": -0.087129,
+     "official_mean": 0.393994,
+     "ci95": [
+      -0.216775,
+      0.042517
+     ]
+    },
+    {
+     "candidate": "gen15f",
+     "round": "mr_r2",
+     "judge_winrate": 0.5,
+     "mean_delta": -0.006831,
+     "official_mean": 0.474292,
+     "ci95": [
+      -0.043918,
+      0.030255
+     ]
+    },
+    {
+     "candidate": "gen16d",
+     "round": "mr_r3",
+     "judge_winrate": 0.625,
+     "mean_delta": 0.0166,
+     "official_mean": 0.507733,
+     "ci95": [
+      -0.031299,
+      0.064499
+     ]
+    },
+    {
+     "candidate": "gen16c",
+     "round": "mr_r3",
+     "judge_winrate": 0.5,
+     "mean_delta": 0.00604,
+     "official_mean": 0.497173,
+     "ci95": [
+      -0.041675,
+      0.053755
+     ]
+    },
+    {
+     "candidate": "gen16f",
+     "round": "mr_r3",
+     "judge_winrate": 0.429,
+     "mean_delta": -0.107944,
+     "official_mean": 0.38319,
+     "ci95": [
+      -0.208011,
+      -0.007877
+     ]
+    },
+    {
+     "candidate": "gen17a",
+     "round": "mr_r4",
+     "judge_winrate": 0.533,
+     "mean_delta": -0.041221,
+     "official_mean": 0.449623,
+     "ci95": [
+      -0.158289,
+      0.075847
+     ]
+    },
+    {
+     "candidate": "gen17b",
+     "round": "mr_r4",
+     "judge_winrate": 0.5,
+     "mean_delta": 0.017573,
+     "official_mean": 0.508417,
+     "ci95": [
+      -0.017858,
+      0.053004
+     ]
+    },
+    {
+     "candidate": "gen17e",
+     "round": "mr_r4",
+     "judge_winrate": 0.467,
+     "mean_delta": -0.031127,
+     "official_mean": 0.459717,
+     "ci95": [
+      -0.100649,
+      0.038394
+     ]
+    },
+    {
+     "candidate": "gen14a",
+     "round": "e3_e4",
+     "judge_winrate": 0.625,
+     "mean_delta": 0.011479,
+     "official_mean": 0.505979,
+     "ci95": [
+      -0.016218,
+      0.039176
+     ]
+    },
+    {
+     "candidate": "gen14b",
+     "round": "e3_e4",
+     "judge_winrate": 0.25,
+     "mean_delta": -0.026635,
+     "official_mean": 0.467865,
+     "ci95": [
+      -0.061736,
+      0.008465
+     ]
+    },
+    {
+     "candidate": "gen14d",
+     "round": "e3_e4",
+     "judge_winrate": 0.333,
+     "mean_delta": -0.053927,
+     "official_mean": 0.440573,
+     "ci95": [
+      -0.137026,
+      0.029172
+     ]
+    },
+    {
+     "candidate": "gen14e",
+     "round": "e3_e4",
+     "judge_winrate": 0.533,
+     "mean_delta": -0.0304,
+     "official_mean": 0.4641,
+     "ci95": [
+      -0.106939,
+      0.046139
+     ]
+    },
+    {
+     "candidate": "gen14f",
+     "round": "e3_e4",
+     "judge_winrate": 0.533,
+     "mean_delta": -0.036506,
+     "official_mean": 0.457994,
+     "ci95": [
+      -0.116152,
+      0.043139
+     ]
+    }
+   ]
+  }
+ },
+ "C1_hjlb_shortlist_jgen2": {
+  "definition": "Multiround screening R2-R4: each round jgen2 screens top-K by judge win rate from 5-6 candidates (K=3, expanded to 4 at the R2 boundary tie) sent to official evaluation, 10 finalists in total. HJ/LB count=finalists with official mean_delta≤0 (tied with or worse than champion gen10, i.e. official re-check does not support the improvement). Also reports the strict convention: count supported only when CI95 lower bound>0.",
+  "per_round": {
+   "R2": {
+    "n_finalist": 4,
+    "hj_lb_count": 4,
+    "hj_lb_names": [
+     "gen15e",
+     "gen15b",
+     "gen15a",
+     "gen15f"
+    ]
+   },
+   "R3": {
+    "n_finalist": 3,
+    "hj_lb_count": 1,
+    "hj_lb_names": [
+     "gen16f"
+    ]
+   },
+   "R4": {
+    "n_finalist": 3,
+    "hj_lb_count": 2,
+    "hj_lb_names": [
+     "gen17a",
+     "gen17e"
+    ]
+   }
+  },
+  "hj_lb_delta_le0": {
+   "count": 7,
+   "n": 10,
+   "ratio": 0.7
+  },
+  "hj_lb_unconfirmed_ci": {
+   "count": 10,
+   "n": 10,
+   "ratio": 1.0
+  },
+  "note": "None of the 10 finalists has a CI95 excluding 0; gen17b final verdict K4 Δ=+0.0175 CI[-0.0149,0.0500] confirmed=false."
+ },
+ "C2_hjlb_exam_fooled_heldout120": {
+  "definition": "The same 120-pair heldout exam (stratified by official score gap, |Δ|≥0.03): the judge picks A/B as winner; fooled means the official answer is the opposite (a pair-level event of judge-high score vs official-low score). Fooled rate=fooled pairs/120; also reports fooled rates on subsets with official gap >0.05 / >0.10 (official clearly favors one side).",
+  "judges": {
+   "jgen0": {
+    "n": 120,
+    "abstain": 1,
+    "fooled": 28,
+    "fooled_rate": 0.2333,
+    "fooled_rate_decided": 0.2353,
+    "by_margin": {
+     ">0.05": {
+      "fooled": 22,
+      "n": 101,
+      "rate": 0.2178
+     },
+     ">0.10": {
+      "fooled": 9,
+      "n": 60,
+      "rate": 0.15
+     }
+    }
+   },
+   "jgen1": {
+    "n": 120,
+    "abstain": 0,
+    "fooled": 27,
+    "fooled_rate": 0.225,
+    "fooled_rate_decided": 0.225,
+    "by_margin": {
+     ">0.05": {
+      "fooled": 20,
+      "n": 101,
+      "rate": 0.198
+     },
+     ">0.10": {
+      "fooled": 7,
+      "n": 60,
+      "rate": 0.1167
+     }
+    }
+   },
+   "jgen2": {
+    "n": 120,
+    "abstain": 0,
+    "fooled": 19,
+    "fooled_rate": 0.1583,
+    "fooled_rate_decided": 0.1583,
+    "by_margin": {
+     ">0.05": {
+      "fooled": 17,
+      "n": 101,
+      "rate": 0.1683
+     },
+     ">0.10": {
+      "fooled": 8,
+      "n": 60,
+      "rate": 0.1333
+     }
+    }
+   }
+  }
+ }
+}

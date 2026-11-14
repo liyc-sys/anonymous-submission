@@ -1,0 +1,90 @@
+{
+  "baseline": "p2d_gen10",
+  "label": "phase2_bon_dev_k4",
+  "comparisons": [
+    {
+      "candidate": "p2bon_dev_jgen2",
+      "n": 8,
+      "baseline_mean": 0.573926,
+      "candidate_mean": 0.597632,
+      "mean_delta": 0.023706,
+      "ci95": [
+        -0.01447,
+        0.061883
+      ],
+      "official_winrate": 0.625,
+      "task_deltas": {
+        "aspose": -0.013004,
+        "bayleys": 0.075777,
+        "dermstore": 0.032714,
+        "eventbrite": -0.000662
+      },
+      "pairs": [
+        {
+          "task": "aspose",
+          "seed": "seed_0",
+          "baseline": 0.556771,
+          "candidate": 0.552993,
+          "delta": -0.003778
+        },
+        {
+          "task": "aspose",
+          "seed": "seed_1",
+          "baseline": 0.594329,
+          "candidate": 0.572098,
+          "delta": -0.02223
+        },
+        {
+          "task": "bayleys",
+          "seed": "seed_0",
+          "baseline": 0.55399,
+          "candidate": 0.615462,
+          "delta": 0.061472
+        },
+        {
+          "task": "bayleys",
+          "seed": "seed_1",
+          "baseline": 0.535938,
+          "candidate": 0.62602,
+          "delta": 0.090082
+        },
+        {
+          "task": "dermstore",
+          "seed": "seed_0",
+          "baseline": 0.547653,
+          "candidate": 0.590244,
+          "delta": 0.042591
+        },
+        {
+          "task": "dermstore",
+          "seed": "seed_1",
+          "baseline": 0.576862,
+          "candidate": 0.5997,
+          "delta": 0.022838
+        },
+        {
+          "task": "eventbrite",
+          "seed": "seed_0",
+          "baseline": 0.581944,
+          "candidate": 0.627916,
+          "delta": 0.045972
+        },
+        {
+          "task": "eventbrite",
+          "seed": "seed_1",
+          "baseline": 0.643924,
+          "candidate": 0.596627,
+          "delta": -0.047297
+        }
+      ],
+      "task_clustered": {
+        "n_tasks": 4,
+        "mean_delta": 0.023706,
+        "ci95": [
+          -0.031431,
+          0.078843
+        ]
+      }
+    }
+  ]
+}

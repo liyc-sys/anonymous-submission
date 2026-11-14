@@ -1,0 +1,22 @@
+{
+  "arms": [
+    "p2bk_gen10",
+    "p2bk_gen19b",
+    "p2bk_gen19c",
+    "p2bk_gen19d"
+  ],
+  "tasks": [
+    "hugedomains",
+    "jotform",
+    "legistify",
+    "recipecloud"
+  ],
+  "seeds": [
+    "0",
+    "1"
+  ],
+  "output_tag": "p2bon_known_jgen2",
+  "judge": "judge_genomes/jgen2.py",
+  "selection_policy": "round-robin Copeland points; first arm wins exact point ties",
+  "score_access_policy": "selector reads rendered pages and prototypes only"
+}

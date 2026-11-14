@@ -1,0 +1,62 @@
+{
+  "summary": "webgen adversarial judge positive result: budget-UI judge (run K UI tasks to predict full acc) — screenshot VLM capped 0.54, budget K=2 diagnostic detie 0.959 surpasses the reference campaign's 84.2%",
+  "why_screenshot_capped": "webgen acc=functionality (not visible); screenshot VLM 3 models (qwen3-vl/minimax-m3/claude-opus-4-8) all capped 0.54-0.57. The reference 84% is visual prototype matching (a VLM strength).",
+  "judge_evolution_heldout": {
+    "jgen0_screenshot_VLM": {
+      "detie": 0.542,
+      "fool": 0.377,
+      "cost": "1 call (cheap but inaccurate)"
+    },
+    "jgen1_budget_K2_naive_[0,1]": {
+      "detie": 0.796,
+      "fool": 0.098,
+      "cost": "33% of full"
+    },
+    "jgen2_budget_K2_diagnostic_[2,1]": {
+      "detie": 0.959,
+      "fool": 0.033,
+      "cost": "33% of full",
+      "note": "tasks selected on train, validated on heldout, no leakage"
+    },
+    "jgen3_budget_K3_[0,1,2]": {
+      "detie": 0.927,
+      "fool": 0.049,
+      "cost": "50% of full"
+    }
+  },
+  "adversarial_hardening": "jgen1->jgen2: the naive first-2-tasks judge was fooled by an actor that 'passes easy tasks, fails hard tasks' (fool 0.098); selecting the most diagnostic tasks (task2 r=0.72, task1 r=0.66, selected on train) -> fool 0.033",
+  "phase2_wide_search_screening": {
+    "random": {
+      "top1_recall": 0.167,
+      "top2_recall": 0.333,
+      "regret": 0.205,
+      "saving": 0.907
+    },
+    "budget_K2_naive": {
+      "top1_recall": 0.5,
+      "top2_recall": 0.833,
+      "regret": 0.117,
+      "saving": 0.907
+    },
+    "budget_K2_diagnostic": {
+      "top1_recall": 0.5,
+      "top2_recall": 0.833,
+      "regret": 0.117,
+      "saving": 0.907
+    },
+    "budget_K3": {
+      "top1_recall": 0.667,
+      "top2_recall": 0.833,
+      "regret": 0.047,
+      "saving": 0.907
+    },
+    "oracle": {
+      "top1_recall": 1.0,
+      "top2_recall": 1.0,
+      "regret": 0.0,
+      "saving": 0.907
+    }
+  },
+  "phase2_claim": "budget judge screens candidates: top-2 recall 0.833 (vs random 0.333), regret 0.047, saves 91% of official evaluations (only top-2 evaluated)",
+  "comparison_to_reference": "reference campaign: screenshot VLM judge heldout 75.8->84.2% (visual prototype matching). webgen: screenshot capped 0.54 (functionality not visible), budget-UI judge 0.796->0.959 (run 2 tasks). Different mechanism (webgen must run tasks because functionality is not visible), aligned results (cheap judge predicts official, ~85-96% accurate, adversarial hardening lowers fool, saves evaluation)."
+}

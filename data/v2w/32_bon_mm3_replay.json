@@ -1,0 +1,65 @@
+{
+ "arm_means": {
+  "n0726_gen10mm3": 0.6988,
+  "n0726_gen19bmm3": 0.7332,
+  "n0726_gen19cmm3": 0.7593,
+  "n0726_gen19dmm3": 0.7161,
+  "n0726_gen0mm3": 0.6941
+ },
+ "jgen4_mm3_dir_listing": [
+  "selection_report_jgen4_sealed.json",
+  "verdicts_jgen4_sealed.jsonl",
+  "work"
+ ],
+ "jgen4_on_mm3_calibration": {
+  "n": 42,
+  "correct": 24,
+  "acc": 0.5714,
+  "by_thresh": {
+   ">0.02": [
+    0.59,
+    39
+   ],
+   ">0.05": [
+    0.645,
+    31
+   ],
+   ">0.1": [
+    0.7,
+    10
+   ]
+  },
+  "fooled_pairs": {
+   "0.05": 11,
+   "0.10": 3
+  }
+ },
+ "bon_replay": {
+  "n_groups": 7,
+  "pool_size": 4,
+  "table": {
+   "jgen4_mm3": {
+    "N=1": 0.7234,
+    "N=2": 0.7342,
+    "N=3": 0.7369,
+    "N=4": 0.7414
+   },
+   "random": {
+    "N=1": 0.7234,
+    "N=2": 0.7234,
+    "N=3": 0.7234,
+    "N=4": 0.7234
+   },
+   "oracle": {
+    "N=1": 0.7234,
+    "N=2": 0.761,
+    "N=3": 0.7821,
+    "N=4": 0.7988
+   }
+  }
+ },
+ "dropped_groups_missing_arm_score": [
+  "eventbrite|seed_1"
+ ],
+ "note": "gen19bmm3 K1 archived summary has 7/8 valid (eventbrite|seed_1 invalid; the resume mentioned in n0726 brief never landed in the archived summary). Replay uses the 7 complete groups."
+}

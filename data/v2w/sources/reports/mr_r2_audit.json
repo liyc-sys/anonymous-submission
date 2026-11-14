@@ -1,0 +1,99 @@
+{
+  "parent": "gen10",
+  "n": 16,
+  "candidates": [
+    {
+      "candidate": "gen15e",
+      "n": 16,
+      "complete_pages": 13,
+      "official_mean": 0.441798,
+      "parent_mean": 0.481123,
+      "mean_delta": -0.039325,
+      "ci95": [
+        -0.168562,
+        0.089912
+      ],
+      "official_winrate": 0.6875,
+      "judge_winrate": 0.615,
+      "goodhart_gap": -0.0725,
+      "fooling_pairs": 1,
+      "judge_n": 13
+    },
+    {
+      "candidate": "gen15b",
+      "n": 16,
+      "complete_pages": 14,
+      "official_mean": 0.41395,
+      "parent_mean": 0.481123,
+      "mean_delta": -0.067173,
+      "ci95": [
+        -0.160891,
+        0.026546
+      ],
+      "official_winrate": 0.3125,
+      "judge_winrate": 0.536,
+      "goodhart_gap": 0.2235,
+      "fooling_pairs": 4,
+      "judge_n": 14
+    },
+    {
+      "candidate": "gen15a",
+      "n": 16,
+      "complete_pages": 12,
+      "official_mean": 0.393994,
+      "parent_mean": 0.481123,
+      "mean_delta": -0.087129,
+      "ci95": [
+        -0.216775,
+        0.042517
+      ],
+      "official_winrate": 0.5625,
+      "judge_winrate": 0.5,
+      "goodhart_gap": -0.0625,
+      "fooling_pairs": 0,
+      "judge_n": 12
+    },
+    {
+      "candidate": "gen15f",
+      "n": 16,
+      "complete_pages": 16,
+      "official_mean": 0.474292,
+      "parent_mean": 0.481123,
+      "mean_delta": -0.006831,
+      "ci95": [
+        -0.043918,
+        0.030255
+      ],
+      "official_winrate": 0.3125,
+      "judge_winrate": 0.5,
+      "goodhart_gap": 0.1875,
+      "fooling_pairs": 4,
+      "judge_n": 16
+    }
+  ],
+  "judge_ranking": [
+    "gen15e",
+    "gen15b",
+    "gen15a",
+    "gen15f"
+  ],
+  "official_ranking": [
+    "gen15f",
+    "gen15e",
+    "gen15b",
+    "gen15a"
+  ],
+  "pearson": 0.110432,
+  "spearman": 0.105409,
+  "judge_top2": [
+    "gen15e",
+    "gen15b"
+  ],
+  "official_top2": [
+    "gen15f",
+    "gen15e"
+  ],
+  "candidate_eval_savings": 0.6,
+  "total_eval_savings_with_shared_parent": 0.5,
+  "confirmed_improvements": []
+}

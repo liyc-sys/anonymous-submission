@@ -1,0 +1,11 @@
+arm                        mean     med   n     sd  crashed(<0.05)    mean calls     mean sec  parse fails
+control(gen0)                0.4003  0.4404  14  0.132          1    1.8    204     0.4
+poison A: long system prompt     0.4329  0.4616  16  0.133          1    3.8    275     0.5 Δctrl +0.033 (t≈0.7)
+poison B: strict JSON protocol   0.1775  0.0000  16  0.238         10   10.1    671     7.6 Δctrl -0.223 (t≈-3.2)
+poison C: context bloat          0.4417  0.4343  16  0.054          0    1.6    226     0.3 Δctrl +0.041 (t≈1.1)
+
+Reference: OpenHands+q9b training pool = 0.337 | per-task arm means:
+  hugedomains    pctrl:0.455 psnA:0.465 psnB:0.235 psnC:0.434
+  jotform        pctrl:0.316 psnA:0.471 psnB:0.475 psnC:0.499
+  legistify      pctrl:0.452 psnA:0.370 psnB:0.000 psnC:0.420
+  recipecloud    pctrl:0.343 psnA:0.426 psnB:0.000 psnC:0.414

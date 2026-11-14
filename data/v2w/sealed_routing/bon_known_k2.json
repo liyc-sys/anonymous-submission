@@ -1,0 +1,90 @@
+{
+  "baseline": "p2bk_gen10",
+  "label": "phase2_bon_known_k2",
+  "comparisons": [
+    {
+      "candidate": "p2bon_known_jgen2",
+      "n": 8,
+      "baseline_mean": 0.523813,
+      "candidate_mean": 0.514602,
+      "mean_delta": -0.009211,
+      "ci95": [
+        -0.037698,
+        0.019275
+      ],
+      "official_winrate": 0.625,
+      "task_deltas": {
+        "hugedomains": -0.036723,
+        "jotform": 0.018739,
+        "legistify": -0.000716,
+        "recipecloud": -0.018145
+      },
+      "pairs": [
+        {
+          "task": "hugedomains",
+          "seed": "seed_0",
+          "baseline": 0.515625,
+          "candidate": 0.435764,
+          "delta": -0.079861
+        },
+        {
+          "task": "hugedomains",
+          "seed": "seed_1",
+          "baseline": 0.501571,
+          "candidate": 0.507986,
+          "delta": 0.006415
+        },
+        {
+          "task": "jotform",
+          "seed": "seed_0",
+          "baseline": 0.547024,
+          "candidate": 0.56471,
+          "delta": 0.017686
+        },
+        {
+          "task": "jotform",
+          "seed": "seed_1",
+          "baseline": 0.56875,
+          "candidate": 0.588542,
+          "delta": 0.019792
+        },
+        {
+          "task": "legistify",
+          "seed": "seed_0",
+          "baseline": 0.469444,
+          "candidate": 0.47878,
+          "delta": 0.009335
+        },
+        {
+          "task": "legistify",
+          "seed": "seed_1",
+          "baseline": 0.517216,
+          "candidate": 0.506449,
+          "delta": -0.010767
+        },
+        {
+          "task": "recipecloud",
+          "seed": "seed_0",
+          "baseline": 0.595873,
+          "candidate": 0.5575,
+          "delta": -0.038373
+        },
+        {
+          "task": "recipecloud",
+          "seed": "seed_1",
+          "baseline": 0.475,
+          "candidate": 0.477083,
+          "delta": 0.002083
+        }
+      ],
+      "task_clustered": {
+        "n_tasks": 4,
+        "mean_delta": -0.009211,
+        "ci95": [
+          -0.042156,
+          0.023733
+        ]
+      }
+    }
+  ]
+}

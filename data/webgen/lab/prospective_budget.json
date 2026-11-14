@@ -1,0 +1,144 @@
+{
+ "diag_tasks": [
+  1,
+  2
+ ],
+ "n_runs": 26,
+ "screening_sim": {
+  "rows": {
+   "form": {
+    "mean_partial": 0.167,
+    "mean_full": 0.508,
+    "n_case": 3
+   },
+   "search": {
+    "mean_partial": 0.25,
+    "mean_full": 0.444,
+    "n_case": 3
+   },
+   "color": {
+    "mean_partial": 0.25,
+    "mean_full": 0.575,
+    "n_case": 3
+   },
+   "nav": {
+    "mean_partial": 0.5,
+    "mean_full": 0.759,
+    "n_case": 3
+   }
+  },
+  "rank_by_partial": [
+   "nav",
+   "search",
+   "color",
+   "form"
+  ],
+  "rank_by_full": [
+   "nav",
+   "color",
+   "form",
+   "search"
+  ],
+  "top1_match": true,
+  "top2_overlap": 1
+ },
+ "nav_vs_ctrl": {
+  "n_pairs": 8,
+  "n_decisive": 4,
+  "agree": 4,
+  "agree_rate": 1.0,
+  "fool_gt0.10": 0,
+  "verdicts": [
+   {
+    "case": "000005",
+    "seed": "seed_0",
+    "budget": "tie",
+    "official": "nav",
+    "nav_partial": 0.0,
+    "ctrl_partial": 0.0,
+    "nav_full": 0.7143,
+    "ctrl_full": 0.2857
+   },
+   {
+    "case": "000005",
+    "seed": "seed_1",
+    "budget": "nav",
+    "official": "nav",
+    "nav_partial": 0.5,
+    "ctrl_partial": 0.25,
+    "nav_full": 0.7143,
+    "ctrl_full": 0.6429
+   },
+   {
+    "case": "000005",
+    "seed": "seed_2",
+    "budget": "nav",
+    "official": "tie",
+    "nav_partial": 0.75,
+    "ctrl_partial": 0.5,
+    "nav_full": 0.8571,
+    "ctrl_full": 0.8571
+   },
+   {
+    "case": "000028",
+    "seed": "seed_0",
+    "budget": "nav",
+    "official": "nav",
+    "nav_partial": 1.0,
+    "ctrl_partial": 0.5,
+    "nav_full": 1.0,
+    "ctrl_full": 0.8333
+   },
+   {
+    "case": "000028",
+    "seed": "seed_1",
+    "budget": "tie",
+    "official": "tie",
+    "nav_partial": 0.5,
+    "ctrl_partial": 0.5,
+    "nav_full": 0.75,
+    "ctrl_full": 0.75
+   },
+   {
+    "case": "000028",
+    "seed": "seed_2",
+    "budget": "nav",
+    "official": "nav",
+    "nav_partial": 0.5,
+    "ctrl_partial": 0.0,
+    "nav_full": 0.8333,
+    "ctrl_full": 0.6667
+   },
+   {
+    "case": "000087",
+    "seed": "seed_0",
+    "budget": "nav",
+    "official": "nav",
+    "nav_partial": 0.5,
+    "ctrl_partial": 0.0,
+    "nav_full": 0.5625,
+    "ctrl_full": 0.125
+   },
+   {
+    "case": "000087",
+    "seed": "seed_1",
+    "budget": "tie",
+    "official": "nav",
+    "nav_partial": 0.25,
+    "ctrl_partial": 0.25,
+    "nav_full": 0.5,
+    "ctrl_full": 0.375
+   }
+  ]
+ },
+ "appearance": {
+  "ctrl": {
+   "mean": 4.375,
+   "n": 8
+  },
+  "nav": {
+   "mean": 4.667,
+   "n": 9
+  }
+ }
+}

@@ -1,0 +1,1076 @@
+{
+  "started_at": "2026-07-16T20:02:39Z",
+  "confirmed_champion": "gen10",
+  "search_parent": "gen17b",
+  "judge": "jgen2",
+  "policy": {
+    "candidates_per_round": 6,
+    "official_top_k": 3,
+    "expand_boundary_ties": true,
+    "actor_batch_concurrency": 3,
+    "official_k": 2,
+    "final_k": 4
+  },
+  "rounds": [
+    {
+      "round": 2,
+      "prefix": "gen15",
+      "started_at": "2026-07-16T20:02:40Z",
+      "state": "completed",
+      "confirmed_before": "gen10",
+      "search_parent_before": "gen14a",
+      "evolved": [
+        {
+          "tag": "gen15a",
+          "changelog": "Add a first-prompt per-viewport content-divergence hint (media-query content swap when desktop/tablet/mobile show genuinely different pages) plus a zero-LLM blended/transparent fallback for unresolvable images so missing logos merge into their section background instead of painting jarring white box"
+        },
+        {
+          "tag": "gen15b",
+          "changelog": "Add zero-LLM vertical layout-map perception — mechanically segment each prototype into ordered top→bottom full-width color bands (%-height + bg color + tone) and feed as a first-prompt wireframe, directly attacking the dominant \"page too short / lower sections missing / wrong band background\" failur"
+        },
+        {
+          "tag": "gen15c",
+          "changelog": "Add a zero-extra-LLM-call whole-page OVERVIEW thumbnail per viewport (entire prototype scaled to fit, height-capped) before the readable slices, restoring global length/section-count/footer awareness to fight the dominant \"page too short / lower sections + footer missing\" failure."
+        },
+        {
+          "tag": "gen15d",
+          "changelog": "Add zero-extra-LLM regional high-resolution ZOOM crops of the header and footer bands (native-resolution reading of logo/nav/button/footer-badge small text), budget-reallocated by trimming resource thumbnails, to fix the dominant broken-header/broken-footer failures."
+        },
+        {
+          "tag": "gen15e",
+          "changelog": "New orthogonal axis (decoding fidelity): sampling temperature 0.8→0.4 plus an anti-confabulation instruction to curb invented sections/copy, and zero-LLM HTML hygiene (auto-add `<!doctype>`/`<meta charset>`) to avoid quirks-mode rendering mismatch; perception/protocol/sampling untouched."
+        },
+        {
+          "tag": "gen15f",
+          "changelog": "Add zero-LLM MECHANICAL PALETTE ENFORCEMENT — post-process injects the sampled committal page/header/footer band colors via zero-specificity `:where()` rules so they only fill white-default gaps (never override the model), directly fixing the recurring white-footer / white-page / pale-header band mi"
+        }
+      ],
+      "rejected": [],
+      "actor_batches": {
+        "gen15a": {
+          "pid": 187515,
+          "log": "/tmp/mr_agents_gen15a.log",
+          "state": "exit=0"
+        },
+        "gen15b": {
+          "pid": 187525,
+          "log": "/tmp/mr_agents_gen15b.log",
+          "state": "exit=0"
+        },
+        "gen15c": {
+          "pid": 187535,
+          "log": "/tmp/mr_agents_gen15c.log",
+          "state": "exit=0"
+        },
+        "gen15d": {
+          "pid": 187753,
+          "log": "/tmp/mr_agents_gen15d.log",
+          "state": "exit=0"
+        },
+        "gen15e": {
+          "pid": 187784,
+          "log": "/tmp/mr_agents_gen15e.log",
+          "state": "exit=0"
+        },
+        "gen15f": {
+          "pid": 187830,
+          "log": "/tmp/mr_agents_gen15f.log",
+          "state": "exit=0"
+        }
+      },
+      "judge_ranking": [
+        {
+          "round": "r2_gen15e",
+          "cand": "gen15e",
+          "ref": "gen10",
+          "n": 13,
+          "judge_winrate": 0.615
+        },
+        {
+          "round": "r2_gen15b",
+          "cand": "gen15b",
+          "ref": "gen10",
+          "n": 14,
+          "judge_winrate": 0.536
+        },
+        {
+          "round": "r2_gen15a",
+          "cand": "gen15a",
+          "ref": "gen10",
+          "n": 12,
+          "judge_winrate": 0.5
+        },
+        {
+          "round": "r2_gen15f",
+          "cand": "gen15f",
+          "ref": "gen10",
+          "n": 16,
+          "judge_winrate": 0.5
+        },
+        {
+          "round": "r2_gen15c",
+          "cand": "gen15c",
+          "ref": "gen10",
+          "n": 16,
+          "judge_winrate": 0.438
+        },
+        {
+          "round": "r2_gen15d",
+          "cand": "gen15d",
+          "ref": "gen10",
+          "n": 13,
+          "judge_winrate": 0.385
+        }
+      ],
+      "finalists": [
+        "gen15e",
+        "gen15b",
+        "gen15a",
+        "gen15f"
+      ],
+      "official": {
+        "gen10": {
+          "returncode": 0,
+          "log": "/tmp/mr_r2_official_gen10_k2.log",
+          "scored": 16,
+          "jobs": 16,
+          "mean": 0.4811,
+          "exceptions": 0,
+          "server_failures": 0
+        },
+        "gen15e": {
+          "returncode": 0,
+          "log": "/tmp/mr_r2_official_gen15e_k2.log",
+          "scored": 16,
+          "jobs": 16,
+          "mean": 0.4418,
+          "exceptions": 0,
+          "server_failures": 0
+        },
+        "gen15b": {
+          "returncode": 0,
+          "log": "/tmp/mr_r2_official_gen15b_k2.log",
+          "scored": 16,
+          "jobs": 16,
+          "mean": 0.4139,
+          "exceptions": 0,
+          "server_failures": 0
+        },
+        "gen15a": {
+          "returncode": 0,
+          "log": "/tmp/mr_r2_official_gen15a_k2.log",
+          "scored": 16,
+          "jobs": 16,
+          "mean": 0.394,
+          "exceptions": 0,
+          "server_failures": 0
+        },
+        "gen15f": {
+          "returncode": 0,
+          "log": "/tmp/mr_r2_official_gen15f_k2.log",
+          "scored": 16,
+          "jobs": 16,
+          "mean": 0.4743,
+          "exceptions": 0,
+          "server_failures": 0
+        }
+      },
+      "audit": {
+        "parent": "gen10",
+        "n": 16,
+        "candidates": [
+          {
+            "candidate": "gen15e",
+            "n": 16,
+            "complete_pages": 13,
+            "official_mean": 0.441798,
+            "parent_mean": 0.481123,
+            "mean_delta": -0.039325,
+            "ci95": [
+              -0.168562,
+              0.089912
+            ],
+            "official_winrate": 0.6875,
+            "judge_winrate": 0.615,
+            "goodhart_gap": -0.0725,
+            "fooling_pairs": 1,
+            "judge_n": 13
+          },
+          {
+            "candidate": "gen15b",
+            "n": 16,
+            "complete_pages": 14,
+            "official_mean": 0.41395,
+            "parent_mean": 0.481123,
+            "mean_delta": -0.067173,
+            "ci95": [
+              -0.160891,
+              0.026546
+            ],
+            "official_winrate": 0.3125,
+            "judge_winrate": 0.536,
+            "goodhart_gap": 0.2235,
+            "fooling_pairs": 4,
+            "judge_n": 14
+          },
+          {
+            "candidate": "gen15a",
+            "n": 16,
+            "complete_pages": 12,
+            "official_mean": 0.393994,
+            "parent_mean": 0.481123,
+            "mean_delta": -0.087129,
+            "ci95": [
+              -0.216775,
+              0.042517
+            ],
+            "official_winrate": 0.5625,
+            "judge_winrate": 0.5,
+            "goodhart_gap": -0.0625,
+            "fooling_pairs": 0,
+            "judge_n": 12
+          },
+          {
+            "candidate": "gen15f",
+            "n": 16,
+            "complete_pages": 16,
+            "official_mean": 0.474292,
+            "parent_mean": 0.481123,
+            "mean_delta": -0.006831,
+            "ci95": [
+              -0.043918,
+              0.030255
+            ],
+            "official_winrate": 0.3125,
+            "judge_winrate": 0.5,
+            "goodhart_gap": 0.1875,
+            "fooling_pairs": 4,
+            "judge_n": 16
+          }
+        ],
+        "judge_ranking": [
+          "gen15e",
+          "gen15b",
+          "gen15a",
+          "gen15f"
+        ],
+        "official_ranking": [
+          "gen15f",
+          "gen15e",
+          "gen15b",
+          "gen15a"
+        ],
+        "pearson": 0.110432,
+        "spearman": 0.105409,
+        "judge_top2": [
+          "gen15e",
+          "gen15b"
+        ],
+        "official_top2": [
+          "gen15f",
+          "gen15e"
+        ],
+        "candidate_eval_savings": 0.6,
+        "total_eval_savings_with_shared_parent": 0.5,
+        "confirmed_improvements": []
+      },
+      "promising_parent": "gen14a",
+      "confirmed_after": "gen10",
+      "search_parent_after": "gen14a",
+      "completed_at": "2026-07-16T23:00:51Z"
+    },
+    {
+      "round": 3,
+      "prefix": "gen16",
+      "started_at": "2026-07-16T23:00:51Z",
+      "state": "completed",
+      "confirmed_before": "gen10",
+      "search_parent_before": "gen14a",
+      "evolved": [
+        {
+          "tag": "gen16a",
+          "changelog": "Added zero-LLM active semantic asset-binding: unresolvable `<img>` refs (which today become gray placeholder boxes) are recovered to the correct real resource by token-matching alt/title/aria-label/id/class/src-stem against resource filenames (unused-preference tiebreak spreads across badge rows), d"
+        },
+        {
+          "tag": "gen16c",
+          "changelog": "Add a strictly-additive `<append>` write primitive plus a bounded (≤1), time-gated, footer-absent-only continuation nudge on tall prototypes to fix the dominant \"page too short / lower sections + footer missing\" failure without any rewrite-truncation risk."
+        },
+        {
+          "tag": "gen16d",
+          "changelog": "Added zero-extra-content dual-sample generation with mechanical selection by coarse rendered-vs-prototype visual similarity (playwright), adopting the second independent draft only when it clearly beats the first, strictly time-gated with snapshot/restore fallback to pure champion behavior."
+        },
+        {
+          "tag": "gen16e",
+          "changelog": "Made prototype slicing full-page-covering (tile height = ceil(page_height/n_tiles), caps 5/3/4) so the readable slices always reach the footer, directly feeding the model the lower sections it currently never sees — attacking the dominant \"page too short / footer missing\" failure without adding imag"
+        },
+        {
+          "tag": "gen16f",
+          "changelog": "Added a model-driven read-before-build transcription pass (one cheap pre-loop call forces the weak model to write structured section/copy notes from the prototype slices, then build against its own notes) to attack the dominant wrong/confabulated-content 0.0 failures; falls back to single-pass on fa"
+        }
+      ],
+      "rejected": [
+        "gen16b"
+      ],
+      "actor_batches": {
+        "gen16a": {
+          "pid": 239811,
+          "log": "/tmp/mr_agents_gen16a.log",
+          "state": "exit=0"
+        },
+        "gen16c": {
+          "pid": 239821,
+          "log": "/tmp/mr_agents_gen16c.log",
+          "state": "exit=0"
+        },
+        "gen16d": {
+          "pid": 239831,
+          "log": "/tmp/mr_agents_gen16d.log",
+          "state": "exit=0"
+        },
+        "gen16e": {
+          "pid": 241523,
+          "log": "/tmp/mr_agents_gen16e.log",
+          "state": "exit=0"
+        },
+        "gen16f": {
+          "pid": 241690,
+          "log": "/tmp/mr_agents_gen16f.log",
+          "state": "exit=0"
+        }
+      },
+      "judge_ranking": [
+        {
+          "round": "r3_gen16d",
+          "cand": "gen16d",
+          "ref": "gen10",
+          "n": 16,
+          "judge_winrate": 0.625
+        },
+        {
+          "round": "r3_gen16c",
+          "cand": "gen16c",
+          "ref": "gen10",
+          "n": 16,
+          "judge_winrate": 0.5
+        },
+        {
+          "round": "r3_gen16f",
+          "cand": "gen16f",
+          "ref": "gen10",
+          "n": 14,
+          "judge_winrate": 0.429
+        },
+        {
+          "round": "r3_gen16a",
+          "cand": "gen16a",
+          "ref": "gen10",
+          "n": 15,
+          "judge_winrate": 0.4
+        },
+        {
+          "round": "r3_gen16e",
+          "cand": "gen16e",
+          "ref": "gen10",
+          "n": 16,
+          "judge_winrate": 0.375
+        }
+      ],
+      "finalists": [
+        "gen16d",
+        "gen16c",
+        "gen16f"
+      ],
+      "official": {
+        "gen10": {
+          "returncode": 0,
+          "log": "/tmp/mr_r3_official_gen10_k2.log",
+          "scored": 16,
+          "jobs": 16,
+          "mean": 0.4911,
+          "exceptions": 0,
+          "server_failures": 0
+        },
+        "gen16d": {
+          "returncode": 0,
+          "log": "/tmp/mr_r3_official_gen16d_k2.log",
+          "scored": 16,
+          "jobs": 16,
+          "mean": 0.5077,
+          "exceptions": 0,
+          "server_failures": 0
+        },
+        "gen16c": {
+          "returncode": 0,
+          "log": "/tmp/mr_r3_official_gen16c_k2.log",
+          "scored": 16,
+          "jobs": 16,
+          "mean": 0.4972,
+          "exceptions": 0,
+          "server_failures": 0
+        },
+        "gen16f": {
+          "returncode": 0,
+          "log": "/tmp/mr_r3_official_gen16f_k2.log",
+          "scored": 16,
+          "jobs": 16,
+          "mean": 0.3832,
+          "exceptions": 0,
+          "server_failures": 0
+        }
+      },
+      "audit": {
+        "parent": "gen10",
+        "n": 16,
+        "candidates": [
+          {
+            "candidate": "gen16d",
+            "n": 16,
+            "complete_pages": 16,
+            "official_mean": 0.507733,
+            "parent_mean": 0.491133,
+            "mean_delta": 0.0166,
+            "ci95": [
+              -0.031299,
+              0.064499
+            ],
+            "official_winrate": 0.625,
+            "judge_winrate": 0.625,
+            "goodhart_gap": 0.0,
+            "fooling_pairs": 4,
+            "judge_n": 16
+          },
+          {
+            "candidate": "gen16c",
+            "n": 16,
+            "complete_pages": 16,
+            "official_mean": 0.497173,
+            "parent_mean": 0.491133,
+            "mean_delta": 0.00604,
+            "ci95": [
+              -0.041675,
+              0.053755
+            ],
+            "official_winrate": 0.5625,
+            "judge_winrate": 0.5,
+            "goodhart_gap": -0.0625,
+            "fooling_pairs": 1,
+            "judge_n": 16
+          },
+          {
+            "candidate": "gen16f",
+            "n": 16,
+            "complete_pages": 14,
+            "official_mean": 0.38319,
+            "parent_mean": 0.491133,
+            "mean_delta": -0.107944,
+            "ci95": [
+              -0.208011,
+              -0.007877
+            ],
+            "official_winrate": 0.1875,
+            "judge_winrate": 0.429,
+            "goodhart_gap": 0.2415,
+            "fooling_pairs": 4,
+            "judge_n": 14
+          }
+        ],
+        "judge_ranking": [
+          "gen16d",
+          "gen16c",
+          "gen16f"
+        ],
+        "official_ranking": [
+          "gen16d",
+          "gen16c",
+          "gen16f"
+        ],
+        "pearson": 0.822609,
+        "spearman": 1.0,
+        "judge_top2": [
+          "gen16d",
+          "gen16c"
+        ],
+        "official_top2": [
+          "gen16d",
+          "gen16c"
+        ],
+        "candidate_eval_savings": 0.6,
+        "total_eval_savings_with_shared_parent": 0.5,
+        "confirmed_improvements": []
+      },
+      "promising_parent": "gen16d",
+      "confirmed_after": "gen10",
+      "search_parent_after": "gen16d",
+      "completed_at": "2026-07-17T00:51:33Z"
+    },
+    {
+      "round": 4,
+      "prefix": "gen17",
+      "started_at": "2026-07-17T00:51:33Z",
+      "state": "completed",
+      "confirmed_before": "gen10",
+      "search_parent_before": "gen16d",
+      "evolved": [
+        {
+          "tag": "gen17a",
+          "changelog": "Added zero-LLM mechanical render-time image graceful-degradation: every surviving `<img>` gets an injected `onerror` handler that collapses failed images to an invisible box, eliminating the prototype-absent broken-image \"puzzle piece\" glyph and stray broken boxes the judge repeatedly scores 0."
+        },
+        {
+          "tag": "gen17b",
+          "changelog": "Added a new zero-LLM mechanical axis — image-geometry normalization that caps each resolved `<img>` to its real resource pixel size (no upscaling) with `height:auto` to un-stretch logos, plus a one-time idempotent defensive `img,svg{max-width:100%}` reset, directly targeting the giant/broken/stretch"
+        },
+        {
+          "tag": "gen17c",
+          "changelog": "New axis — prototype *legibility*: LANCZOS-downscaled, unsharp-masked, wider crops at JPEG q90 to make small text readable, with resource thumbs capped at 6 to hold image-part budget flat; reverts to lean single-pass champion (drops heavy dual-sample render selection)."
+        },
+        {
+          "tag": "gen17d",
+          "changelog": "Foveated perception — full-page overview plus native-resolution LEFT/RIGHT column crops of the desktop top identity region (no downscaling of dense text) to kill content-confabulation 0.0s; reverts to lean single-pass, keeps resource/palette/mechanical stack."
+        },
+        {
+          "tag": "gen17e",
+          "changelog": "New axis — budgeted \"asset board\" perception: composite all small logo/payment/badge/social assets onto a neutral-gray numbered board with a number→exact-src legend (≤2 image parts, total image parts ≤12), replacing the blind stride thumbnail sampler, so the weak model finally sees and correctly pla"
+        },
+        {
+          "tag": "gen17f",
+          "changelog": "New perception axis — a per-viewport reduced FULL-PAGE overview map injected before the detail slices (giving the weak model global section-count/column-count/footer-placement/total-length gestalt it never had), resource thumbnails trimmed 8→6 to keep image budget flat, reverting to a lean single-pa"
+        }
+      ],
+      "rejected": [],
+      "actor_batches": {
+        "gen17a": {
+          "pid": 285223,
+          "log": "/tmp/mr_agents_gen17a.log",
+          "state": "exit=0"
+        },
+        "gen17b": {
+          "pid": 285233,
+          "log": "/tmp/mr_agents_gen17b.log",
+          "state": "exit=0"
+        },
+        "gen17c": {
+          "pid": 285243,
+          "log": "/tmp/mr_agents_gen17c.log",
+          "state": "exit=0"
+        },
+        "gen17d": {
+          "pid": 288854,
+          "log": "/tmp/mr_agents_gen17d.log",
+          "state": "exit=0"
+        },
+        "gen17e": {
+          "pid": 290989,
+          "log": "/tmp/mr_agents_gen17e.log",
+          "state": "exit=0"
+        },
+        "gen17f": {
+          "pid": 291014,
+          "log": "/tmp/mr_agents_gen17f.log",
+          "state": "exit=0"
+        }
+      },
+      "judge_ranking": [
+        {
+          "round": "r4_gen17a",
+          "cand": "gen17a",
+          "ref": "gen10",
+          "n": 15,
+          "judge_winrate": 0.533
+        },
+        {
+          "round": "r4_gen17b",
+          "cand": "gen17b",
+          "ref": "gen10",
+          "n": 16,
+          "judge_winrate": 0.5
+        },
+        {
+          "round": "r4_gen17e",
+          "cand": "gen17e",
+          "ref": "gen10",
+          "n": 15,
+          "judge_winrate": 0.467
+        },
+        {
+          "round": "r4_gen17d",
+          "cand": "gen17d",
+          "ref": "gen10",
+          "n": 16,
+          "judge_winrate": 0.438
+        },
+        {
+          "round": "r4_gen17f",
+          "cand": "gen17f",
+          "ref": "gen10",
+          "n": 16,
+          "judge_winrate": 0.438
+        },
+        {
+          "round": "r4_gen17c",
+          "cand": "gen17c",
+          "ref": "gen10",
+          "n": 16,
+          "judge_winrate": 0.25
+        }
+      ],
+      "finalists": [
+        "gen17a",
+        "gen17b",
+        "gen17e"
+      ],
+      "official": {
+        "gen10": {
+          "returncode": 0,
+          "log": "/tmp/mr_r4_official_gen10_k2.log",
+          "scored": 16,
+          "jobs": 16,
+          "mean": 0.4908,
+          "exceptions": 0,
+          "server_failures": 0
+        },
+        "gen17a": {
+          "returncode": 0,
+          "log": "/tmp/mr_r4_official_gen17a_k2.log",
+          "scored": 15,
+          "jobs": 16,
+          "mean": 0.4796,
+          "exceptions": 0,
+          "server_failures": 0
+        },
+        "gen17b": {
+          "returncode": 0,
+          "log": "/tmp/mr_r4_official_gen17b_k2.log",
+          "scored": 16,
+          "jobs": 16,
+          "mean": 0.5084,
+          "exceptions": 0,
+          "server_failures": 0
+        },
+        "gen17e": {
+          "returncode": 0,
+          "log": "/tmp/mr_r4_official_gen17e_k2.log",
+          "scored": 16,
+          "jobs": 16,
+          "mean": 0.4597,
+          "exceptions": 0,
+          "server_failures": 0
+        }
+      },
+      "audit": {
+        "parent": "gen10",
+        "n": 16,
+        "candidates": [
+          {
+            "candidate": "gen17a",
+            "n": 16,
+            "complete_pages": 14,
+            "official_mean": 0.449623,
+            "parent_mean": 0.490844,
+            "mean_delta": -0.041221,
+            "ci95": [
+              -0.158289,
+              0.075847
+            ],
+            "official_winrate": 0.5625,
+            "judge_winrate": 0.533,
+            "goodhart_gap": -0.0295,
+            "fooling_pairs": 3,
+            "judge_n": 15
+          },
+          {
+            "candidate": "gen17b",
+            "n": 16,
+            "complete_pages": 16,
+            "official_mean": 0.508417,
+            "parent_mean": 0.490844,
+            "mean_delta": 0.017573,
+            "ci95": [
+              -0.017858,
+              0.053004
+            ],
+            "official_winrate": 0.4375,
+            "judge_winrate": 0.5,
+            "goodhart_gap": 0.0625,
+            "fooling_pairs": 3,
+            "judge_n": 16
+          },
+          {
+            "candidate": "gen17e",
+            "n": 16,
+            "complete_pages": 15,
+            "official_mean": 0.459717,
+            "parent_mean": 0.490844,
+            "mean_delta": -0.031127,
+            "ci95": [
+              -0.100649,
+              0.038394
+            ],
+            "official_winrate": 0.5,
+            "judge_winrate": 0.467,
+            "goodhart_gap": -0.033,
+            "fooling_pairs": 4,
+            "judge_n": 15
+          }
+        ],
+        "judge_ranking": [
+          "gen17a",
+          "gen17b",
+          "gen17e"
+        ],
+        "official_ranking": [
+          "gen17b",
+          "gen17e",
+          "gen17a"
+        ],
+        "pearson": -0.160535,
+        "spearman": -0.5,
+        "judge_top2": [
+          "gen17a",
+          "gen17b"
+        ],
+        "official_top2": [
+          "gen17b",
+          "gen17e"
+        ],
+        "candidate_eval_savings": 0.6,
+        "total_eval_savings_with_shared_parent": 0.5,
+        "confirmed_improvements": []
+      },
+      "promising_parent": "gen17b",
+      "confirmed_after": "gen10",
+      "search_parent_after": "gen17b",
+      "completed_at": "2026-07-17T03:19:32Z"
+    }
+  ],
+  "events": [
+    {
+      "time": "2026-07-16T20:02:39Z",
+      "message": "multiround pipeline active"
+    },
+    {
+      "time": "2026-07-16T20:02:40Z",
+      "message": "round 2 started: search_parent=gen14a, confirmed=gen10"
+    },
+    {
+      "time": "2026-07-16T20:12:16Z",
+      "message": "candidate gen15a evolved: Add a first-prompt per-viewport content-divergence hint (media-query content swap when desktop/tablet/mobile show genuin"
+    },
+    {
+      "time": "2026-07-16T20:21:57Z",
+      "message": "candidate gen15b evolved: Add zero-LLM vertical layout-map perception — mechanically segment each prototype into ordered top→bottom full-width col"
+    },
+    {
+      "time": "2026-07-16T20:39:57Z",
+      "message": "candidate gen15c evolved: Add a zero-extra-LLM-call whole-page OVERVIEW thumbnail per viewport (entire prototype scaled to fit, height-capped) bef"
+    },
+    {
+      "time": "2026-07-16T20:44:55Z",
+      "message": "multiround pipeline active"
+    },
+    {
+      "time": "2026-07-16T20:44:55Z",
+      "message": "round 2 started: search_parent=gen14a, confirmed=gen10"
+    },
+    {
+      "time": "2026-07-16T21:16:55Z",
+      "message": "candidate gen15d evolved: Add zero-extra-LLM regional high-resolution ZOOM crops of the header and footer bands (native-resolution reading of logo"
+    },
+    {
+      "time": "2026-07-16T21:16:56Z",
+      "message": "candidate gen15e evolved: New orthogonal axis (decoding fidelity): sampling temperature 0.8→0.4 plus an anti-confabulation instruction to curb inv"
+    },
+    {
+      "time": "2026-07-16T21:16:56Z",
+      "message": "candidate gen15f evolved: Add zero-LLM MECHANICAL PALETTE ENFORCEMENT — post-process injects the sampled committal page/header/footer band colors "
+    },
+    {
+      "time": "2026-07-16T21:16:56Z",
+      "message": "launched actor batch gen15a pid=187515"
+    },
+    {
+      "time": "2026-07-16T21:16:56Z",
+      "message": "launched actor batch gen15b pid=187525"
+    },
+    {
+      "time": "2026-07-16T21:16:56Z",
+      "message": "launched actor batch gen15c pid=187535"
+    },
+    {
+      "time": "2026-07-16T21:44:56Z",
+      "message": "actor batch gen15b completed rc=0"
+    },
+    {
+      "time": "2026-07-16T21:44:56Z",
+      "message": "launched actor batch gen15d pid=187753"
+    },
+    {
+      "time": "2026-07-16T21:47:57Z",
+      "message": "actor batch gen15c completed rc=0"
+    },
+    {
+      "time": "2026-07-16T21:47:57Z",
+      "message": "launched actor batch gen15e pid=187784"
+    },
+    {
+      "time": "2026-07-16T21:51:17Z",
+      "message": "actor batch gen15a completed rc=0"
+    },
+    {
+      "time": "2026-07-16T21:51:17Z",
+      "message": "launched actor batch gen15f pid=187830"
+    },
+    {
+      "time": "2026-07-16T22:32:57Z",
+      "message": "actor batch gen15d completed rc=0"
+    },
+    {
+      "time": "2026-07-16T22:33:37Z",
+      "message": "actor batch gen15e completed rc=0"
+    },
+    {
+      "time": "2026-07-16T22:34:37Z",
+      "message": "actor batch gen15f completed rc=0"
+    },
+    {
+      "time": "2026-07-16T22:39:56Z",
+      "message": "round 2 judge finalists: ['gen15e', 'gen15b', 'gen15a', 'gen15f']"
+    },
+    {
+      "time": "2026-07-16T23:00:50Z",
+      "message": "round 2 official evaluation completed"
+    },
+    {
+      "time": "2026-07-16T23:00:51Z",
+      "message": "round 2 no positive finalist; retained search parent=gen14a"
+    },
+    {
+      "time": "2026-07-16T23:00:51Z",
+      "message": "round 2 completed"
+    },
+    {
+      "time": "2026-07-16T23:00:51Z",
+      "message": "round 3 started: search_parent=gen14a, confirmed=gen10"
+    },
+    {
+      "time": "2026-07-16T23:19:07Z",
+      "message": "candidate gen16a evolved: Added zero-LLM active semantic asset-binding: unresolvable `<img>` refs (which today become gray placeholder boxes) are "
+    },
+    {
+      "time": "2026-07-16T23:19:07Z",
+      "message": "candidate gen16b rejected after retries"
+    },
+    {
+      "time": "2026-07-16T23:19:07Z",
+      "message": "candidate gen16c evolved: Add a strictly-additive `<append>` write primitive plus a bounded (≤1), time-gated, footer-absent-only continuation nudg"
+    },
+    {
+      "time": "2026-07-16T23:34:51Z",
+      "message": "candidate gen16d evolved: Added zero-extra-content dual-sample generation with mechanical selection by coarse rendered-vs-prototype visual similar"
+    },
+    {
+      "time": "2026-07-16T23:34:52Z",
+      "message": "candidate gen16e evolved: Made prototype slicing full-page-covering (tile height = ceil(page_height/n_tiles), caps 5/3/4) so the readable slices a"
+    },
+    {
+      "time": "2026-07-16T23:34:52Z",
+      "message": "candidate gen16f evolved: Added a model-driven read-before-build transcription pass (one cheap pre-loop call forces the weak model to write struct"
+    },
+    {
+      "time": "2026-07-16T23:34:52Z",
+      "message": "launched actor batch gen16a pid=239811"
+    },
+    {
+      "time": "2026-07-16T23:34:52Z",
+      "message": "launched actor batch gen16c pid=239821"
+    },
+    {
+      "time": "2026-07-16T23:34:52Z",
+      "message": "launched actor batch gen16d pid=239831"
+    },
+    {
+      "time": "2026-07-16T23:51:12Z",
+      "message": "actor batch gen16c completed rc=0"
+    },
+    {
+      "time": "2026-07-16T23:51:12Z",
+      "message": "launched actor batch gen16e pid=241523"
+    },
+    {
+      "time": "2026-07-16T23:56:53Z",
+      "message": "actor batch gen16a completed rc=0"
+    },
+    {
+      "time": "2026-07-16T23:56:53Z",
+      "message": "launched actor batch gen16f pid=241690"
+    },
+    {
+      "time": "2026-07-17T00:12:13Z",
+      "message": "actor batch gen16e completed rc=0"
+    },
+    {
+      "time": "2026-07-17T00:14:53Z",
+      "message": "actor batch gen16d completed rc=0"
+    },
+    {
+      "time": "2026-07-17T00:24:33Z",
+      "message": "actor batch gen16f completed rc=0"
+    },
+    {
+      "time": "2026-07-17T00:28:59Z",
+      "message": "round 3 judge finalists: ['gen16d', 'gen16c', 'gen16f']"
+    },
+    {
+      "time": "2026-07-17T00:51:33Z",
+      "message": "round 3 official evaluation completed"
+    },
+    {
+      "time": "2026-07-17T00:51:33Z",
+      "message": "round 3 retained gen10; promising search parent=gen16d"
+    },
+    {
+      "time": "2026-07-17T00:51:33Z",
+      "message": "round 3 completed"
+    },
+    {
+      "time": "2026-07-17T00:51:33Z",
+      "message": "round 4 started: search_parent=gen16d, confirmed=gen10"
+    },
+    {
+      "time": "2026-07-17T01:02:02Z",
+      "message": "candidate gen17a evolved: Added zero-LLM mechanical render-time image graceful-degradation: every surviving `<img>` gets an injected `onerror` han"
+    },
+    {
+      "time": "2026-07-17T01:02:02Z",
+      "message": "candidate gen17b evolved: Added a new zero-LLM mechanical axis — image-geometry normalization that caps each resolved `<img>` to its real resource"
+    },
+    {
+      "time": "2026-07-17T01:02:02Z",
+      "message": "candidate gen17c evolved: New axis — prototype *legibility*: LANCZOS-downscaled, unsharp-masked, wider crops at JPEG q90 to make small text readab"
+    },
+    {
+      "time": "2026-07-17T01:13:15Z",
+      "message": "candidate gen17d evolved: Foveated perception — full-page overview plus native-resolution LEFT/RIGHT column crops of the desktop top identity regi"
+    },
+    {
+      "time": "2026-07-17T01:13:15Z",
+      "message": "candidate gen17e evolved: New axis — budgeted \"asset board\" perception: composite all small logo/payment/badge/social assets onto a neutral-gray n"
+    },
+    {
+      "time": "2026-07-17T01:13:15Z",
+      "message": "candidate gen17f evolved: New perception axis — a per-viewport reduced FULL-PAGE overview map injected before the detail slices (giving the weak m"
+    },
+    {
+      "time": "2026-07-17T01:13:15Z",
+      "message": "launched actor batch gen17a pid=285223"
+    },
+    {
+      "time": "2026-07-17T01:13:16Z",
+      "message": "launched actor batch gen17b pid=285233"
+    },
+    {
+      "time": "2026-07-17T01:13:16Z",
+      "message": "launched actor batch gen17c pid=285243"
+    },
+    {
+      "time": "2026-07-17T01:38:36Z",
+      "message": "actor batch gen17c completed rc=0"
+    },
+    {
+      "time": "2026-07-17T01:38:36Z",
+      "message": "launched actor batch gen17d pid=288854"
+    },
+    {
+      "time": "2026-07-17T02:01:56Z",
+      "message": "actor batch gen17a completed rc=0"
+    },
+    {
+      "time": "2026-07-17T02:01:56Z",
+      "message": "launched actor batch gen17e pid=290989"
+    },
+    {
+      "time": "2026-07-17T02:02:16Z",
+      "message": "actor batch gen17b completed rc=0"
+    },
+    {
+      "time": "2026-07-17T02:02:17Z",
+      "message": "launched actor batch gen17f pid=291014"
+    },
+    {
+      "time": "2026-07-17T02:02:57Z",
+      "message": "actor batch gen17d completed rc=0"
+    },
+    {
+      "time": "2026-07-17T02:38:57Z",
+      "message": "actor batch gen17f completed rc=0"
+    },
+    {
+      "time": "2026-07-17T02:45:57Z",
+      "message": "actor batch gen17e completed rc=0"
+    },
+    {
+      "time": "2026-07-17T02:52:06Z",
+      "message": "round 4 judge finalists: ['gen17a', 'gen17b', 'gen17e']"
+    },
+    {
+      "time": "2026-07-17T03:19:31Z",
+      "message": "round 4 official evaluation completed"
+    },
+    {
+      "time": "2026-07-17T03:19:32Z",
+      "message": "round 4 retained gen10; promising search parent=gen17b"
+    },
+    {
+      "time": "2026-07-17T03:19:32Z",
+      "message": "round 4 completed"
+    },
+    {
+      "time": "2026-07-17T03:19:32Z",
+      "message": "final K=4 audit started: gen17b vs gen10"
+    },
+    {
+      "time": "2026-07-17T04:07:45Z",
+      "message": "final K=4 audit completed: champion=gen10"
+    },
+    {
+      "time": "2026-07-17T04:07:45Z",
+      "message": "multiround pipeline completed"
+    }
+  ],
+  "final_audit": {
+    "baseline": "gen10",
+    "candidate": "gen17b",
+    "n": 16,
+    "baseline_mean": 0.491165,
+    "candidate_mean": 0.508704,
+    "mean_delta": 0.01754,
+    "ci95": [
+      -0.014934,
+      0.050014
+    ],
+    "official_winrate": 0.6875,
+    "official_runs": {
+      "gen10": {
+        "returncode": 0,
+        "log": "/tmp/mr_r9_official_gen10_k4.log",
+        "scored": 16,
+        "jobs": 16,
+        "mean": 0.4912,
+        "exceptions": 0,
+        "server_failures": 0
+      },
+      "gen17b": {
+        "returncode": 0,
+        "log": "/tmp/mr_r9_official_gen17b_k4.log",
+        "scored": 16,
+        "jobs": 16,
+        "mean": 0.5087,
+        "exceptions": 0,
+        "server_failures": 0
+      }
+    },
+    "confirmed": false
+  },
+  "final_champion": "gen10",
+  "state": "completed",
+  "completed_at": "2026-07-17T04:07:45Z"
+}

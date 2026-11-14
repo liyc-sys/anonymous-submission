@@ -1,0 +1,26 @@
+{
+  "arms": [
+    "p2bu_gen10",
+    "p2bu_gen19b",
+    "p2bu_gen19c",
+    "p2bu_gen19d"
+  ],
+  "tasks": [
+    "gdacs",
+    "humankinetics",
+    "payscale",
+    "visitseoul",
+    "labelzone",
+    "monash",
+    "rottentomatoes",
+    "tefcu"
+  ],
+  "seeds": [
+    "0",
+    "1"
+  ],
+  "output_tag": "p2bon_untouched_jgen2",
+  "judge": "judge_genomes/jgen2.py",
+  "selection_policy": "round-robin Copeland points; first arm wins exact point ties",
+  "score_access_policy": "selector reads rendered pages and prototypes only"
+}

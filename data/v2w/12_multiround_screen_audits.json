@@ -1,0 +1,295 @@
+{
+ "mr_r2_audit.json": {
+  "parent": "gen10",
+  "n": 16,
+  "candidates": [
+   {
+    "candidate": "gen15e",
+    "n": 16,
+    "complete_pages": 13,
+    "official_mean": 0.441798,
+    "parent_mean": 0.481123,
+    "mean_delta": -0.039325,
+    "ci95": [
+     -0.168562,
+     0.089912
+    ],
+    "official_winrate": 0.6875,
+    "judge_winrate": 0.615,
+    "goodhart_gap": -0.0725,
+    "fooling_pairs": 1,
+    "judge_n": 13
+   },
+   {
+    "candidate": "gen15b",
+    "n": 16,
+    "complete_pages": 14,
+    "official_mean": 0.41395,
+    "parent_mean": 0.481123,
+    "mean_delta": -0.067173,
+    "ci95": [
+     -0.160891,
+     0.026546
+    ],
+    "official_winrate": 0.3125,
+    "judge_winrate": 0.536,
+    "goodhart_gap": 0.2235,
+    "fooling_pairs": 4,
+    "judge_n": 14
+   },
+   {
+    "candidate": "gen15a",
+    "n": 16,
+    "complete_pages": 12,
+    "official_mean": 0.393994,
+    "parent_mean": 0.481123,
+    "mean_delta": -0.087129,
+    "ci95": [
+     -0.216775,
+     0.042517
+    ],
+    "official_winrate": 0.5625,
+    "judge_winrate": 0.5,
+    "goodhart_gap": -0.0625,
+    "fooling_pairs": 0,
+    "judge_n": 12
+   },
+   {
+    "candidate": "gen15f",
+    "n": 16,
+    "complete_pages": 16,
+    "official_mean": 0.474292,
+    "parent_mean": 0.481123,
+    "mean_delta": -0.006831,
+    "ci95": [
+     -0.043918,
+     0.030255
+    ],
+    "official_winrate": 0.3125,
+    "judge_winrate": 0.5,
+    "goodhart_gap": 0.1875,
+    "fooling_pairs": 4,
+    "judge_n": 16
+   }
+  ],
+  "judge_ranking": [
+   "gen15e",
+   "gen15b",
+   "gen15a",
+   "gen15f"
+  ],
+  "official_ranking": [
+   "gen15f",
+   "gen15e",
+   "gen15b",
+   "gen15a"
+  ],
+  "pearson": 0.110432,
+  "spearman": 0.105409,
+  "judge_top2": [
+   "gen15e",
+   "gen15b"
+  ],
+  "official_top2": [
+   "gen15f",
+   "gen15e"
+  ],
+  "candidate_eval_savings": 0.6,
+  "total_eval_savings_with_shared_parent": 0.5,
+  "confirmed_improvements": []
+ },
+ "mr_r3_audit.json": {
+  "parent": "gen10",
+  "n": 16,
+  "candidates": [
+   {
+    "candidate": "gen16d",
+    "n": 16,
+    "complete_pages": 16,
+    "official_mean": 0.507733,
+    "parent_mean": 0.491133,
+    "mean_delta": 0.0166,
+    "ci95": [
+     -0.031299,
+     0.064499
+    ],
+    "official_winrate": 0.625,
+    "judge_winrate": 0.625,
+    "goodhart_gap": 0.0,
+    "fooling_pairs": 4,
+    "judge_n": 16
+   },
+   {
+    "candidate": "gen16c",
+    "n": 16,
+    "complete_pages": 16,
+    "official_mean": 0.497173,
+    "parent_mean": 0.491133,
+    "mean_delta": 0.00604,
+    "ci95": [
+     -0.041675,
+     0.053755
+    ],
+    "official_winrate": 0.5625,
+    "judge_winrate": 0.5,
+    "goodhart_gap": -0.0625,
+    "fooling_pairs": 1,
+    "judge_n": 16
+   },
+   {
+    "candidate": "gen16f",
+    "n": 16,
+    "complete_pages": 14,
+    "official_mean": 0.38319,
+    "parent_mean": 0.491133,
+    "mean_delta": -0.107944,
+    "ci95": [
+     -0.208011,
+     -0.007877
+    ],
+    "official_winrate": 0.1875,
+    "judge_winrate": 0.429,
+    "goodhart_gap": 0.2415,
+    "fooling_pairs": 4,
+    "judge_n": 14
+   }
+  ],
+  "judge_ranking": [
+   "gen16d",
+   "gen16c",
+   "gen16f"
+  ],
+  "official_ranking": [
+   "gen16d",
+   "gen16c",
+   "gen16f"
+  ],
+  "pearson": 0.822609,
+  "spearman": 1.0,
+  "judge_top2": [
+   "gen16d",
+   "gen16c"
+  ],
+  "official_top2": [
+   "gen16d",
+   "gen16c"
+  ],
+  "candidate_eval_savings": 0.6,
+  "total_eval_savings_with_shared_parent": 0.5,
+  "confirmed_improvements": []
+ },
+ "mr_r4_audit.json": {
+  "parent": "gen10",
+  "n": 16,
+  "candidates": [
+   {
+    "candidate": "gen17a",
+    "n": 16,
+    "complete_pages": 14,
+    "official_mean": 0.449623,
+    "parent_mean": 0.490844,
+    "mean_delta": -0.041221,
+    "ci95": [
+     -0.158289,
+     0.075847
+    ],
+    "official_winrate": 0.5625,
+    "judge_winrate": 0.533,
+    "goodhart_gap": -0.0295,
+    "fooling_pairs": 3,
+    "judge_n": 15
+   },
+   {
+    "candidate": "gen17b",
+    "n": 16,
+    "complete_pages": 16,
+    "official_mean": 0.508417,
+    "parent_mean": 0.490844,
+    "mean_delta": 0.017573,
+    "ci95": [
+     -0.017858,
+     0.053004
+    ],
+    "official_winrate": 0.4375,
+    "judge_winrate": 0.5,
+    "goodhart_gap": 0.0625,
+    "fooling_pairs": 3,
+    "judge_n": 16
+   },
+   {
+    "candidate": "gen17e",
+    "n": 16,
+    "complete_pages": 15,
+    "official_mean": 0.459717,
+    "parent_mean": 0.490844,
+    "mean_delta": -0.031127,
+    "ci95": [
+     -0.100649,
+     0.038394
+    ],
+    "official_winrate": 0.5,
+    "judge_winrate": 0.467,
+    "goodhart_gap": -0.033,
+    "fooling_pairs": 4,
+    "judge_n": 15
+   }
+  ],
+  "judge_ranking": [
+   "gen17a",
+   "gen17b",
+   "gen17e"
+  ],
+  "official_ranking": [
+   "gen17b",
+   "gen17e",
+   "gen17a"
+  ],
+  "pearson": -0.160535,
+  "spearman": -0.5,
+  "judge_top2": [
+   "gen17a",
+   "gen17b"
+  ],
+  "official_top2": [
+   "gen17b",
+   "gen17e"
+  ],
+  "candidate_eval_savings": 0.6,
+  "total_eval_savings_with_shared_parent": 0.5,
+  "confirmed_improvements": []
+ },
+ "multiround_final.json": {
+  "baseline": "gen10",
+  "candidate": "gen17b",
+  "n": 16,
+  "baseline_mean": 0.491165,
+  "candidate_mean": 0.508704,
+  "mean_delta": 0.01754,
+  "ci95": [
+   -0.014934,
+   0.050014
+  ],
+  "official_winrate": 0.6875,
+  "official_runs": {
+   "gen10": {
+    "returncode": 0,
+    "log": "/tmp/mr_r9_official_gen10_k4.log",
+    "scored": 16,
+    "jobs": 16,
+    "mean": 0.4912,
+    "exceptions": 0,
+    "server_failures": 0
+   },
+   "gen17b": {
+    "returncode": 0,
+    "log": "/tmp/mr_r9_official_gen17b_k4.log",
+    "scored": 16,
+    "jobs": 16,
+    "mean": 0.5087,
+    "exceptions": 0,
+    "server_failures": 0
+   }
+  },
+  "confirmed": false
+ }
+}

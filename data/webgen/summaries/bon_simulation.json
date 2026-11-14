@@ -1,0 +1,292 @@
+{
+  "note": "Test-time Best-of-N offline simulation; judge=diag[1,2,3] partial-acc; the nondiag protocol excludes selection-signal tasks, no overlap; the random expectation is identically equal to N=1; candidates take only independent generations (seed_N), with K2 re-evaluation directories (seed_N_rM) removed; the E1 three arms (g0/g3b/p7) are restricted to the case set shared by all three arms.",
+  "arms": {
+    "g0": {
+      "max_candidates_per_case": 2,
+      "cases_total": 83,
+      "N=1": {
+        "n_cases": 83,
+        "random_full": 0.5312,
+        "judge_full": 0.5312,
+        "oracle_full": 0.5312,
+        "random_nondiag": 0.6458,
+        "judge_nondiag": 0.6458,
+        "oracle_full_nondiag": 0.6458
+      },
+      "N=2": {
+        "n_cases": 83,
+        "random_full": 0.5312,
+        "judge_full": 0.6275,
+        "oracle_full": 0.6414,
+        "random_nondiag": 0.6458,
+        "judge_nondiag": 0.7042,
+        "oracle_full_nondiag": 0.7474
+      }
+    },
+    "g3b": {
+      "max_candidates_per_case": 2,
+      "cases_total": 83,
+      "N=1": {
+        "n_cases": 83,
+        "random_full": 0.5878,
+        "judge_full": 0.5878,
+        "oracle_full": 0.5878,
+        "random_nondiag": 0.7306,
+        "judge_nondiag": 0.7306,
+        "oracle_full_nondiag": 0.7306
+      },
+      "N=2": {
+        "n_cases": 82,
+        "random_full": 0.5868,
+        "judge_full": 0.6709,
+        "oracle_full": 0.683,
+        "random_nondiag": 0.7274,
+        "judge_nondiag": 0.7643,
+        "oracle_full_nondiag": 0.8181
+      }
+    },
+    "p7": {
+      "max_candidates_per_case": 2,
+      "cases_total": 83,
+      "N=1": {
+        "n_cases": 83,
+        "random_full": 0.5477,
+        "judge_full": 0.5477,
+        "oracle_full": 0.5477,
+        "random_nondiag": 0.6533,
+        "judge_nondiag": 0.6533,
+        "oracle_full_nondiag": 0.6533
+      },
+      "N=2": {
+        "n_cases": 83,
+        "random_full": 0.5477,
+        "judge_full": 0.6297,
+        "oracle_full": 0.6488,
+        "random_nondiag": 0.6533,
+        "judge_nondiag": 0.6697,
+        "oracle_full_nondiag": 0.7289
+      }
+    },
+    "m0": {
+      "max_candidates_per_case": 4,
+      "cases_total": 12,
+      "N=1": {
+        "n_cases": 12,
+        "random_full": 0.5089,
+        "judge_full": 0.5089,
+        "oracle_full": 0.5089,
+        "random_nondiag": 0.6286,
+        "judge_nondiag": 0.6286,
+        "oracle_full_nondiag": 0.6286
+      },
+      "N=2": {
+        "n_cases": 12,
+        "random_full": 0.5089,
+        "judge_full": 0.5729,
+        "oracle_full": 0.5858,
+        "random_nondiag": 0.6286,
+        "judge_nondiag": 0.6642,
+        "oracle_full_nondiag": 0.7047
+      },
+      "N=4": {
+        "n_cases": 11,
+        "random_full": 0.54,
+        "judge_full": 0.6847,
+        "oracle_full": 0.6885,
+        "random_nondiag": 0.6676,
+        "judge_nondiag": 0.7614,
+        "oracle_full_nondiag": 0.822
+      }
+    },
+    "m3b": {
+      "max_candidates_per_case": 4,
+      "cases_total": 12,
+      "N=1": {
+        "n_cases": 12,
+        "random_full": 0.5955,
+        "judge_full": 0.5955,
+        "oracle_full": 0.5955,
+        "random_nondiag": 0.7488,
+        "judge_nondiag": 0.7488,
+        "oracle_full_nondiag": 0.7488
+      },
+      "N=2": {
+        "n_cases": 12,
+        "random_full": 0.5955,
+        "judge_full": 0.6426,
+        "oracle_full": 0.6661,
+        "random_nondiag": 0.7488,
+        "judge_nondiag": 0.7426,
+        "oracle_full_nondiag": 0.8039
+      },
+      "N=4": {
+        "n_cases": 12,
+        "random_full": 0.5955,
+        "judge_full": 0.6698,
+        "oracle_full": 0.7152,
+        "random_nondiag": 0.7488,
+        "judge_nondiag": 0.7337,
+        "oracle_full_nondiag": 0.859
+      }
+    },
+    "mp7": {
+      "max_candidates_per_case": 4,
+      "cases_total": 12,
+      "N=1": {
+        "n_cases": 12,
+        "random_full": 0.6252,
+        "judge_full": 0.6252,
+        "oracle_full": 0.6252,
+        "random_nondiag": 0.7402,
+        "judge_nondiag": 0.7402,
+        "oracle_full_nondiag": 0.7402
+      },
+      "N=2": {
+        "n_cases": 12,
+        "random_full": 0.6252,
+        "judge_full": 0.6786,
+        "oracle_full": 0.7045,
+        "random_nondiag": 0.7402,
+        "judge_nondiag": 0.7504,
+        "oracle_full_nondiag": 0.8138
+      },
+      "N=4": {
+        "n_cases": 11,
+        "random_full": 0.6088,
+        "judge_full": 0.7415,
+        "oracle_full": 0.7665,
+        "random_nondiag": 0.7216,
+        "judge_nondiag": 0.7682,
+        "oracle_full_nondiag": 0.8545
+      }
+    },
+    "v0": {
+      "max_candidates_per_case": 2,
+      "cases_total": 12,
+      "N=1": {
+        "n_cases": 12,
+        "random_full": 0.5326,
+        "judge_full": 0.5326,
+        "oracle_full": 0.5326,
+        "random_nondiag": 0.6087,
+        "judge_nondiag": 0.6087,
+        "oracle_full_nondiag": 0.6087
+      },
+      "N=2": {
+        "n_cases": 12,
+        "random_full": 0.5326,
+        "judge_full": 0.6026,
+        "oracle_full": 0.6254,
+        "random_nondiag": 0.6087,
+        "judge_nondiag": 0.5774,
+        "oracle_full_nondiag": 0.6312
+      }
+    },
+    "v3b": {
+      "max_candidates_per_case": 2,
+      "cases_total": 12,
+      "N=1": {
+        "n_cases": 12,
+        "random_full": 0.6024,
+        "judge_full": 0.6024,
+        "oracle_full": 0.6024,
+        "random_nondiag": 0.7174,
+        "judge_nondiag": 0.7174,
+        "oracle_full_nondiag": 0.7174
+      },
+      "N=2": {
+        "n_cases": 12,
+        "random_full": 0.6024,
+        "judge_full": 0.6688,
+        "oracle_full": 0.6886,
+        "random_nondiag": 0.7174,
+        "judge_nondiag": 0.7479,
+        "oracle_full_nondiag": 0.7861
+      }
+    },
+    "vp7": {
+      "max_candidates_per_case": 2,
+      "cases_total": 12,
+      "N=1": {
+        "n_cases": 12,
+        "random_full": 0.5857,
+        "judge_full": 0.5857,
+        "oracle_full": 0.5857,
+        "random_nondiag": 0.7069,
+        "judge_nondiag": 0.7069,
+        "oracle_full_nondiag": 0.7069
+      },
+      "N=2": {
+        "n_cases": 12,
+        "random_full": 0.5857,
+        "judge_full": 0.6445,
+        "oracle_full": 0.6822,
+        "random_nondiag": 0.7069,
+        "judge_nondiag": 0.6924,
+        "oracle_full_nondiag": 0.7965
+      }
+    },
+    "pb3": {
+      "max_candidates_per_case": 4,
+      "cases_total": 12,
+      "N=1": {
+        "n_cases": 12,
+        "random_full": 0.5845,
+        "judge_full": 0.5845,
+        "oracle_full": 0.5845,
+        "random_nondiag": 0.725,
+        "judge_nondiag": 0.725,
+        "oracle_full_nondiag": 0.725
+      },
+      "N=2": {
+        "n_cases": 12,
+        "random_full": 0.5845,
+        "judge_full": 0.6667,
+        "oracle_full": 0.6786,
+        "random_nondiag": 0.725,
+        "judge_nondiag": 0.7547,
+        "oracle_full_nondiag": 0.7868
+      },
+      "N=4": {
+        "n_cases": 11,
+        "random_full": 0.6168,
+        "judge_full": 0.745,
+        "oracle_full": 0.7634,
+        "random_nondiag": 0.7727,
+        "judge_nondiag": 0.8087,
+        "oracle_full_nondiag": 0.8598
+      }
+    },
+    "ns3": {
+      "max_candidates_per_case": 4,
+      "cases_total": 12,
+      "N=1": {
+        "n_cases": 12,
+        "random_full": 0.5845,
+        "judge_full": 0.5845,
+        "oracle_full": 0.5845,
+        "random_nondiag": 0.7295,
+        "judge_nondiag": 0.7295,
+        "oracle_full_nondiag": 0.7295
+      },
+      "N=2": {
+        "n_cases": 12,
+        "random_full": 0.5845,
+        "judge_full": 0.6532,
+        "oracle_full": 0.675,
+        "random_nondiag": 0.7295,
+        "judge_nondiag": 0.7476,
+        "oracle_full_nondiag": 0.8088
+      },
+      "N=4": {
+        "n_cases": 10,
+        "random_full": 0.5917,
+        "judge_full": 0.7407,
+        "oracle_full": 0.763,
+        "random_nondiag": 0.7354,
+        "judge_nondiag": 0.7812,
+        "oracle_full_nondiag": 0.8417
+      }
+    }
+  }
+}

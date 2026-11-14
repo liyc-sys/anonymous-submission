@@ -1,0 +1,8 @@
+{
+ "split": "heldout",
+ "n": 61,
+ "strict_acc": 0.5246,
+ "detie_acc": 0.5424,
+ "fool_rate": 0.377,
+ "tie_rate": 0.0328
+}
