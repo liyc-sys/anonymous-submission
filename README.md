@@ -175,10 +175,8 @@ for every frozen measurement are in [`docs/decoding.md`](docs/decoding.md).
   per-task labels; their exact definitions are the code in
   `verify_webgen_judge_ablation.py`.
 - **Interaction2Code.** The frozen evidence pack (exploit case + case
-  index) is in `data/i2c/`; the I2C lineage's harness code is not part of
-  this snapshot.
-  `data/i2c/cases/ccef_exploit_68_2/ccef_replay_source.py` is the CCEF
-  repair replay used for the case.
+  index) is in `data/i2c/`; the case's CCEF implementation snapshot is
+  `data/i2c/cases/ccef_exploit_68_2/ccef_replay_source.py`.
 - **Heavy baselines.** OpenHands on V2W (0.337) is recorded in
   `data/v2w/sources/reports/`; the Bolt.diy row on WebGen-Bench comes from a
   collaborator's same-protocol run, archived with the campaign records.

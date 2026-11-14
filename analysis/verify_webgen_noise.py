@@ -11,7 +11,7 @@ Paper values checked (Setup; evaluator-noise appendix; noise table caption):
   pairwise flip rate pooled = 0.333 over 234 pairs;
   variance decomposition sigma_judge = 0.141, sigma_gen = 0.194
   (documented calibration constants, cross-checked against the shipped
-  summary; their raw protocol batches are not part of this package).
+  summary).
 """
 import json
 import statistics
